@@ -1,6 +1,7 @@
-#=================================================================================
-# This script is to unify symptoms based on cosine similarity and fuzzy matching
-#=================================================================================
+#-----------------------------------------------------------
+# Load libraries
+#-----------------------------------------------------------
+
 
 import pandas as pd
 import numpy as np
@@ -14,8 +15,6 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 import logging
-
-
 
 
 #-----------------------------------------------------------
@@ -109,109 +108,3 @@ def standardize_clinical_terms(reported_term, std_term_list):
         return best_match_df[best_match_df["Count"] >= 2]["Standardized"].iloc[0], "sure match"
     else:
         return best_match_df.iloc[0]["Standardized"], "maybe match"
-    
-
-#-----------------------------------------------------------
-# Load reported terms and standard terms
-#-----------------------------------------------------------
-
-def load_reported_terms(file_path, sheet_name, header_row, col_name):
-    if file_path.endswith('.xlsb'):
-        df = pd.read_excel(file_path, 
-                           sheet_name=sheet_name, 
-                           header=header_row, 
-                           engine='pyxlsb',
-                           na_values=[], keep_default_na=False) # Prevent "NA" from being read as NaN
-    else:
-        df = pd.read_excel(file_path, 
-                           sheet_name=sheet_name, 
-                           header=header_row,
-                           na_values=[], keep_default_na=False) # Prevent "NA" from being read as NaN
-    reported_terms = df[col_name]
-    return reported_terms
-
-def load_std_terms(file_path, sheet_name, header_row, col_name):
-    df = pd.read_excel(file_path, sheet_name=sheet_name, header=header_row)
-    std_terms = df[col_name].to_list()
-    std_terms = [term for term in std_terms if isinstance(term, str) and term.strip()]  # Keep only non-empty strings
-    std_terms = list(set(std_terms))  # Remove duplicates
-    return std_terms
-
-def save_results_to_excel(results, file_path):
-    with pd.ExcelWriter(file_path, engine='openpyxl') as writer:
-        results.to_excel(writer, index=False)    
-
-#-----------------------------------------------------------
-# Main function to run the script
-#-----------------------------------------------------------
-
-def main():
-    # Set up logging
-    logging.basicConfig(level=logging.INFO,
-                        format='%(asctime)s - %(levelname)s - %(message)s',
-                        handlers=[logging.FileHandler("term_matching.log"),
-                                  logging.StreamHandler()])
-    logging.info("Starting the term matching script...")
-    
-    # Load reported terms and standard terms
-    logging.info("Loading reported terms...")
-    reported_terms_file = input("Enter the file path for reported terms: ").strip() 
-    reported_terms_sheet = input("Enter the sheet name for reported terms: ").strip()
-    reported_terms_header_row = int(input("Enter the header row number for reported terms: ").strip())
-    reported_terms_col_name = input("Enter the column name for reported terms: ").strip()
-    
-    reported_terms = load_reported_terms(reported_terms_file, reported_terms_sheet, 
-                                         reported_terms_header_row, reported_terms_col_name)
-    logging.info(f"Reported terms loaded: {len(reported_terms)} entries")
-
-    logging.info("Loading standard terms...")
-    std_terms_file = input("Enter the file path for standard terms: ").strip()
-    std_terms_sheet = input("Enter the sheet name for standard terms: ").strip()
-    std_terms_header_row = int(input("Enter the header row number for standard terms: ").strip())
-    std_terms_col_name = input("Enter the column name for standard terms: ").strip()
-
-    std_terms = load_std_terms(std_terms_file, std_terms_sheet, 
-                               std_terms_header_row, std_terms_col_name)
-    logging.info(f"Standard terms loaded: {len(std_terms)} entries")
-
-    # Process each reported term
-    logging.info("Matching reported terms to standard terms...")
-    results = []
-    for term in reported_terms:
-        try:
-            match, count = standardize_clinical_terms(term, std_terms)
-            results.append({"Reported_Term": term, 
-                            "Standardized_Term": match, 
-                            "Count": count})
-        except Exception as e:
-            print(f"Error processing term '{term}': {e}")
-            results.append({"Reported_Term": term, 
-                            "Standardized_Term": "error", 
-                            "Count": 0})
-    logging.info("Matching completed.")    
-
-    results_df = pd.DataFrame(results)
-
-    # Save results to Excel
-    output_file_path = input("Enter the output file path for results: ").strip()
-    save_results_to_excel(results_df, output_file_path)
-    logging.info(f"Results saved to {output_file_path}")
-    print("Script completed successfully.")
-
-if __name__ == "__main__":
-    main()
-
-#-----------------------------------------------------------
-# End of script
-#-----------------------------------------------------------
-
-
-# import pandas as pd
-# from io import StringIO
-
-# # Simulated Excel/CSV input
-# data = StringIO("Col1\nNA\nhello\nN/A")
-
-# df = pd.read_csv(data, na_values=[], keep_default_na=False)
-# print(df)
-
