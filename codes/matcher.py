@@ -17,9 +17,6 @@ import logging
 
 
 
-os.chdir("/Users/xinzhao/ISMS_Work/Project_AIE/Working/") 
-os.getcwd()
-
 
 #-----------------------------------------------------------
 # Cosine similarity method to unify symptoms
