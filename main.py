@@ -14,6 +14,8 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 import logging
+import os
+from datetime import datetime
 
 from match_terms.io_utils import load_reported_terms, load_std_terms, save_results_to_excel
 from match_terms.matcher import standardize_clinical_terms
@@ -25,10 +27,14 @@ from match_terms.matcher import standardize_clinical_terms
 
 def main():
     # Set up logging
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    log_path = f"logs/term_matching_{timestamp}.log"
+
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s',
-                        handlers=[logging.FileHandler("term_matching.log"),
-                                  logging.StreamHandler()])
+                        handlers=[logging.FileHandler(log_path),
+                                  logging.StreamHandler()]) # Log to both file and console
+    
     logging.info("Starting the term matching script...")
 
     try_example = input("Do you want to see an example of the input data? (yes/no): ").strip().lower()
