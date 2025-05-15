@@ -27,8 +27,8 @@ from match_terms.matcher import standardize_clinical_terms
 
 def main():
     # Set up logging
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    log_path = f"logs/term_matching_{timestamp}.log"
+    # timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    # LOG_DIR = f"logs/term_matching_{timestamp}.log"
 
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s',
