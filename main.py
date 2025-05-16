@@ -38,19 +38,6 @@ def main():
                                   logging.StreamHandler()]) # Log to both file and console
     
     logging.info("Starting the term matching script...")
-
-    # try_example = input("Do you want to see an example of the input data? (yes/no): ").strip().lower()
-    
-    # if try_example == 'yes':
-    #     reported_terms_file = "example_input/reported_terms_datahub.xlsb"
-    #     reported_terms_sheet = "Econ burden2"
-    #     reported_terms_header_row = 4
-    #     reported_terms_col_name = "Prospective vs Retro"
-
-    #     std_terms_file = "example_input/std_terms_engine_sheet.xlsx"
-    #     std_terms_sheet = "Engine"
-    #     std_terms_header_row = 0
-    #     std_terms_col_name = "Study Type"
     
     # Load reported terms and standard terms
     reported_terms_file = input("Enter the file path for reported terms (otherwise the default example will be used): ").strip() or config.DEFAULT_REPORTED_TERMS_FILE
