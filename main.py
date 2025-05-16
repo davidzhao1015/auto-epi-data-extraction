@@ -53,43 +53,43 @@ def main():
     #     std_terms_col_name = "Study Type"
     
     # Load reported terms and standard terms
-    reported_terms_file = input("Enter the file path for reported terms: ").strip() or config.DEFAULT_REPORTED_TERMS_FILE
+    reported_terms_file = input("Enter the file path for reported terms (otherwise the default example will be used): ").strip() or config.DEFAULT_REPORTED_TERMS_FILE
     if not os.path.exists(reported_terms_file):
         logging.error(f"File not found: {reported_terms_file}")
         return
 
-    reported_terms_sheet = input("Enter the sheet name for reported terms: ").strip() or config.DEFAULT_REPORTED_SHEET
+    reported_terms_sheet = input("Enter the sheet name for reported terms (otherwise the default example will be used): ").strip() or config.DEFAULT_REPORTED_SHEET
     if not reported_terms_sheet:
         logging.error("Sheet name cannot be empty.")
         return
     
-    reported_terms_header_row = int(input("Enter the header row number for reported terms: ").strip() or config.DEFAULT_REPORTED_HEADER_ROW) 
+    reported_terms_header_row = int(input("Enter the header row number for reported terms (otherwise the default example will be used): ").strip() or config.DEFAULT_REPORTED_HEADER_ROW) 
     if reported_terms_header_row < 0:
         logging.error("Header row number must be non-negative.")
         return
     
-    reported_terms_col_name = input("Enter the column name for reported terms: ").strip() or config.DEFAULT_REPORTED_COL_NAME
+    reported_terms_col_name = input("Enter the column name for reported terms (otherwise the default example will be used): ").strip() or config.DEFAULT_REPORTED_COL_NAME
     if not reported_terms_col_name:
         logging.error("Column name cannot be empty.")
         return
         
     # Load standard terms
-    std_terms_file = input("Enter the file path for standard terms: ").strip() or config.DEFAULT_STD_TERMS_FILE
+    std_terms_file = input("Enter the file path for standard terms (otherwise the default example will be used): ").strip() or config.DEFAULT_STD_TERMS_FILE
     if not os.path.exists(std_terms_file):
         logging.error(f"File not found: {std_terms_file}")
         return
     
-    std_terms_sheet = input("Enter the sheet name for standard terms: ").strip() or config.DEFAULT_STD_SHEET
+    std_terms_sheet = input("Enter the sheet name for standard terms (otherwise the default example will be used): ").strip() or config.DEFAULT_STD_SHEET
     if not std_terms_sheet:
         logging.error("Sheet name cannot be empty.")
         return
     
-    std_terms_header_row = int(input("Enter the header row number for standard terms: ").strip() or config.DEFAULT_STD_HEADER_ROW) 
+    std_terms_header_row = int(input("Enter the header row number for standard terms (otherwise the default example will be used): ").strip() or config.DEFAULT_STD_HEADER_ROW) 
     if std_terms_header_row < 0:
         logging.error("Header row number must be non-negative.")
         return
     
-    std_terms_col_name = input("Enter the column name for standard terms: ").strip() or config.DEFAULT_STD_COL_NAME
+    std_terms_col_name = input("Enter the column name for standard terms (otherwise the default example will be used): ").strip() or config.DEFAULT_STD_COL_NAME
     if not std_terms_col_name:
         logging.error("Column name cannot be empty.")
         return
@@ -130,8 +130,8 @@ def main():
     results_df = pd.DataFrame(results)
 
     # Save results to Excel
-    save_results_to_excel(results_df, output_file_path)
-    logging.info(f"Results saved to {output_file_path}")
+    save_results_to_excel(results_df, config.DEFAULT_OUTPUT_FILE)
+    logging.info(f"Results saved to {config.DEFAULT_OUTPUT_FILE}")
     print("Script completed successfully.")
 
 if __name__ == "__main__":
