@@ -17,10 +17,10 @@ import logging
 import os
 from datetime import datetime
 
-from match_terms.io_utils import load_reported_terms, load_std_terms, save_results_to_excel
-from match_terms.matcher import standardize_clinical_terms
+from utils.io_utils import load_reported_terms, load_std_terms, save_results_to_excel
+from utils.matcher import standardize_clinical_terms
 
-from match_terms import config
+from utils import config
 
 #-----------------------------------------------------------
 # Main function to load data, process terms, and save results
