@@ -20,6 +20,8 @@ from datetime import datetime
 from match_terms.io_utils import load_reported_terms, load_std_terms, save_results_to_excel
 from match_terms.matcher import standardize_clinical_terms
 
+from match_terms import config
+
 #-----------------------------------------------------------
 # Main function to load data, process terms, and save results
 #-----------------------------------------------------------
@@ -32,42 +34,70 @@ def main():
 
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s',
-                        handlers=[logging.FileHandler(log_path),
+                        handlers=[logging.FileHandler(config.TIMESTAMPED_LOG_FILE),
                                   logging.StreamHandler()]) # Log to both file and console
     
     logging.info("Starting the term matching script...")
 
-    try_example = input("Do you want to see an example of the input data? (yes/no): ").strip().lower()
+    # try_example = input("Do you want to see an example of the input data? (yes/no): ").strip().lower()
     
-    if try_example == 'yes':
-        reported_terms_file = "example_input/reported_terms_datahub.xlsb"
-        reported_terms_sheet = "Econ burden2"
-        reported_terms_header_row = 4
-        reported_terms_col_name = "Prospective vs Retro"
+    # if try_example == 'yes':
+    #     reported_terms_file = "example_input/reported_terms_datahub.xlsb"
+    #     reported_terms_sheet = "Econ burden2"
+    #     reported_terms_header_row = 4
+    #     reported_terms_col_name = "Prospective vs Retro"
 
-        std_terms_file = "example_input/std_terms_engine_sheet.xlsx"
-        std_terms_sheet = "Engine"
-        std_terms_header_row = 0
-        std_terms_col_name = "Study Type"
-    else:
-        # Load reported terms and standard terms
-        reported_terms_file = input("Enter the file path for reported terms: ").strip()
+    #     std_terms_file = "example_input/std_terms_engine_sheet.xlsx"
+    #     std_terms_sheet = "Engine"
+    #     std_terms_header_row = 0
+    #     std_terms_col_name = "Study Type"
+    
+    # Load reported terms and standard terms
+    reported_terms_file = input("Enter the file path for reported terms: ").strip() or config.DEFAULT_REPORTED_TERMS_FILE
+    if not os.path.exists(reported_terms_file):
+        logging.error(f"File not found: {reported_terms_file}")
+        return
 
-        reported_terms_sheet = input("Enter the sheet name for reported terms: ").strip()
-        reported_terms_header_row = int(input("Enter the header row number for reported terms: ").strip())
-        reported_terms_col_name = input("Enter the column name for reported terms: ").strip()
+    reported_terms_sheet = input("Enter the sheet name for reported terms: ").strip() or config.DEFAULT_REPORTED_SHEET
+    if not reported_terms_sheet:
+        logging.error("Sheet name cannot be empty.")
+        return
+    
+    reported_terms_header_row = int(input("Enter the header row number for reported terms: ").strip() or config.DEFAULT_REPORTED_HEADER_ROW) 
+    if reported_terms_header_row < 0:
+        logging.error("Header row number must be non-negative.")
+        return
+    
+    reported_terms_col_name = input("Enter the column name for reported terms: ").strip() or config.DEFAULT_REPORTED_COL_NAME
+    if not reported_terms_col_name:
+        logging.error("Column name cannot be empty.")
+        return
         
-        # Load standard terms
-        std_terms_file = input("Enter the file path for standard terms: ").strip()
-        std_terms_sheet = input("Enter the sheet name for standard terms: ").strip()
-        std_terms_header_row = int(input("Enter the header row number for standard terms: ").strip())
-        std_terms_col_name = input("Enter the column name for standard terms: ").strip()
+    # Load standard terms
+    std_terms_file = input("Enter the file path for standard terms: ").strip() or config.DEFAULT_STD_TERMS_FILE
+    if not os.path.exists(std_terms_file):
+        logging.error(f"File not found: {std_terms_file}")
+        return
+    
+    std_terms_sheet = input("Enter the sheet name for standard terms: ").strip() or config.DEFAULT_STD_SHEET
+    if not std_terms_sheet:
+        logging.error("Sheet name cannot be empty.")
+        return
+    
+    std_terms_header_row = int(input("Enter the header row number for standard terms: ").strip() or config.DEFAULT_STD_HEADER_ROW) 
+    if std_terms_header_row < 0:
+        logging.error("Header row number must be non-negative.")
+        return
+    
+    std_terms_col_name = input("Enter the column name for standard terms: ").strip() or config.DEFAULT_STD_COL_NAME
+    if not std_terms_col_name:
+        logging.error("Column name cannot be empty.")
+        return
 
     # Output file path    
     output_file_path = input("Enter the output file path for results: ").strip()
     if not output_file_path:
-        output_file_path = "results/standardized_terms.xlsx"
-        logging.info(f"No output file path provided. Using default: {output_file_path}")
+        logging.info(f"No output file path provided. Using default: {config.DEFAULT_OUTPUT_FILE}")
 
     # Load reported terms and standard terms
     logging.info("Loading reported terms...")
