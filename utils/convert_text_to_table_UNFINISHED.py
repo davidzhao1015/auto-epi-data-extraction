@@ -342,18 +342,34 @@ print(chat_df_epi.head(20))
 # Drop subtype-specific parameters for separate processing *
 
 #---------------------------------------------------------------
-# Drop rows with "22.    Age of Patients by Subtype"
-chat_df_dropped = chat_df[~chat_df['Parameter'].str.contains('Age of Patients')]
 
-# Drop rows with "Patient Number of Autoimmune Encephalitis"
-chat_df_dropped2 = chat_df_dropped[~chat_df_dropped['Parameter'].str.contains('Patient Number of Autoimmune Encephalitis')]
+def drop_subtype_specific_parameters(chat_df, keywords=None):
+    """
+    Drop subtype-specific parameters from the DataFrame.
 
-# Drop rows with "Age of Diagnosis"
-chat_df_dropped2 = chat_df_dropped2[~chat_df_dropped2['Parameter'].str.contains('Age of Diagnosis')]
+    Args:
+        chat_df (pd.DataFrame): The DataFrame containing the parsed data.
+        keywords (list, optional): A list of keywords to identify subtype-specific parameters.
+                                   Parameters containing these keywords will be dropped.
+                                   Matching is case-insensitive.
 
-# Export the data frame to a csv file
-chat_df_dropped2.to_csv("chat_df_epi_2.csv", index=False)
+    Returns:
+        pd.DataFrame: Filtered DataFrame with subtype-specific parameters dropped.
+    """
+    if keywords is None:
+        keywords = ['Age', 'Patient Number']
 
+    # Build regex pattern from keywords
+    pattern = '|'.join(map(re.escape, keywords)) # Join keywords with '|'; re.escape to escape special characters
+
+    # Filter out matching rows
+    filtered_df = chat_df[~chat_df['Parameter'].str.contains(pattern, case=False, na=False)]
+
+    return filtered_df
+
+# Test case
+keywords = ['Age of Patients', 'Patient Number of Autoimmune Encephalitis', 'Age of Diagnosis']
+chat_df_dropped = drop_subtype_specific_parameters(chat_df_epi, keywords=keywords)
 
 
 #---------------------------------------------------------------
