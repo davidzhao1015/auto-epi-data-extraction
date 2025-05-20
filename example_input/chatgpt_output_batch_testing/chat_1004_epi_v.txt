@@ -1,0 +1,85 @@
+1. Article Title: Rare disease curative care expenditure-financing scheme-health provider–beneficiary group analysis: an empirical study in Sichuan Province, China
+	•	Line(s): Title Page
+	•	Section: Title
+	•	Quote(s): “Rare disease curative care expenditure-financing scheme-health provider–beneficiary group analysis: an empirical study in Sichuan Province, China”
+2.Publication Year: 2022
+	•	Line(s): Title Page
+	•	Section: Journal Information
+	•	Quote(s): “Li et al. Orphanet Journal of Rare Diseases (2022) 17:373”
+3.Region: Asia
+	•	Line(s): Multiple
+	•	Section: Abstract, Introduction
+	•	Quote(s): “This study used the samples from Sichuan Province in China…”
+4.Country: China
+	•	Line(s): Multiple
+	•	Section: Abstract, Methods
+	•	Quote(s): “This study used the samples from Sichuan Province in China…”
+5.Study Coverage Area: Sichuan Province, China (multi-city, provincial level)
+	•	Line(s): Methods
+	•	Section: Study sample
+	•	Quote(s): “We used samples from Sichuan Province, which has a medium level of economic and medical development…”
+6.Study Design: Cross-sectional study
+	•	Line(s): Methods
+	•	Section: Study sample
+	•	Quote(s): “Multi-stage cluster sampling method was adopted to investigate 9714 rare disease patients…”
+7.Population Cohort: Patients with rare diseases, including autoimmune encephalitis
+	•	Line(s): Methods
+	•	Section: Study sample
+	•	Quote(s): “This study estimated the curative care expenditure (CCE) of ten rare diseases, including Autoimmune Encephalitis (AE)…”
+8.Population Characteristics: Age Range: Mixed (children, adults, elderly); Sex Distribution: 55.14% female, 44.86% male; Comorbidities: NR
+	•	Line(s): Results, Table 1
+	•	Section: General statistics of patients
+	•	Quote(s): “The average age of patients was 42.80… there were more women (55.14%) than men (44.86%)…”
+9.Data Source: Hospital Information System (HIS) from 1556 medical institutions
+	•	Line(s): Methods
+	•	Section: Data Sources
+	•	Quote(s): “The data on patient’s medical expenditure were collected from the Hospital Information System (HIS) of 1556 medical institutions in Sichuan Province.”
+10.Prospective or Retrospective: Retrospective
+	•	Line(s): Methods
+	•	Section: Data sources
+	•	Quote(s): “The data on patient’s medical expenditure were collected from the Hospital Information System (HIS)…”
+11.Sites or Centers Involved: 1556 medical institutions
+	•	Line(s): Methods
+	•	Section: Study sample
+	•	Quote(s): “The data on patient’s medical expenditure were collected from the Hospital Information System (HIS) of 1556 medical institutions in Sichuan Province.”
+12.Study Duration: Data from 2018
+	•	Line(s): Methods
+	•	Section: Data sources
+	•	Quote(s): “The statistical data were obtained from the Sichuan Province Statistical Yearbook (2018)…”
+13.Population Ethnicity: NR
+14.Disease Analysis: Autoimmune Encephalitis and other rare diseases
+	•	Line(s): Results
+	•	Section: General statistics
+	•	Quote(s): “These 10 rare diseases are… Autoimmune Encephalitis (AE)-G04.8…”
+15.Classification or Diagnosis: ICD-10 coding
+	•	Line(s): Methods
+	•	Section: Standardized dataset
+	•	Quote(s): “We used the 2018 edition of The Compendium of China’s First List of Rare Diseases, which includes 121 rare diseases and their ICD-10 codes.”
+16.Diagnosis Criteria Details: NR
+17.Disease Phase: NR
+18.Cohort Age Group: Mixed (pediatric, adult, elderly)
+	•	Line(s): Results
+	•	Section: General statistics
+	•	Quote(s): “The average age of patients was 42.80… The lowest was for CS (13.28 years) and the highest for IPF (67.91 years).”
+19.Female Percentage in Cohort: 55.14%
+	•	Line(s): Results, Table 1
+	•	Section: General statistics
+	•	Quote(s): “There were more women (55.14%) than men (44.86%).”
+20.Patient Number of Autoimmune Encephalitis: 323 cases
+	•	Subtype: Autoimmune Encephalitis (AE)
+	•	Patient Number: 323
+	•	Line(s): Results, Table 1
+	•	Section: General statistics
+	•	Quote(s): “AE: 323 patients”
+21.Follow-up Period: NR
+22.Age of Patients by Subtype:
+	•	Subtype: Autoimmune Encephalitis (AE)
+	•	Mean: 33.47 years
+	•	Standard Deviation: 18.49
+	•	Median: NR
+	•	IQR: NR
+	•	Line(s): Results, Table 1
+	•	Section: General statistics
+	•	Quote(s): “AE: 33.47 ± 18.49 years”
+23.Age of Diagnosis by Subtype: NR
+

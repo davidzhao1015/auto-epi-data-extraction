@@ -1,0 +1,92 @@
+	1.	Article Title: Neuropsychological outcomes in children and adolescents following anti-NMDA receptor encephalitis
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Neuropsychological outcomes in children and adolescents following anti-NMDA receptor encephalitis”
+	2.	Publication Year: 2022
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “Child Neuropsychology, 28:2, 212-223, DOI: 10.1080/09297049.2021.1965110”
+	3.	Region: North America
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Children’s Medical Center, University of Texas Southwestern Medical Center, Dallas, TX, USA; Children’s Healthcare of Atlanta, Atlanta, Georgia”
+	4.	Country: United States
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Children’s Medical Center, University of Texas Southwestern Medical Center, Dallas, TX, USA; Children’s Healthcare of Atlanta, Atlanta, Georgia”
+	5.	Study Coverage Area: Multi-center study (Dallas, Texas & Atlanta, Georgia)
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Children’s Medical Center, University of Texas Southwestern Medical Center, Dallas, TX, USA; Children’s Healthcare of Atlanta, Atlanta, Georgia”
+	6.	Study Design: Retrospective chart review
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “This was a multi-centered retrospective chart review.”
+	7.	Population Cohort: Pediatric patients diagnosed with anti-NMDAR encephalitis
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “We identified 23 pediatric patients who were, on average, 18.5 months from diagnosis.”
+	8.	Population Characteristics: Median age at diagnosis 8.8 years, 65.2% female
+	•	Line(s): 93-95
+	•	Section: Results
+	•	Quote(s): “The sample consisted of eight males (34.8%) and 15 females (65.2%). The mean age at diagnosis was 8.8 years.”
+	9.	Data Source: Hospital neuropsychological records
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “We identified 23 pediatric patients who underwent comprehensive neuropsychological assessment.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “This was a multi-centered retrospective chart review.”
+	11.	Sites or Centers Involved: Two centers (Dallas & Atlanta)
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Children’s Medical Center, University of Texas Southwestern Medical Center, Dallas, TX, USA; Children’s Healthcare of Atlanta, Atlanta, Georgia”
+	12.	Study Duration: 2013–2018
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Between 2013 and 2018, a total of 50 patients were identified with a confirmed diagnosis of ANMDARE.”
+	13.	Population Ethnicity: 47.8% Latinx, 39.1% Black, 8.7% White, 4.3% Asian
+	•	Line(s): 93-95
+	•	Section: Results
+	•	Quote(s): “47.8% of the patients were Latinx, 39.1% were Black, 8.7% were White, and 4.3% were Asian.”
+	14.	Disease Analysis: Anti-NMDAR encephalitis
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “We identified 23 pediatric patients who were, on average, 18.5 months from diagnosis.”
+	15.	Classification or Diagnosis: Diagnosis confirmed by presence of NMDAR antibodies in serum and/or CSF
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Inclusion criteria consisted of children ages 0 to 18 with confirmed NMDA antibodies in the serum or cerebrospinal fluid (CSF).”
+	16.	Diagnosis Criteria Details: NR
+	17.	Disease Phase: NR
+	18.	Cohort Age Group: Pediatric (ages 0-18 years)
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Inclusion criteria consisted of children ages 0 to 18 with confirmed NMDA antibodies.”
+	19.	Female Percentage in Cohort: 65.2%
+	•	Line(s): 93-95
+	•	Section: Results
+	•	Quote(s): “The sample consisted of eight males (34.8%) and 15 females (65.2%).”
+	20.	Patient Number of Autoimmune Encephalitis: 23 patients
+	•	Line(s): 93-95
+	•	Section: Results
+	•	Quote(s): “We identified 23 pediatric patients who were, on average, 18.5 months from diagnosis.”
+	•	Subtypes and Patient Numbers:
+	•	Anti-NMDAR: 23 patients
+	21.	Follow-up Period: Mean 18.5 months (range: 9–32 months)
+	•	Line(s): 213-215
+	•	Section: Results
+	•	Quote(s): “Neuropsychological evaluations were completed between 9 and 32 months post diagnosis (mean time since diagnosis = 18.5 months).”
+	22.	Age of Patients by Subtype:
+	•	Anti-NMDAR:
+	•	Mean: NR
+	•	SD: NR
+	•	Median: NR
+	•	IQR: NR
+	23.	Age of Diagnosis by Subtype: 
+	•	Anti-NMDAR:
+	•	Mean: 8.8 years
+	•	SD: ±5.02 years
+	•	Median: NR
+	•	IQR: NR

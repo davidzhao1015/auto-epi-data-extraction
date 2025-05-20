@@ -1,0 +1,85 @@
+	1.	Article Title: Long-term effects of anti-N-methyl-D-aspartate receptor encephalitis on quality of life
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Long-term effects of anti-N-methyl-D-aspartate receptor encephalitis on quality of life”
+	2.	Publication Year: 2023
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “Frontiers in Neurology, Published: 18 May 2023”
+	3.	Region: Asia
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Division of Neurology, Department of Medicine, Nihon University School of Medicine, Tokyo, Japan”
+	4.	Country: Japan
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Division of Neurology, Department of Medicine, Nihon University School of Medicine, Tokyo, Japan”
+	5.	Study Coverage Area: Nationwide patient association cohort (Japan)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “These questionnaires were administered to adult members of the Japanese Anti-NMDARE Patients’ Association.”
+	6.	Study Design: Cross-sectional survey-based study
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “We investigated the long-term effects of NMDARE on patients’ quality of life (QOL) using structured self-reported questionnaires.”
+	7.	Population Cohort: Adults diagnosed with anti-NMDAR encephalitis (NMDARE)
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Participants were adults with NMDARE who belonged to the Japanese Anti-NMDARE Patients’ Association.”
+	8.	Population Characteristics: Median age 28 years, 86% female
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age at answer date was 28 (range, 19–57) years, and most (n = 19; 86%) were female.”
+	9.	Data Source: Patient-reported questionnaires
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Data collected via structured self-reported questionnaires included clinical features, long-term outcomes, and QOL.”
+	10.	Prospective or Retrospective: Cross-sectional (survey-based)
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “We investigated the long-term effects of NMDARE on patients’ quality of life (QOL) using structured self-reported questionnaires.”
+	11.	Sites or Centers Involved: National survey (Japan)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “These questionnaires were administered to adult members of the Japanese Anti-NMDARE Patients’ Association.”
+	12.	Study Duration: Survey conducted in July 2022
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Participants were adults with NMDARE who belonged to the Japanese Anti-NMDARE Patients’ Association (July 2022).”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Long-term outcomes and quality of life in anti-NMDAR encephalitis (NMDARE)
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “We investigated the long-term effects of NMDARE on patients’ quality of life (QOL).”
+	15.	Classification or Diagnosis: Diagnosis confirmed via cell-based assays (NR1/NR2–transfected HEK293 cells)
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “All were previously diagnosed with NMDARE by cell-based assays using NR1/NR2–transfected HEK293 cells.”
+	16.	Diagnosis Criteria Details: NR
+	17.	Disease Phase: Chronic (long-term follow-up)
+	•	Line(s): 92-94
+	•	Section: Results
+	•	Quote(s): “The median interval between disease onset and questionnaire response was 78 months.”
+	18.	Cohort Age Group: Adult (median age 28 years)
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age at answer date was 28 (range, 19–57) years.”
+	19.	Female Percentage in Cohort: 86%
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Most (n = 19; 86%) were female.”
+	20.	Patient Number of Autoimmune Encephalitis: 22 patients
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “The remaining 22 patients’ long-term outcomes and QOL were analyzed.”
+	•	Subtypes and Patient Numbers:
+	•	Anti-NMDAR encephalitis (NMDARE): 22 patients
+	21.	Follow-up Period: Median 78 months (range 26–162 months)
+	•	Line(s): 213-215
+	•	Section: Results
+	•	Quote(s): “The median interval between disease onset and questionnaire response was 78 months.”
+	22.	Age of Patients by Subtype:
+	•	Subtype: Anti-NMDAR encephalitis
+	•	Median: 28 years
+	•	IQR: NR
+	23.	Age of Diagnosis by Subtype: NR

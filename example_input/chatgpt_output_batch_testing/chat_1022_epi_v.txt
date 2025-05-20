@@ -1,0 +1,93 @@
+	1.	Article Title: Clinical characteristics and prognosis analysis of acute symptomatic seizures secondary to autoimmune encephalitis
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Clinical characteristics and prognosis analysis of acute symptomatic seizures secondary to autoimmune encephalitis”
+	2.	Publication Year: 2024
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “Frontiers in Neurology, Published: 30 October 2024”
+	3.	Region: Asia
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “First Clinical Medical College, Ningxia Medical University, Yinchuan, China”
+	4.	Country: China
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “First Clinical Medical College, Ningxia Medical University, Yinchuan, China”
+	5.	Study Coverage Area: Single hospital study (General Hospital of Ningxia Medical University, Yinchuan)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Clinical data were collected from 84 patients diagnosed with AE at the General Hospital of Ningxia Medical University between January 2015 and January 2023.”
+	6.	Study Design: Retrospective cohort study
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “This study aimed to analyze the clinical characteristics and prognosis of patients with autoimmune encephalitis (PWAE) who experienced seizures during the acute phase.”
+	7.	Population Cohort: Patients with autoimmune encephalitis (AE)
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Clinical data were collected from 84 patients diagnosed with AE.”
+	8.	Population Characteristics: Median age 46 years, 58.33% male
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age of the 84 PWAE was 46.00 (29.00 ~ 58.75) years, with males accounting for 58.33% (49/84) and females accounting for 41.67% (35/84).”
+	9.	Data Source: Hospital medical records
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Clinical data were collected from 84 patients diagnosed with AE at the General Hospital of Ningxia Medical University.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “Clinical data were collected from 84 patients diagnosed with AE at the General Hospital of Ningxia Medical University between January 2015 and January 2023.”
+	11.	Sites or Centers Involved: Single center (General Hospital of Ningxia Medical University)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Clinical data were collected from 84 patients diagnosed with AE at the General Hospital of Ningxia Medical University.”
+	12.	Study Duration: January 2015 – January 2023
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Clinical data were collected from 84 patients diagnosed with AE at the General Hospital of Ningxia Medical University between January 2015 and January 2023.”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Autoimmune encephalitis (AE) and seizure outcomes
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “This study aimed to analyze the clinical characteristics and prognosis of patients with autoimmune encephalitis (PWAE) who experienced seizures during the acute phase.”
+	15.	Classification or Diagnosis: Graus criteria (2016) and Chinese expert consensus (2022)
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “The inclusion criteria refer to the diagnostic criteria proposed by Graus et al. (2016) and the expert consensus on the diagnosis and treatment of AE in China (2022 edition).”
+	16.	Diagnosis Criteria Details: Graus criteria (2016) and Chinese expert consensus (2022)
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “The inclusion criteria refer to the diagnostic criteria proposed by Graus et al. (2016) and the expert consensus on the diagnosis and treatment of AE in China (2022 edition).”
+	17.	Disease Phase: Acute or subacute
+	•	Line(s): 92-94
+	•	Section: Results
+	•	Quote(s): “Seizures are common in the early stages of AE, with faciobrachial dystonic seizures (FBDS) characteristic of anti-LGI1 encephalitis and SE and super-refractory status epilepticus (Sup-RSE) frequently observed in anti-NMDAR encephalitis.”
+	18.	Cohort Age Group: Adult (median 46 years)
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age of the 84 PWAE was 46.00 (29.00 ~ 58.75) years.”
+	19.	Female Percentage in Cohort: 41.67%
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age of the 84 PWAE was 46.00 (29.00 ~ 58.75) years, with males accounting for 58.33% (49/84) and females accounting for 41.67% (35/84).”
+	20.	Patient Number of Autoimmune Encephalitis: 84 patients
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “A total of 84 patients were enrolled, with 76.19% (64/84) in the seizure group and 23.81% (20/84) in the non-seizure group.”
+	•	Subtypes and Patient Numbers:
+	•	Anti-NMDAR: 32 patients
+	•	Anti-LGI1: 26 patients
+	•	Anti-CASPR2: 7 patients
+	•	Anti-GABABR: 6 patients
+	•	Anti-GAD65: 5 patients
+	•	Multiple anti-neuronal antibodies: 8 patients
+	21.	Follow-up Period: 2 years
+	•	Line(s): 213-215
+	•	Section: Results
+	•	Quote(s): “At 2-year follow-up, there was no significant difference in prognosis between the seizure and non-seizure groups (p = 0.653).”
+	22.	Age of Patients by Subtype:
+	•	Anti-NMDAR:
+	•	Median: 27.5 years
+	•	IQR: 18.75 – 32.25 years
+	23.	Age of Diagnosis by Subtype: NR

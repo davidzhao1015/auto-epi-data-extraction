@@ -1,0 +1,99 @@
+	1.	Article Title: Direct economic burden of patients with autoimmune encephalitis in western China
+	•	Line(s): 3-4
+	•	Section: Title
+	•	Quote(s): “Direct economic burden of patients with autoimmune encephalitis in western China”
+	2.	Publication Year: 2020
+	•	Line(s): 6
+	•	Section: Journal Citation
+	•	Quote(s): “Neurol Neuroimmunol Neuroinflamm 2020;7:e891.”
+	3.	Region: Asia
+	•	Line(s): 4, 26
+	•	Section: Title, Methods
+	•	Quote(s): “Direct economic burden of patients with autoimmune encephalitis in western China”
+	4.	Country: China
+	•	Line(s): 4, 26
+	•	Section: Title, Methods
+	•	Quote(s): “Direct economic burden of patients with autoimmune encephalitis in western China”
+	5.	Study Coverage Area: Single region (Western China)
+	•	Line(s): 26
+	•	Section: Methods
+	•	Quote(s): “Patients who were newly diagnosed with antibody-positive AE… at West China Medical Center”
+	6.	Study Design: Retrospective cost-of-illness study
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “…a cost-of-illness study was performed retrospectively.”
+	7.	Population Cohort: Patients with antibody-positive autoimmune encephalitis (anti-NMDAR, anti-GABABR, anti-LGI1, and anti-CASPR2)
+	•	Line(s): 26-30
+	•	Section: Methods
+	•	Quote(s): “Patients who were newly diagnosed with antibody-positive AE (anti-NMDA receptor [NMDAR], anti-γ aminobutyric acid type B receptor [GABABR], antileucine-rich glioma-inactivated 1 [LGI1], and anticontactin-associated protein-2 [CASPR2])…”
+	8.	Population Characteristics: Mixed age and sex distribution, including comorbidities such as tumors
+	•	Line(s): 94-96
+	•	Section: Results
+	•	Quote(s): “Overall, the median age at admission was 29 years (102 [49.0%] males and 106 [51.0%] females).”
+	9.	Data Source: Hospital records and questionnaires
+	•	Line(s): 28-30
+	•	Section: Methods
+	•	Quote(s): “Data on clinical characteristics, costs, and utilization of sources were collected from questionnaires and the hospital information system.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 28
+	•	Section: Methods
+	•	Quote(s): “…a cost-of-illness study was performed retrospectively.”
+	11.	Sites or Centers Involved: Single center (West China Medical Center)
+	•	Line(s): 26
+	•	Section: Methods
+	•	Quote(s): “Patients who were newly diagnosed with antibody-positive AE… at West China Medical Center”
+	12.	Study Duration: June 2012 – December 2018
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “Patients who were newly diagnosed… at West China Medical Center between June 2012 and December 2018”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Autoimmune encephalitis (AE)
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “…autoimmune encephalitis (AE) in China”
+	15.	Classification or Diagnosis: Antibody-positive AE based on clinical symptoms and laboratory tests
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “We included patients who satisfied the criteria for definite (antibody-positive) AE according to definitions of AE from a recent consensus statement.”
+	16.	Diagnosis Criteria Details: Graus criteria (2016)
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “These patients met the following diagnostic criteria for AE1: (1) rapid onset (<3 months) of 1 or more of the 6 following symptoms… and (2) positive results for one of the antibodies.”
+	17.	Disease Phase: Acute or subacute
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “Rapid onset (<3 months) of 1 or more of the 6 following symptoms…”
+	18.	Cohort Age Group: Mixed (pediatric, adult)
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “Overall, the median age at admission was 29 years.”
+	19.	Female Percentage in Cohort: 51%
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “Overall, the median age at admission was 29 years (102 [49.0%] males and 106 [51.0%] females).”
+	20.	Patient Number of Autoimmune Encephalitis: 208 patients
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “Ultimately, 208 patients were enrolled.”
+	•	Subtypes and Patient Numbers:
+	•	Anti-NMDAR: 155 patients
+	•	Anti-GABABR: 26 patients
+	•	Anti-LGI1/CASPR2: 27 patients
+	21.	Follow-up Period: NR
+	22.	Age of Patients by Subtype:
+	•	Anti-NMDAR:
+	•	Mean: NR
+	•	SD: NR
+	•	Median: 25 years
+	•	IQR: 19–37
+	•	Anti-GABABR:
+	•	Mean: NR
+	•	SD: NR
+	•	Median: 55 years
+	•	IQR: 41–62
+	•	Anti-LGI1/CASPR2:
+	•	Mean: NR
+	•	SD: NR
+	•	Median: 44 years
+	•	IQR: 32–58
+	23.	Age of Diagnosis by Subtype: NR

@@ -1,0 +1,91 @@
+	1.	Article Title: The Antibody Assay in Suspected Autoimmune Encephalitis From Positive Rate to Test Strategies
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “The Antibody Assay in Suspected Autoimmune Encephalitis From Positive Rate to Test Strategies”
+	2.	Publication Year: 2022
+	•	Line(s): 15-16
+	•	Section: Journal Citation
+	•	Quote(s): “Frontiers in Immunology, Published: 23 February 2022”
+	3.	Region: Asia
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “Patients who were diagnosed with suspected autoimmune encephalitis in Guizhou Province, China.”
+	4.	Country: China
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “Patients who were diagnosed with suspected autoimmune encephalitis in Guizhou Province, China.”
+	5.	Study Coverage Area: Single region (Guizhou Province, China)
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “Patients who were diagnosed with suspected autoimmune encephalitis in Guizhou Province.”
+	6.	Study Design: Retrospective observational study
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Patients diagnosed with suspected autoimmune encephalitis in Guizhou Province between June 1, 2020, and June 30, 2021, were included in this study.”
+	7.	Population Cohort: Patients with suspected autoimmune encephalitis
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Patients diagnosed with suspected autoimmune encephalitis… who had anti-neuronal autoantibodies detected.”
+	8.	Population Characteristics: Mixed age and sex distribution
+	•	Line(s): 94-96
+	•	Section: Results
+	•	Quote(s): “A total of 263 patients with suspected AE were included, 58.2% males, median age 33 years (range 1-84 years).”
+	9.	Data Source: Laboratory test records from Guizhou KingMed Diagnostics Group
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Patients diagnosed with suspected AE… were tested at Guizhou KingMed Diagnostics Group.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “A retrospective study was conducted.”
+	11.	Sites or Centers Involved: Six medical centers in Guizhou Province
+	•	Line(s): 34-36
+	•	Section: Methods
+	•	Quote(s): “The data came from six medical centers, which have qualifications for the diagnosis of AE in the study sites.”
+	12.	Study Duration: June 2020 – June 2021
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Patients diagnosed with suspected autoimmune encephalitis in Guizhou Province between June 1, 2020, and June 30, 2021.”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Autoimmune encephalitis (AE)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Patients diagnosed with suspected autoimmune encephalitis…”
+	15.	Classification or Diagnosis: Antibody-positive AE based on laboratory assay
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “Anti-neuronal antibodies detected using laboratory methods.”
+	16.	Diagnosis Criteria Details: Based on published AE diagnostic criteria
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “Patients who were diagnosed with suspected AE according to the published AE diagnostic criteria.”
+	17.	Disease Phase: NR
+	18.	Cohort Age Group: Mixed (pediatric, adult)
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “Median age of 33 years (range 1-84 years).”
+	19.	Female Percentage in Cohort: 41.8%
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “58.2% (153/263) were males, meaning 41.8% were females.”
+	20.	Patient Number of Autoimmune Encephalitis: 263 patients with suspected AE, 26 antibody-positive cases
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “A total of 263 patients with suspected AE were included, and 26 were antibody-positive.”
+	•	Subtypes and Patient Numbers:
+	•	Anti-NMDAR: 12 patients
+	•	Anti-Caspr2: 8 patients
+	•	Other antibodies: 6 patients
+	21.	Follow-up Period: NR
+	22.	Age of Patients by Subtype:
+	•	Subtype: Anti-NMDAR
+	•	Mean: NR
+	•	SD: NR
+	•	Median: NR
+	•	IQR: NR
+	•	Subtype: Anti-Caspr2
+	•	Mean: NR
+	•	SD: NR
+	•	Median: NR
+	•	IQR: NR
+	23.	Age of Diagnosis by Subtype: NR

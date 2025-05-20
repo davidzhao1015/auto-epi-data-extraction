@@ -1,0 +1,85 @@
+	1.	Article Title: Pediatric anti-N-methyl-D-aspartate receptor (NMDAR) encephalitis: Exploring psychosis, related risk factors, and hospital outcomes in a nationwide inpatient sample: A cross-sectional study
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Pediatric anti-N-methyl-D-aspartate receptor (NMDAR) encephalitis: Exploring psychosis, related risk factors, and hospital outcomes in a nationwide inpatient sample: A cross-sectional study”
+	2.	Publication Year: 2024
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “PLOS ONE, Published: February 13, 2024”
+	3.	Region: North America
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “New York University Grossman School of Medicine, New York, NY, United States of America”
+	4.	Country: United States
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “New York University Grossman School of Medicine, New York, NY, United States of America”
+	5.	Study Coverage Area: Nationwide inpatient sample (U.S.)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We conducted a cross-sectional study using the nationwide inpatient sample (NIS 2018–2019).”
+	6.	Study Design: Cross-sectional study
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “We conducted a cross-sectional study using the nationwide inpatient sample (NIS 2018–2019).”
+	7.	Population Cohort: Pediatric inpatients diagnosed with anti-NMDAR encephalitis (ages 6–17 years)
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “We included 3,405 pediatric inpatients (age 6–17 years) with a primary discharge diagnosis of anti-NMDAR encephalitis.”
+	8.	Population Characteristics: Mean age 11.1 years, 54.2% male, 50.7% White
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The mean age of the patients was 11.1 years, 54.2% were male, and 50.7% were White.”
+	9.	Data Source: Nationwide Inpatient Sample (NIS) database
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “We conducted a cross-sectional study using the nationwide inpatient sample (NIS 2018–2019).”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “We conducted a cross-sectional study using the nationwide inpatient sample (NIS 2018–2019).”
+	11.	Sites or Centers Involved: Nationwide (U.S. hospitals in the NIS database)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “The NIS database includes non-federal community hospitals from 48 states and the District of Columbia.”
+	12.	Study Duration: 2018–2019
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We conducted a cross-sectional study using the nationwide inpatient sample (NIS 2018–2019).”
+	13.	Population Ethnicity: 50.7% White, 13.6% Black, 23.3% Hispanic, 12.4% Other
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “50.7% White, 13.6% Black, 23.3% Hispanic, 12.4% Other.”
+	14.	Disease Analysis: Anti-NMDAR encephalitis and psychosis outcomes
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Our study aims to examine the risk factors for comorbid psychosis in pediatric patients hospitalized for anti-NMDAR encephalitis.”
+	15.	Classification or Diagnosis: ICD-10 diagnostic codes G04.0x to G04.9x
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “We identified cases using the international classification of diseases, tenth revision (ICD-10) diagnostic codes G04.0x to G04.9x.”
+	16.	Diagnosis Criteria Details: NR
+	17.	Disease Phase: Acute
+	•	Line(s): 92-94
+	•	Section: Results
+	•	Quote(s): “Anti-NMDAR encephalitis inpatients exhibited acute psychotic presentations.”
+	18.	Cohort Age Group: Pediatric (ages 6–17 years)
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “We included 3,405 pediatric inpatients (age 6–17 years) with a primary discharge diagnosis of anti-NMDAR encephalitis.”
+	19.	Female Percentage in Cohort: 45.8%
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “54.2% were male, 45.8% were female.”
+	20.	Patient Number of Autoimmune Encephalitis: 3,405 patients
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “We included 3,405 pediatric inpatients (age 6–17 years) with a primary discharge diagnosis of anti-NMDAR encephalitis.”
+	•	Subtypes and Patient Numbers:
+	•	Anti-NMDAR: 3,405 patients
+	21.	Follow-up Period: NR
+	22.	Age of Patients by Subtype:
+	•	Anti-NMDAR:
+	•	Mean: 11.1 years
+	•	SD: 3.4 years
+	23.	Age of Diagnosis by Subtype: NR

@@ -1,0 +1,89 @@
+	1.	Article Title: Development and Validation of a Risk Score for Predicting ICU Admission in Adults with New-Onset Encephalitis
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Development and Validation of a Risk Score for Predicting ICU Admission in Adults with New-Onset Encephalitis”
+	2.	Publication Year: 2024
+	•	Line(s): 4-5
+	•	Section: Journal Citation
+	•	Quote(s): “Neurocrit Care https://doi.org/10.1007/s12028-024-02063-6”
+	3.	Region: North America
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “Two hospital systems in Houston, Texas (cohort 1), and two hospitals in Baltimore, Maryland (cohort 2)”
+	4.	Country: United States
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “Two hospital systems in Houston, Texas (cohort 1), and two hospitals in Baltimore, Maryland (cohort 2)”
+	5.	Study Coverage Area: Multi-center study (Houston, Texas & Baltimore, Maryland)
+	•	Line(s): 26-28
+	•	Section: Methods
+	•	Quote(s): “Two hospital systems in Houston, Texas (cohort 1), and two hospitals in Baltimore, Maryland (cohort 2)”
+	6.	Study Design: Retrospective cohort study with external validation
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “A retrospective cohort study was conducted with external validation using a separate cohort.”
+	7.	Population Cohort: Adults diagnosed with encephalitis (ICD-9 criteria)
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Patients aged 18 years or older diagnosed with encephalitis according to the 2013 International Encephalitis Consortium (IEC) criteria.”
+	8.	Population Characteristics: Median age 49 years, mixed gender, with autoimmune and infectious encephalitis cases
+	•	Line(s): 94-96
+	•	Section: Results
+	•	Quote(s): “Of the 634 patients, the median age was 49 years (IQR 33–63), with 50.3% males and 49.7% females.”
+	9.	Data Source: Hospital discharge records and medical records from two health systems
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Patient data were collected retrospectively from the hospital discharge records and medical databases.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “A retrospective study was conducted.”
+	11.	Sites or Centers Involved: Four centers (two in Texas, two in Maryland)
+	•	Line(s): 34-36
+	•	Section: Methods
+	•	Quote(s): “The study was conducted at two hospital systems in Houston, Texas, and two in Baltimore, Maryland.”
+	12.	Study Duration: 2005–2023 (Texas), 2006–2022 (Maryland)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Cohort 1: 2005 to 2023 in Houston. Cohort 2: 2006 to 2022 in Baltimore.”
+	13.	Population Ethnicity: Majority White (46.3%), African American (25.3%), Hispanic (15.3%)
+	•	Line(s): 93-95
+	•	Section: Results
+	•	Quote(s): “46.3% White, 25.3% African American, 15.3% Hispanic, 3.3% Asian, and 9.8% other.”
+	14.	Disease Analysis: Encephalitis (autoimmune, infectious, unknown etiologies)
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Patients diagnosed with encephalitis including autoimmune, infectious, and unknown causes.”
+	15.	Classification or Diagnosis: ICD-9 coded encephalitis with IEC criteria
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “Patients were classified using the 2013 International Encephalitis Consortium (IEC) criteria.”
+	16.	Diagnosis Criteria Details: IEC 2013 criteria
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “Patients diagnosed with encephalitis using the IEC 2013 criteria.”
+	17.	Disease Phase: NR
+	18.	Cohort Age Group: Adult (18+ years)
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Patients aged 18 years or older diagnosed with encephalitis.”
+	19.	Female Percentage in Cohort: 49.7%
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “Of the 634 patients, 50.3% were male, and 49.7% were female.”
+	20.	Patient Number of Autoimmune Encephalitis: 113 patients with autoimmune encephalitis
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “113 patients with autoimmune encephalitis, 272 with infectious encephalitis, 249 with unknown etiology.”
+	•	Subtypes and Patient Numbers:
+	•	Autoimmune Encephalitis (AIE): 113 patients
+	•	Infectious Encephalitis: 272 patients
+	•	Unknown Encephalitis: 249 patients
+	21.	Follow-up Period: NR
+	22.	Age of Patients by Subtype:
+	•	Autoimmune Encephalitis:
+	•	Mean: NR
+	•	SD: NR
+	•	Median: NR
+	•	IQR: NR
+	23.	Age of Diagnosis by Subtype: NR

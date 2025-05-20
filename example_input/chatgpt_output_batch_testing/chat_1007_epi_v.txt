@@ -1,0 +1,92 @@
+1. Article Title:Evaluating the incidence and predictors of anti-NMDAR encephalitis in a contemporary cohort of patients diagnosed with dermoid tumors: A national inpatient sample analysis
+	•	Line(s): Title Page
+	•	Section: Title Page
+	•	Quote(s): “Evaluating the incidence and predictors of anti-NMDAR encephalitis in a contemporary cohort of patients diagnosed with dermoid tumors: A national inpatient sample analysis”
+
+2. Publication Year:2022
+	•	Line(s): Title Page
+	•	Section: Title Page
+	•	Quote(s): “Journal of Clinical Neuroscience 102 (2022) 109–113”
+
+3. Region:North America
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “United States (US) developed by the Healthcare Cost and Utilization Project”
+
+4. Country:USA
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “United States (US) developed by the Healthcare Cost and Utilization Project”
+
+5. Study Coverage Area:National
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “National Inpatient Sample (NIS) from the year 2016”
+
+6. Study Design:Retrospective cohort study
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “Retrospective cohort study using National Inpatient Sample”
+
+7. Population Cohort: Patients diagnosed with ovarian dermoid tumors, with or without anti-NMDAR encephalitis
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “24,270 patients diagnosed with ovarian dermoid tumor, 50 diagnosed with anti-NMDAR encephalitis”
+
+8. Population Characteristics:Mean age of all dermoid tumor patients: 45.5 ± 18.0 years; Mean age of patients with anti-NMDAR encephalitis: 27.4 ± 4.9 years
+	•	Line(s): Results
+	•	Section: Results
+	•	Quote(s): “Mean age of dermoid tumor cohort: 45.5 ± 18.0 years; Mean age of anti-NMDAR encephalitis cohort: 27.4 ± 4.9 years”
+
+9. Data Source:Healthcare Cost and Utilization Project (HCUP) National Inpatient Sample (NIS), 2016
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “Healthcare Cost and Utilization Project (HCUP) National Inpatient Sample (NIS) from the year 2016”
+
+10. Prospective or Retrospective: Retrospective
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “Retrospective cohort analysis”
+
+11. Sites or Centers Involved:NR
+
+12. Study Duration:2016
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “We used the Healthcare Cost and Utilization Project (HCUP) National Inpatient Sample (NIS) from the year 2016”
+
+13. Population Ethnicity:White, Black, Hispanic, Asian
+	•	Line(s): Results
+	•	Section: Results
+	•	Quote(s): “White patients had lower odds of developing anti-NMDAR encephalitis, Black patients had higher odds”
+
+14. Disease Analysis:Anti-NMDAR encephalitis
+	•	Line(s): Abstract
+	•	Section: Abstract
+	•	Quote(s): “Anti-NMDAR encephalitis is a form of encephalitis previously associated with dermoid tumors”
+
+15. Classification or Diagnosis:ICD-10 codes: D27 (benign dermoid tumor of ovary), G04 (encephalitis and meningitis), along with psychiatric and seizure-related codes
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “ICD-10 coding: D27 for dermoid tumors, G04 for encephalitis”
+
+16. Diagnosis Criteria Details:Diagnosis based on ICD-10 coding for anti-NMDAR encephalitis
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): “Patients were identified by ICD-10 codes for anti-NMDAR encephalitis”
+
+17. Disease Phase:NR
+
+18. Cohort Age Group:Mixed (Pediatric, Adult)
+	•	Line(s): Results
+	•	Section: Results
+	•	Quote(s): “Age distribution shows young patients affected”
+
+19. Female Percentage in Cohort:NR
+
+20. Patient Number of Autoimmune Encephalitis: Total patients: 50
+	•	Line(s): Results
+	•	Section: Results
+	•	Quote(s): “Total of 24,270 patients, 50 diagnosed with anti-NMDAR encephalitis”
+
+21. Follow-Up Period:NR

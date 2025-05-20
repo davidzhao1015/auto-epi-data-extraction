@@ -1,0 +1,281 @@
+File,Parameter,Value
+1,1. Article Title,Evaluating the incidence and predictors of anti-NMDAR encephalitis in a contemporary cohort of patients diagnosed with dermoid tumors: A national inpatient sample analysis
+1,2. Publication Year,2022
+1,3. Region,North America
+1,4. Country,USA
+1,5. Study Coverage Area,National
+1,6. Study Design,Retrospective cohort study
+1,7. Population Cohort,"Patients diagnosed with ovarian dermoid tumors, with or without anti-NMDAR encephalitis"
+1,8. Population Characteristics,Mean age of all dermoid tumor patients: 45.5 ± 18.0 years; Mean age of patients with anti-NMDAR encephalitis: 27.4 ± 4.9 years
+1,9. Data Source,"Healthcare Cost and Utilization Project (HCUP) National Inpatient Sample (NIS), 2016"
+1,10. Prospective or Retrospective,Retrospective
+1,11. Sites or Centers Involved,NR
+1,12. Study Duration,2016
+1,13. Population Ethnicity,"White, Black, Hispanic, Asian"
+1,14. Disease Analysis,Anti-NMDAR encephalitis
+1,15. Classification or Diagnosis,"ICD-10 codes: D27 (benign dermoid tumor of ovary), G04 (encephalitis and meningitis), along with psychiatric and seizure-related codes"
+1,16. Diagnosis Criteria Details,Diagnosis based on ICD-10 coding for anti-NMDAR encephalitis
+1,17. Disease Phase,NR
+1,18. Cohort Age Group,"Mixed (Pediatric, Adult)"
+1,19. Female Percentage in Cohort,NR
+1,21. Follow-Up Period,NR
+2,1.	Article Title,The Antibody Assay in Suspected Autoimmune Encephalitis From Positive Rate to Test Strategies
+2,2.	Publication Year,2022
+2,3.	Region,Asia
+2,4.	Country,China
+2,5.	Study Coverage Area,"Single region (Guizhou Province, China)"
+2,6.	Study Design,Retrospective observational study
+2,7.	Population Cohort,Patients with suspected autoimmune encephalitis
+2,8.	Population Characteristics,Mixed age and sex distribution
+2,9.	Data Source,Laboratory test records from Guizhou KingMed Diagnostics Group
+2,10.	Prospective or Retrospective,Retrospective
+2,11.	Sites or Centers Involved,Six medical centers in Guizhou Province
+2,12.	Study Duration,June 2020 – June 2021
+2,13.	Population Ethnicity,NR
+2,14.	Disease Analysis,Autoimmune encephalitis (AE)
+2,15.	Classification or Diagnosis,Antibody-positive AE based on laboratory assay
+2,16.	Diagnosis Criteria Details,Based on published AE diagnostic criteria
+2,17.	Disease Phase,NR
+2,18.	Cohort Age Group,"Mixed (pediatric, adult)"
+2,19.	Female Percentage in Cohort,41.8%
+2,21.	Follow-up Period,NR
+3,1.	Article Title,Direct economic burden of patients with autoimmune encephalitis in western China
+3,2.	Publication Year,2020
+3,3.	Region,Asia
+3,4.	Country,China
+3,5.	Study Coverage Area,Single region (Western China)
+3,6.	Study Design,Retrospective cost-of-illness study
+3,7.	Population Cohort,"Patients with antibody-positive autoimmune encephalitis (anti-NMDAR, anti-GABABR, anti-LGI1, and anti-CASPR2)"
+3,8.	Population Characteristics,"Mixed age and sex distribution, including comorbidities such as tumors"
+3,9.	Data Source,Hospital records and questionnaires
+3,10.	Prospective or Retrospective,Retrospective
+3,11.	Sites or Centers Involved,Single center (West China Medical Center)
+3,12.	Study Duration,June 2012 – December 2018
+3,13.	Population Ethnicity,NR
+3,14.	Disease Analysis,Autoimmune encephalitis (AE)
+3,15.	Classification or Diagnosis,Antibody-positive AE based on clinical symptoms and laboratory tests
+3,16.	Diagnosis Criteria Details,Graus criteria (2016)
+3,17.	Disease Phase,Acute or subacute
+3,18.	Cohort Age Group,"Mixed (pediatric, adult)"
+3,19.	Female Percentage in Cohort,51%
+3,21.	Follow-up Period,NR
+4,1.	Article Title,Heterogeneous treatment for anti-NMDAR encephalitis in children leads to different outcomes 6–12 months after diagnosis
+4,2.	Publication Year,2018
+4,3.	Region,Asia
+4,4.	Country,Thailand
+4,5.	Study Coverage Area,"Single hospital study (Queen Sirikit National Institute of Child Health, Bangkok)"
+4,6.	Study Design,Observational cohort study (Retrospective & Prospective)
+4,7.	Population Cohort,Children diagnosed with anti-NMDAR encephalitis (aged 1 month - 18 years)
+4,8.	Population Characteristics,"Pediatric cohort (median age: 7 years, 58% female)"
+4,9.	Data Source,Hospital medical records
+4,10.	Prospective or Retrospective,"Mixed (Retrospective for patients diagnosed before 2016, Prospective after 2016)"
+4,11.	Sites or Centers Involved,"Single center (Queen Sirikit National Institute of Child Health, Bangkok)"
+4,12.	Study Duration,January 2011 – June 2017
+4,13.	Population Ethnicity,NR
+4,14.	Disease Analysis,Anti-NMDAR encephalitis
+4,15.	Classification or Diagnosis,Diagnosis confirmed by presence of anti-NMDAR antibodies in CSF and/or serum
+4,16.	Diagnosis Criteria Details,NR
+4,17.	Disease Phase,Acute or subacute
+4,18.	Cohort Age Group,Pediatric (ages 1 month - 18 years)
+4,19.	Female Percentage in Cohort,58%
+4,21.	Follow-up Period,"Median 30 months (IQR 19, 42)"
+5,1.	Article Title,Development and Validation of a Risk Score for Predicting ICU Admission in Adults with New-Onset Encephalitis
+5,2.	Publication Year,2024
+5,3.	Region,North America
+5,4.	Country,United States
+5,5.	Study Coverage Area,"Multi-center study (Houston, Texas & Baltimore, Maryland)"
+5,6.	Study Design,Retrospective cohort study with external validation
+5,7.	Population Cohort,Adults diagnosed with encephalitis (ICD-9 criteria)
+5,8.	Population Characteristics,"Median age 49 years, mixed gender, with autoimmune and infectious encephalitis cases"
+5,9.	Data Source,Hospital discharge records and medical records from two health systems
+5,10.	Prospective or Retrospective,Retrospective
+5,11.	Sites or Centers Involved,"Four centers (two in Texas, two in Maryland)"
+5,12.	Study Duration,"2005–2023 (Texas), 2006–2022 (Maryland)"
+5,13.	Population Ethnicity,"Majority White (46.3%), African American (25.3%), Hispanic (15.3%)"
+5,14.	Disease Analysis,"Encephalitis (autoimmune, infectious, unknown etiologies)"
+5,15.	Classification or Diagnosis,ICD-9 coded encephalitis with IEC criteria
+5,16.	Diagnosis Criteria Details,IEC 2013 criteria
+5,17.	Disease Phase,NR
+5,18.	Cohort Age Group,Adult (18+ years)
+5,19.	Female Percentage in Cohort,49.7%
+5,21.	Follow-up Period,NR
+6,1.	Article Title,Autoimmune encephalitis in a resource-limited public health setting: a case series analysis
+6,2.	Publication Year,2024
+6,3.	Region,South America
+6,4.	Country,Brazil
+6,5.	Study Coverage Area,"Single center (Hospital de Clínicas de Porto Alegre, Brazil)"
+6,6.	Study Design,Retrospective case series analysis
+6,7.	Population Cohort,Patients diagnosed with autoimmune encephalitis (AE)
+6,8.	Population Characteristics,"Median age 36.2 years, 88% Caucasian, mixed gender"
+6,9.	Data Source,Hospital medical records
+6,10.	Prospective or Retrospective,Retrospective
+6,11.	Sites or Centers Involved,Single center (Hospital de Clínicas de Porto Alegre)
+6,12.	Study Duration,2014–2022
+6,13.	Population Ethnicity,88% Caucasian
+6,14.	Disease Analysis,Autoimmune encephalitis (AE)
+6,15.	Classification or Diagnosis,Graus criteria (2016)
+6,16.	Diagnosis Criteria Details,Graus criteria (2016)
+6,17.	Disease Phase,NR
+6,18.	Cohort Age Group,Adult (mean 36.2 years)
+6,19.	Female Percentage in Cohort,50%
+6,21.	Follow-up Period,Mean 23 months (range: 2–72 months)
+7,1.	Article Title,Neuropsychological outcomes in children and adolescents following anti-NMDA receptor encephalitis
+7,2.	Publication Year,2022
+7,3.	Region,North America
+7,4.	Country,United States
+7,5.	Study Coverage Area,"Multi-center study (Dallas, Texas & Atlanta, Georgia)"
+7,6.	Study Design,Retrospective chart review
+7,7.	Population Cohort,Pediatric patients diagnosed with anti-NMDAR encephalitis
+7,8.	Population Characteristics,"Median age at diagnosis 8.8 years, 65.2% female"
+7,9.	Data Source,Hospital neuropsychological records
+7,10.	Prospective or Retrospective,Retrospective
+7,11.	Sites or Centers Involved,Two centers (Dallas & Atlanta)
+7,12.	Study Duration,2013–2018
+7,13.	Population Ethnicity,"47.8% Latinx, 39.1% Black, 8.7% White, 4.3% Asian"
+7,14.	Disease Analysis,Anti-NMDAR encephalitis
+7,15.	Classification or Diagnosis,Diagnosis confirmed by presence of NMDAR antibodies in serum and/or CSF
+7,16.	Diagnosis Criteria Details,NR
+7,17.	Disease Phase,NR
+7,18.	Cohort Age Group,Pediatric (ages 0-18 years)
+7,19.	Female Percentage in Cohort,65.2%
+7,21.	Follow-up Period,Mean 18.5 months (range: 9–32 months)
+8,1.	Article Title,Clinical characteristics and prognosis analysis of acute symptomatic seizures secondary to autoimmune encephalitis
+8,2.	Publication Year,2024
+8,3.	Region,Asia
+8,4.	Country,China
+8,5.	Study Coverage Area,"Single hospital study (General Hospital of Ningxia Medical University, Yinchuan)"
+8,6.	Study Design,Retrospective cohort study
+8,7.	Population Cohort,Patients with autoimmune encephalitis (AE)
+8,8.	Population Characteristics,"Median age 46 years, 58.33% male"
+8,9.	Data Source,Hospital medical records
+8,10.	Prospective or Retrospective,Retrospective
+8,11.	Sites or Centers Involved,Single center (General Hospital of Ningxia Medical University)
+8,12.	Study Duration,January 2015 – January 2023
+8,13.	Population Ethnicity,NR
+8,14.	Disease Analysis,Autoimmune encephalitis (AE) and seizure outcomes
+8,15.	Classification or Diagnosis,Graus criteria (2016) and Chinese expert consensus (2022)
+8,16.	Diagnosis Criteria Details,Graus criteria (2016) and Chinese expert consensus (2022)
+8,17.	Disease Phase,Acute or subacute
+8,18.	Cohort Age Group,Adult (median 46 years)
+8,19.	Female Percentage in Cohort,41.67%
+8,21.	Follow-up Period,2 years
+9,1.	Article Title,Higher incidence of acute symptomatic seizures in probable antibody-negative pediatric autoimmune encephalitis than in major antibody-positive autoimmune encephalitis
+9,2.	Publication Year,2024
+9,3.	Region,Asia
+9,4.	Country,Japan
+9,5.	Study Coverage Area,"Single-center study (Osaka City General Hospital, Japan)"
+9,6.	Study Design,Retrospective cohort study
+9,7.	Population Cohort,Pediatric patients diagnosed with autoimmune encephalitis (AE)
+9,8.	Population Characteristics,"Median age 8.1 years, 67% male"
+9,9.	Data Source,Hospital medical records
+9,10.	Prospective or Retrospective,Retrospective
+9,11.	Sites or Centers Involved,Single center (Osaka City General Hospital)
+9,12.	Study Duration,January 2015 – March 2023
+9,13.	Population Ethnicity,NR
+9,14.	Disease Analysis,Autoimmune encephalitis (AE) and seizure outcomes
+9,15.	Classification or Diagnosis,Autoimmune Encephalitis International Working Group criteria
+9,16.	Diagnosis Criteria Details,"Probable antibody-negative AE classification based on clinical features, neuroinflammation markers, and absence of autoantibodies"
+9,17.	Disease Phase,Acute or subacute
+9,18.	Cohort Age Group,Pediatric (median 8.1 years)
+9,19.	Female Percentage in Cohort,33%
+9,21.	Follow-up Period,Median 5.0 years (IQR 3.5-6.7)
+10,1.	Article Title,"Pediatric anti-N-methyl-D-aspartate receptor (NMDAR) encephalitis: Exploring psychosis, related risk factors, and hospital outcomes in a nationwide inpatient sample: A cross-sectional study"
+10,2.	Publication Year,2024
+10,3.	Region,North America
+10,4.	Country,United States
+10,5.	Study Coverage Area,Nationwide inpatient sample (U.S.)
+10,6.	Study Design,Cross-sectional study
+10,7.	Population Cohort,Pediatric inpatients diagnosed with anti-NMDAR encephalitis (ages 6–17 years)
+10,8.	Population Characteristics,"Mean age 11.1 years, 54.2% male, 50.7% White"
+10,9.	Data Source,Nationwide Inpatient Sample (NIS) database
+10,10.	Prospective or Retrospective,Retrospective
+10,11.	Sites or Centers Involved,Nationwide (U.S. hospitals in the NIS database)
+10,12.	Study Duration,2018–2019
+10,13.	Population Ethnicity,"50.7% White, 13.6% Black, 23.3% Hispanic, 12.4% Other"
+10,14.	Disease Analysis,Anti-NMDAR encephalitis and psychosis outcomes
+10,15.	Classification or Diagnosis,ICD-10 diagnostic codes G04.0x to G04.9x
+10,16.	Diagnosis Criteria Details,NR
+10,17.	Disease Phase,Acute
+10,18.	Cohort Age Group,Pediatric (ages 6–17 years)
+10,19.	Female Percentage in Cohort,45.8%
+10,21.	Follow-up Period,NR
+11,1.	Article Title,"Acute pediatric encephalitis: etiology, course, and outcome of a 12-year single-center immunocompetent cohort"
+11,2.	Publication Year,2023
+11,3.	Region,Europe
+11,4.	Country,Italy
+11,5.	Study Coverage Area,"Single-center study (Genoa, Italy)"
+11,6.	Study Design,Retrospective cohort study
+11,7.	Population Cohort,Pediatric patients diagnosed with autoimmune encephalitis (AE)
+11,8.	Population Characteristics,"Mean age 4.4 years, 54% male"
+11,9.	Data Source,Hospital medical records
+11,10.	Prospective or Retrospective,Retrospective
+11,11.	Sites or Centers Involved,Single center (IRCCS Istituto Giannina Gaslini)
+11,12.	Study Duration,January 2008 – June 2021
+11,13.	Population Ethnicity,NR
+11,14.	Disease Analysis,Autoimmune encephalitis (AE) and infectious encephalitis
+11,15.	Classification or Diagnosis,Pediatric Autoimmune Encephalitis Criteria
+11,16.	Diagnosis Criteria Details,"Pediatric AE classification including definite, probable, and possible AE categories"
+11,17.	Disease Phase,Acute or subacute
+11,18.	Cohort Age Group,Pediatric (mean age 4.4 years)
+11,19.	Female Percentage in Cohort,46%
+11,21.	Follow-up Period,Median 34.5 months
+12,1.	Article Title,Phenotyping the late- and younger-onset neuronal surface antibody-mediated autoimmune encephalitis: a multicenter study
+12,2.	Publication Year,2023
+12,3.	Region,Asia
+12,4.	Country,China
+12,5.	Study Coverage Area,"Multi-center study (three hospitals in Zhejiang province, China)"
+12,6.	Study Design,Retrospective cohort study
+12,7.	Population Cohort,Patients with neuronal surface antibody-mediated autoimmune encephalitis (NSAE)
+12,8.	Population Characteristics,"Median age 40.5 years, 61.9% male"
+12,9.	Data Source,Hospital medical records
+12,10.	Prospective or Retrospective,Retrospective
+12,11.	Sites or Centers Involved,"Three centers in Zhejiang, China"
+12,12.	Study Duration,July 2014 – August 2020
+12,13.	Population Ethnicity,NR
+12,14.	Disease Analysis,Autoimmune encephalitis (AE) subtypes and age-related differences
+12,15.	Classification or Diagnosis,2016 Lancet Neurology criteria for autoimmune encephalitis
+12,16.	Diagnosis Criteria Details,NSAE diagnosis based on antibody presence and clinical criteria
+12,17.	Disease Phase,Acute or subacute
+12,18.	Cohort Age Group,Mixed (young-onset < 45 years; late-onset ≥ 45 years)
+12,19.	Female Percentage in Cohort,38.1%
+12,21.	Follow-up Period,Median 62.5 months
+13,1.	Article Title,Autoimmune encephalitis: A costly condition
+13,2.	Publication Year,2019
+13,3.	Region,North America
+13,4.	Country,United States
+13,5.	Study Coverage Area,"Single institution study (Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center, Baltimore, MD)"
+13,6.	Study Design,Retrospective cohort study
+13,7.	Population Cohort,Adult inpatients diagnosed with autoimmune encephalitis (AE)
+13,8.	Population Characteristics,"Median age 50 years, 49% antibody-positive, 52% female"
+13,9.	Data Source,Hospital billing and electronic medical records
+13,10.	Prospective or Retrospective,Retrospective
+13,11.	Sites or Centers Involved,Two centers (Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center)
+13,12.	Study Duration,July 2005 – June 2015
+13,13.	Population Ethnicity,NR
+13,14.	Disease Analysis,Autoimmune encephalitis (AE) and its financial burden
+13,15.	Classification or Diagnosis,2016 Graus Criteria for autoimmune encephalitis
+13,16.	Diagnosis Criteria Details,Antibody-positive AE was confirmed through CSF or serum antibody testing
+13,17.	Disease Phase,Acute
+13,18.	Cohort Age Group,Adult (median age 50 years)
+13,19.	Female Percentage in Cohort,52%
+13,21.	Follow-up Period,NR
+14,1.	Article Title,Long-term effects of anti-N-methyl-D-aspartate receptor encephalitis on quality of life
+14,2.	Publication Year,2023
+14,3.	Region,Asia
+14,4.	Country,Japan
+14,5.	Study Coverage Area,Nationwide patient association cohort (Japan)
+14,6.	Study Design,Cross-sectional survey-based study
+14,7.	Population Cohort,Adults diagnosed with anti-NMDAR encephalitis (NMDARE)
+14,8.	Population Characteristics,"Median age 28 years, 86% female"
+14,9.	Data Source,Patient-reported questionnaires
+14,10.	Prospective or Retrospective,Cross-sectional (survey-based)
+14,11.	Sites or Centers Involved,National survey (Japan)
+14,12.	Study Duration,Survey conducted in July 2022
+14,13.	Population Ethnicity,NR
+14,14.	Disease Analysis,Long-term outcomes and quality of life in anti-NMDAR encephalitis (NMDARE)
+14,15.	Classification or Diagnosis,Diagnosis confirmed via cell-based assays (NR1/NR2–transfected HEK293 cells)
+14,16.	Diagnosis Criteria Details,NR
+14,17.	Disease Phase,Chronic (long-term follow-up)
+14,18.	Cohort Age Group,Adult (median age 28 years)
+14,19.	Female Percentage in Cohort,86%
+14,21.	Follow-up Period,Median 78 months (range 26–162 months)

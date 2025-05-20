@@ -1,0 +1,91 @@
+	1.	Article Title: Autoimmune encephalitis in a resource-limited public health setting: a case series analysis
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Autoimmune encephalitis in a resource-limited public health setting: a case series analysis”
+	2.	Publication Year: 2024
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “Arq. Neuropsiquiatr. 2024;82(2):s00441779054.”
+	3.	Region: South America
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Hospital de Clínicas de Porto Alegre, Serviço de Neurologia, Porto Alegre RS, Brazil.”
+	4.	Country: Brazil
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Hospital de Clínicas de Porto Alegre, Serviço de Neurologia, Porto Alegre RS, Brazil.”
+	5.	Study Coverage Area: Single center (Hospital de Clínicas de Porto Alegre, Brazil)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively reviewed the electronic medical records of patients diagnosed with AE at the Hospital de Clínicas de Porto Alegre from 2014 to 2022.”
+	6.	Study Design: Retrospective case series analysis
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively reviewed the electronic medical records of patients diagnosed with AE at the Hospital de Clínicas de Porto Alegre from 2014 to 2022.”
+	7.	Population Cohort: Patients diagnosed with autoimmune encephalitis (AE)
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Patients diagnosed with AE at the Hospital de Clínicas de Porto Alegre from 2014 to 2022.”
+	8.	Population Characteristics: Median age 36.2 years, 88% Caucasian, mixed gender
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Our sample comprises 17 patients, with a high proportion of Caucasians (88%) and a similar distribution between genders.”
+	9.	Data Source: Hospital medical records
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively reviewed the electronic medical records of patients diagnosed with AE.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “We retrospectively reviewed the electronic medical records of patients diagnosed with AE.”
+	11.	Sites or Centers Involved: Single center (Hospital de Clínicas de Porto Alegre)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Hospital de Clínicas de Porto Alegre, a public tertiary hospital in Brazil.”
+	12.	Study Duration: 2014–2022
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively reviewed the electronic medical records of patients diagnosed with AE at the Hospital de Clínicas de Porto Alegre from 2014 to 2022.”
+	13.	Population Ethnicity: 88% Caucasian
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Our sample comprises 17 patients, with a high proportion of Caucasians (88%).”
+	14.	Disease Analysis: Autoimmune encephalitis (AE)
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Autoimmune encephalitis (AE) consists of a group of acquired diseases that affect the central nervous system.”
+	15.	Classification or Diagnosis: Graus criteria (2016)
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “We selected patients with a diagnosis of possible, probable, or definite AE from 2014 to 2022, according to Graus et al.’s criteria.”
+	16.	Diagnosis Criteria Details: Graus criteria (2016)
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “We selected patients with a diagnosis of possible, probable, or definite AE from 2014 to 2022, according to Graus et al.’s criteria.”
+	17.	Disease Phase: NR
+	18.	Cohort Age Group: Adult (mean 36.2 years)
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The mean age was 36.2 [±19.8] years.”
+	19.	Female Percentage in Cohort: 50%
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Our sample comprises 17 patients, with a similar distribution between genders.”
+	20.	Patient Number of Autoimmune Encephalitis: 17 patients
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Our sample comprises 17 patients.”
+	•	Subtypes and Patient Numbers:
+	•	Definite AE: 11 patients
+	•	Possible AE: 6 patients
+	21.	Follow-up Period: Mean 23 months (range: 2–72 months)
+	•	Line(s): 210-215
+	•	Section: Results
+	•	Quote(s): “Follow-up period of hospital survivors ranged from 2 to 72 months, with a mean value of 23 [±21.08] months.”
+	22.	Age of Patients by Subtype:
+	•	Definite AE:
+	•	Mean: 36.2 years
+	•	SD: ±19.8 years
+	•	Median: NR
+	•	IQR: NR
+	23.	Age of Diagnosis by Subtype: NR

@@ -1,0 +1,89 @@
+	1.	Article Title: Autoimmune encephalitis: A costly condition
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Autoimmune encephalitis: A costly condition”
+	2.	Publication Year: 2019
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “Neurology® 2019;92:1-9. doi:10.1212/WNL.0000000000006990”
+	3.	Region: North America
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Johns Hopkins Encephalitis Center, Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA”
+	4.	Country: United States
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Johns Hopkins Encephalitis Center, Department of Neurology, Johns Hopkins University School of Medicine, Baltimore, MD, USA”
+	5.	Study Coverage Area: Single institution study (Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center, Baltimore, MD)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Patients were identified from neurology billing databases at Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center in Baltimore, MD.”
+	6.	Study Design: Retrospective cohort study
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Adult inpatients with AE were identified retrospectively from July 1, 2005, to June 30, 2015.”
+	7.	Population Cohort: Adult inpatients diagnosed with autoimmune encephalitis (AE)
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Adult inpatients with AE were identified retrospectively.”
+	8.	Population Characteristics: Median age 50 years, 49% antibody-positive, 52% female
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Median admission age was 50 years (range 18–80), with slightly more than half being women. 49% of patients were antibody-positive.”
+	9.	Data Source: Hospital billing and electronic medical records
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Patients were identified from neurology billing databases and electronic medical records.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “Adult inpatients with AE were identified retrospectively.”
+	11.	Sites or Centers Involved: Two centers (Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Patients were identified from neurology billing databases at Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center in Baltimore, MD.”
+	12.	Study Duration: July 2005 – June 2015
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Patients were identified retrospectively from July 1, 2005, to June 30, 2015.”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Autoimmune encephalitis (AE) and its financial burden
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “To assess the inpatient hospitalization burden and costs of patients with AE at a tertiary care institution.”
+	15.	Classification or Diagnosis: 2016 Graus Criteria for autoimmune encephalitis
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “We included cases that satisfied criteria for probable (antibody-negative) or definite (antibody-positive) AE according to the 2016 consensus statement.”
+	16.	Diagnosis Criteria Details: Antibody-positive AE was confirmed through CSF or serum antibody testing
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “31 patients were antibody-positive, diagnosed through CSF or serum testing.”
+	17.	Disease Phase: Acute
+	•	Line(s): 92-94
+	•	Section: Results
+	•	Quote(s): “Patients presented with acute neurological symptoms, with 43% requiring ICU admission.”
+	18.	Cohort Age Group: Adult (median age 50 years)
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Median admission age was 50 years (range 18–80).”
+	19.	Female Percentage in Cohort: 52%
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Slightly more than half were women.”
+	20.	Patient Number of Autoimmune Encephalitis: 63 patients
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “63 patients met the criteria for probable or definite AE.”
+	•	Subtypes and Patient Numbers:
+	•	Antibody-positive AE: 31 patients
+	•	Antibody-negative AE: 32 patients
+	21.	Follow-up Period: NR
+	22.	Age of Patients by Subtype:
+	•	Antibody-positive AE:
+	•	Median: 47 years
+	•	IQR: NR
+	•	Antibody-negative AE:
+	•	Median: 44 years
+	•	IQR: NR
+	23.	Age of Diagnosis by Subtype: NR

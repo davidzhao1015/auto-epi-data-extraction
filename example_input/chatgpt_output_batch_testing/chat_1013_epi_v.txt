@@ -1,0 +1,87 @@
+	1.	Article Title: Heterogeneous treatment for anti-NMDAR encephalitis in children leads to different outcomes 6–12 months after diagnosis
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Heterogeneous treatment for anti-NMDAR encephalitis in children leads to different outcomes 6–12 months after diagnosis”
+	2.	Publication Year: 2018
+	•	Line(s): 15-16
+	•	Section: Journal Citation
+	•	Quote(s): “Journal of Neuroimmunology 324 (2018) 119–125”
+	3.	Region: Asia
+	•	Line(s): 5-6
+	•	Section: Author Affiliations
+	•	Quote(s): “Queen Sirikit National Institute of Child Health, Ministry of Public Health, College of Medicine, Rangsit University, Bangkok, Thailand”
+	4.	Country: Thailand
+	•	Line(s): 5-6
+	•	Section: Author Affiliations
+	•	Quote(s): “Queen Sirikit National Institute of Child Health, Ministry of Public Health, College of Medicine, Rangsit University, Bangkok, Thailand”
+	5.	Study Coverage Area: Single hospital study (Queen Sirikit National Institute of Child Health, Bangkok)
+	•	Line(s): 25-26
+	•	Section: Methods
+	•	Quote(s): “This observational cohort study was conducted at Queen Sirikit National Institute of Child Health, the largest government children’s hospital in Thailand.”
+	6.	Study Design: Observational cohort study (Retrospective & Prospective)
+	•	Line(s): 25-28
+	•	Section: Methods
+	•	Quote(s): “This cohort was divided into two periods: children diagnosed before January 1, 2016, were retrospectively studied, and those diagnosed after January 1, 2016, were prospectively evaluated.”
+	7.	Population Cohort: Children diagnosed with anti-NMDAR encephalitis (aged 1 month - 18 years)
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Children aged 1 month - 18 years diagnosed with anti-NMDAR encephalitis by the presence of NMDAR antibodies in serum and/or CSF between January 1, 2011, and June 30, 2017.”
+	8.	Population Characteristics: Pediatric cohort (median age: 7 years, 58% female)
+	•	Line(s): 93-95
+	•	Section: Results
+	•	Quote(s): “Nineteen children were diagnosed with anti-NMDAR encephalitis over the 6.5-year period. The median age of the patients was 7 years 4 months (IQR 5.0, 11.1). Eleven patients (58%) were female.”
+	9.	Data Source: Hospital medical records
+	•	Line(s): 28-30
+	•	Section: Methods
+	•	Quote(s): “Demographic, clinical features, treatment, and clinical outcomes were collected from the medical record.”
+	10.	Prospective or Retrospective: Mixed (Retrospective for patients diagnosed before 2016, Prospective after 2016)
+	•	Line(s): 25-28
+	•	Section: Methods
+	•	Quote(s): “This cohort was divided into two periods: children diagnosed before January 1, 2016, were retrospectively studied, and those diagnosed after January 1, 2016, were prospectively evaluated.”
+	11.	Sites or Centers Involved: Single center (Queen Sirikit National Institute of Child Health, Bangkok)
+	•	Line(s): 25-26
+	•	Section: Methods
+	•	Quote(s): “This observational cohort study was conducted at Queen Sirikit National Institute of Child Health, the largest government children’s hospital in Thailand.”
+	12.	Study Duration: January 2011 – June 2017
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Children aged 1 month - 18 years diagnosed with anti-NMDAR encephalitis by the presence of NMDAR antibodies in serum and/or CSF between January 1, 2011, and June 30, 2017.”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Anti-NMDAR encephalitis
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Children aged 1 month - 18 years diagnosed with anti-NMDAR encephalitis by the presence of NMDAR antibodies in serum and/or CSF.”
+	15.	Classification or Diagnosis: Diagnosis confirmed by presence of anti-NMDAR antibodies in CSF and/or serum
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Children aged 1 month - 18 years diagnosed with anti-NMDAR encephalitis by presence of NMDAR antibodies in serum and/or CSF.”
+	16.	Diagnosis Criteria Details: NR
+	17.	Disease Phase: Acute or subacute
+	•	Line(s): 92-94
+	•	Section: Results
+	•	Quote(s): “Seizures were the most common initial presenting symptom (53%), followed by psychiatric symptoms (42%).”
+	18.	Cohort Age Group: Pediatric (ages 1 month - 18 years)
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Children aged 1 month - 18 years diagnosed with anti-NMDAR encephalitis.”
+	19.	Female Percentage in Cohort: 58%
+	•	Line(s): 93-95
+	•	Section: Results
+	•	Quote(s): “Eleven patients (58%) were female.”
+	20.	Patient Number of Autoimmune Encephalitis: 19 patients
+	•	Line(s): 93-95
+	•	Section: Results
+	•	Quote(s): “Nineteen children were diagnosed with anti-NMDAR encephalitis over the 6.5-year period.”
+	•	Subtypes and Patient Numbers:
+	•	Anti-NMDAR: 19 patients
+	21.	Follow-up Period: Median 30 months (IQR 19, 42)
+	•	Line(s): 213-215
+	•	Section: Results
+	•	Quote(s): “The median duration of follow-up was 30 months (IQR 19, 42).”
+	22.	Age of Patients by Subtype:
+	•	Anti-NMDAR:
+	•	Mean: NR
+	•	SD: NR
+	•	Median: 7 years 4 months
+	•	IQR: 5.0 - 11.1
+	23.	Age of Diagnosis by Subtype: NR

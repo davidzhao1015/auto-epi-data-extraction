@@ -1,0 +1,90 @@
+	1.	Article Title: Phenotyping the late- and younger-onset neuronal surface antibody-mediated autoimmune encephalitis: a multicenter study
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Phenotyping the late- and younger-onset neuronal surface antibody-mediated autoimmune encephalitis: a multicenter study”
+	2.	Publication Year: 2023
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “Clinical and Experimental Immunology, 2023, 211, 78–83”
+	3.	Region: Asia
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, China”
+	4.	Country: China
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, China”
+	5.	Study Coverage Area: Multi-center study (three hospitals in Zhejiang province, China)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively enrolled 134 patients from three tertiary hospitals (Second Affiliated Hospital, Zhejiang Hospital, and Zhejiang Chinese Medicine and Western Medicine Integrated Hospital) in Zhejiang province.”
+	6.	Study Design: Retrospective cohort study
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “This study retrospectively enrolled patients diagnosed with neuronal surface antibody-mediated autoimmune encephalitis (NSAE) between July 2014 and August 2020.”
+	7.	Population Cohort: Patients with neuronal surface antibody-mediated autoimmune encephalitis (NSAE)
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “A total of 134 patients with a definite diagnosis of NSAE were retrospectively enrolled.”
+	8.	Population Characteristics: Median age 40.5 years, 61.9% male
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age of onset was 40.5 years (IQR 25.0–57.0), with 61.9% males.”
+	9.	Data Source: Hospital medical records
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Clinical data were collected from 134 patients diagnosed with NSAE at three hospitals in Zhejiang province.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “This was a retrospective cohort study.”
+	11.	Sites or Centers Involved: Three centers in Zhejiang, China
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively enrolled 134 patients from three tertiary hospitals in Zhejiang province.”
+	12.	Study Duration: July 2014 – August 2020
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively enrolled 134 patients from three tertiary hospitals between July 2014 and August 2020.”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Autoimmune encephalitis (AE) subtypes and age-related differences
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “Our study explored the demographic, clinical, therapeutic, and prognostic characteristics of NSAE between those with an onset less than and over 45 years old.”
+	15.	Classification or Diagnosis: 2016 Lancet Neurology criteria for autoimmune encephalitis
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “The inclusion criteria included a definite NSAE diagnosis according to the 2016 Lancet Neurology criteria.”
+	16.	Diagnosis Criteria Details: NSAE diagnosis based on antibody presence and clinical criteria
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “Patients were diagnosed based on the 2016 Lancet Neurology criteria, requiring confirmed neuronal surface antibodies and characteristic clinical presentation.”
+	17.	Disease Phase: Acute or subacute
+	•	Line(s): 92-94
+	•	Section: Results
+	•	Quote(s): “Patients presented with acute or subacute symptoms, including psychiatric symptoms and seizures.”
+	18.	Cohort Age Group: Mixed (young-onset < 45 years; late-onset ≥ 45 years)
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “Patients were classified into late- (≥45 years) and younger-onset (<45 years) groups.”
+	19.	Female Percentage in Cohort: 38.1%
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age of onset was 40.5 years (IQR 25.0–57.0), with 61.9% males and 38.1% females.”
+	20.	Patient Number of Autoimmune Encephalitis: 134 patients
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “A total of 134 NSAE patients were included.”
+	•	Subtypes and Patient Numbers:
+	•	Anti-NMDAR: 81 patients
+	•	Anti-LGI1: 29 patients
+	•	Anti-GABABR: 17 patients
+	•	Anti-CASPR2: 4 patients
+	•	Anti-DPPX: 2 patients
+	•	Anti-AMPAR: 1 patient
+	21.	Follow-up Period: Median 62.5 months
+	•	Line(s): 213-215
+	•	Section: Results
+	•	Quote(s): “The median follow-up duration was 62.5 months (IQR 45.1–86.7).”
+	22.	Age of Patients by Subtype:NR
+	23.	Age of Diagnosis by Subtype: NR

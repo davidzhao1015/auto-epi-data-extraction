@@ -1,0 +1,92 @@
+	1.	Article Title: Acute pediatric encephalitis: etiology, course, and outcome of a 12-year single-center immunocompetent cohort
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Acute pediatric encephalitis: etiology, course, and outcome of a 12-year single-center immunocompetent cohort”
+	2.	Publication Year: 2023
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “Journal of Neurology (2023) 270:5034–5047”
+	3.	Region: Europe
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “IRCCS Istituto Giannina Gaslini, Genoa, Italy”
+	4.	Country: Italy
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “IRCCS Istituto Giannina Gaslini, Genoa, Italy”
+	5.	Study Coverage Area: Single-center study (Genoa, Italy)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively evaluated all pediatric patients with a diagnosis of acute encephalitis managed at a tertiary pediatric hospital over the past 12 years.”
+	6.	Study Design: Retrospective cohort study
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “We retrospectively reviewed clinical, laboratory, neuroradiological, and EEG data from the acute phase and outcome of all immunocompetent patients diagnosed with acute encephalitis.”
+	7.	Population Cohort: Pediatric patients diagnosed with autoimmune encephalitis (AE)
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Forty-eight patients (26 females, mean age 4.4 years), 19 with infections, and 29 with autoimmune encephalitis, were included.”
+	8.	Population Characteristics: Mean age 4.4 years, 54% male
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The mean age at onset was 4.4 years (IQR 2.2–8), with males accounting for 54% of cases.”
+	9.	Data Source: Hospital medical records
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “We retrospectively reviewed clinical, laboratory, neuroradiological, and EEG data.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “This was a retrospective cohort study.”
+	11.	Sites or Centers Involved: Single center (IRCCS Istituto Giannina Gaslini)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “IRCCS Istituto Giannina Gaslini, Genoa, Italy.”
+	12.	Study Duration: January 2008 – June 2021
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Clinical records of all subjects < 18 years admitted at IGG with a diagnosis of acute encephalitis in the period January 1st 2008–June 31st 2021 were retrospectively reviewed.”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Autoimmune encephalitis (AE) and infectious encephalitis
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “We compared their clinical data at onset and follow-up according to the newly proposed classification criteria for pediatric autoimmune encephalitis.”
+	15.	Classification or Diagnosis: Pediatric Autoimmune Encephalitis Criteria
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “We classified patients into infectious, definite autoimmune, probable autoimmune, and possible autoimmune encephalitis based on pediatric autoimmune encephalitis criteria.”
+	16.	Diagnosis Criteria Details: Pediatric AE classification including definite, probable, and possible AE categories
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “The classification criteria included definite AE (with confirmed antibodies), probable AE (with supporting clinical and imaging findings), and possible AE (with suggestive but incomplete diagnostic data).”
+	17.	Disease Phase: Acute or subacute
+	•	Line(s): 92-94
+	•	Section: Results
+	•	Quote(s): “Patients presented with acute or subacute onset symptoms.”
+	18.	Cohort Age Group: Pediatric (mean age 4.4 years)
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The mean age at onset was 4.4 years (IQR 2.2–8).”
+	19.	Female Percentage in Cohort: 46%
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “26 females, 22 males.”
+	20.	Patient Number of Autoimmune Encephalitis: 29 patients
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “A total of 48 patients were evaluated, with 29 categorized as autoimmune encephalitis.”
+	•	Subtypes and Patient Numbers:
+	•	Definite AE: 10 patients
+	•	Probable AE: 13 patients
+	•	Possible AE: 6 patients
+	•	Anti-NMDAR AE: 6 patients
+	•	Limbic encephalitis: 4 patients
+	21.	Follow-up Period: Median 34.5 months
+	•	Line(s): 213-215
+	•	Section: Results
+	•	Quote(s): “The median follow-up was 34.5 months (IQR 5–52.5).”
+	22.	Age of Patients by Subtype:
+	•	Definite AE:
+	•	Mean: 4.3 years
+	•	IQR: NR
+	23.	Age of Diagnosis by Subtype: NR

@@ -7,9 +7,14 @@ import pandas as pd
 import numpy as np
 import os
 
+import logging
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 import sys
 sys.path.append('/Users/xinzhao/ISMS_Work/Project_AIE/Working/python_codes/Epi_Toolbox_Py')  # Change the path to the folder containing the Epi_Toolbox_Py module
+
 import importlib
 import std_epi_parameters as std_epi # Import the standardization functions from the Epi_Toolbox_Py module
 importlib.reload(std_epi) # Reload the module to ensure the latest version is used
@@ -36,26 +41,52 @@ importlib.reload(std_epi) # Reload the module to ensure the latest version is us
 #----------------------------------------------------------------
 
 # Change the working directory to the folder containing the txt files 
-os.chdir('/Users/xinzhao/ISMS_Work/Project_AIE/Working/chatgpt_outputs/chatgpt_output_epi/batch_testing')  # <-- Change the directory to the folder containing the txt files
+# os.chdir('/Users/xinzhao/ISMS_Work/Project_AIE/Working/chatgpt_outputs/chatgpt_output_epi/batch_testing')  # <-- Change the directory to the folder containing the txt files
 
-# List all files in the directory
-file_list_epi = [] 
-for file in os.listdir():
-    if file.endswith("epi_v.txt"): # <-- Change the file extension to the one you are working with
-        file_list_epi.append(file)
-    else:
-        print(f"File {file} is not a txt file.") 
+from pathlib import Path
 
-# Sort the file list
-file_list_epi.sort() 
-print(file_list_epi)
+def get_file_list(directory, file_extension):
+    """
+    List all files in the directory with the specified file extension.
+    
+    Args:
+        dict: The absolute path to a dictionary of files with the specified extension.
+        file_extension (str): The file extension to filter by.
+        
+    Returns:
+        dict: A dictionary of files with the specified extension.
+    """
 
-print(len(file_list_epi)) # Check the number of files in the list
+    directory = Path(directory)
+    if not directory.is_dir():
+        logging.error(f"The specified path {directory} is not a directory.")
+        return {}
+    if not directory.exists():
+        logging.error(f"The specified path {directory} does not exist.")
+        return {}
+    
+    # Get the list of files in the directory with the specified extension
+    file_list = [file for file in directory.glob(f"*.{file_extension}") if file.is_file()]
+    
+    file_list.sort()
+    print(f"Sorted file list: {file_list}")
+    logging.info(f"Number of files with {file_extension} extension: {len(file_list)}")
 
-# Convert the list to a dictionary 
-file_dict_epi = {i:file_list_epi[i] for i in range(0, len(file_list_epi))}
-print(file_dict_epi)
+    # Check if the file list is empty
+    if not file_list:
+        logging.warning("No files found with the specified extension.")
+        return {}
 
+    # Convert the list to a dictionary 
+    file_dict_epi = {i:file_list[i] for i in range(0, len(file_list))} 
+    logging.info(f"The resulting dictionary contains {len(file_dict_epi)} files.")
+    
+    return file_dict_epi
+
+#--------------------------------------------------
+
+
+# Extract Ref IDs from txt file names ...
 # file_dict_epi_df = pd.DataFrame(list(file_dict_epi.items()), columns = ['File', 'Ref']) 
 # file_dict_epi_df['Ref'] = file_dict_epi_df['Ref'].str.split("_").str[0]
 # file_dict_epi_df.to_csv("file_dict_epi.csv", index=False)
@@ -175,7 +206,7 @@ chat_df.to_csv("chat_df_epi.csv", index=False)
 
 #---------------------------------------------------------------
 
-# Drop subtype-specific parameters for separate processing
+# Drop subtype-specific parameters for separate processing *
 
 #---------------------------------------------------------------
 # Drop rows with "22.    Age of Patients by Subtype"
@@ -194,7 +225,7 @@ chat_df_dropped2.to_csv("chat_df_epi_2.csv", index=False)
 
 #---------------------------------------------------------------
 
-# Clean and standardize parameter names
+# Clean parameter names, remove special characters
 
 #---------------------------------------------------------------
 
@@ -242,78 +273,78 @@ chat_df_5.to_csv("chat_df_epi_5.csv", index=False)
 
 
 
-#---------------------------------------------------------------
+# #---------------------------------------------------------------
 
-# Standardize certain parameters - Study duration
+# # Standardize certain parameters - Study duration
 
-#---------------------------------------------------------------
+# #---------------------------------------------------------------
 
-# Split the study duration into start and end years
-split_duration_df = chat_df_5.copy() # Create a copy of the data frame
-split_duration_df[['Source start year', 'Source end year']] = split_duration_df['study duration'].apply(std_epi.split_duration).apply(pd.Series)
-
-
-# Clean the "Source start year" and "Source end year" columns 
-chat_df_7 = split_duration_df.copy() # Create a copy of the data frame 
-chat_df_8 = chat_df_7.copy()
-
-chat_df_8['Source start year'] = chat_df_7['Source start year'].apply(std_epi.parse_dates, if_start_year=True) 
-chat_df_8['Source end year'] = chat_df_7['Source end year'].apply(std_epi.parse_dates, if_start_year=False) 
-
-chat_df_9 = chat_df_8.copy()
-
-chat_df_9['Source start year'] = pd.to_datetime(chat_df_8['Source start year'], errors='coerce') # Convert the columns to datetime objects 
-chat_df_9['Source end year'] = pd.to_datetime(chat_df_8['Source end year'], errors='coerce')  # Convert the columns to datetime objects 
-
-chat_df_9.to_csv("chat_df_epi_7.csv", index=False)
+# # Split the study duration into start and end years
+# split_duration_df = chat_df_5.copy() # Create a copy of the data frame
+# split_duration_df[['Source start year', 'Source end year']] = split_duration_df['study duration'].apply(std_epi.split_duration).apply(pd.Series)
 
 
-#---------------------------------------------------------------
+# # Clean the "Source start year" and "Source end year" columns 
+# chat_df_7 = split_duration_df.copy() # Create a copy of the data frame 
+# chat_df_8 = chat_df_7.copy()
 
-# Standardize follow-up period
+# chat_df_8['Source start year'] = chat_df_7['Source start year'].apply(std_epi.parse_dates, if_start_year=True) 
+# chat_df_8['Source end year'] = chat_df_7['Source end year'].apply(std_epi.parse_dates, if_start_year=False) 
 
-#---------------------------------------------------------------
+# chat_df_9 = chat_df_8.copy()
 
-# Add the follow-up periods to the data frame
-chat_df_10 = chat_df_9.copy()
+# chat_df_9['Source start year'] = pd.to_datetime(chat_df_8['Source start year'], errors='coerce') # Convert the columns to datetime objects 
+# chat_df_9['Source end year'] = pd.to_datetime(chat_df_8['Source end year'], errors='coerce')  # Convert the columns to datetime objects 
 
-if 'follow-up period' in chat_df_9.columns:
-    chat_df_10[['Follow-up period mean', 'Follow-up period median']] = (
-        chat_df_9['follow-up period']
-        .apply(std_epi.process_follow_up_duration)
-        .apply(pd.Series)
-    )
-else:
-    print("Column 'follow-up period' is missing. Skipping this step.")
-
-chat_df_10.to_csv("chat_df_epi_8.csv", index=False)
+# chat_df_9.to_csv("chat_df_epi_7.csv", index=False)
 
 
+# #---------------------------------------------------------------
 
-#---------------------------------------------------------------
+# # Standardize follow-up period
 
-# Standardize female percentage in cohort
+# #---------------------------------------------------------------
 
-#---------------------------------------------------------------
+# # Add the follow-up periods to the data frame
+# chat_df_10 = chat_df_9.copy()
+
+# if 'follow-up period' in chat_df_9.columns:
+#     chat_df_10[['Follow-up period mean', 'Follow-up period median']] = (
+#         chat_df_9['follow-up period']
+#         .apply(std_epi.process_follow_up_duration)
+#         .apply(pd.Series)
+#     )
+# else:
+#     print("Column 'follow-up period' is missing. Skipping this step.")
+
+# chat_df_10.to_csv("chat_df_epi_8.csv", index=False)
+
+
+
+# #---------------------------------------------------------------
+
+# # Standardize female percentage in cohort
+
+# #---------------------------------------------------------------
     
-chat_df_11 = chat_df_10.copy()
-chat_df_11['female percentage in cohort'] = chat_df_10['female percentage in cohort'].apply(std_epi.convert_string_to_float)  
+# chat_df_11 = chat_df_10.copy()
+# chat_df_11['female percentage in cohort'] = chat_df_10['female percentage in cohort'].apply(std_epi.convert_string_to_float)  
 
-chat_df_11.to_csv("chat_df_epi_9.csv", index=False)
+# chat_df_11.to_csv("chat_df_epi_9.csv", index=False)
 
 
-#---------------------------------------------------------------
+# #---------------------------------------------------------------
 
-# Standardize cohort age group
+# # Standardize cohort age group
 
-#---------------------------------------------------------------
+# #---------------------------------------------------------------
 
-chat_df_12 = chat_df_11.copy()
+# chat_df_12 = chat_df_11.copy()
 
-# Check if the column 'cohort age group' exists before applying the function
-if 'cohort age group' in chat_df_11.columns:
-    chat_df_12['cohort age group'] = chat_df_11['cohort age group'].apply(std_epi.standardize_age_group)
-else:
-    print("Column 'cohort age group' is missing. Skipping this step.")
+# # Check if the column 'cohort age group' exists before applying the function
+# if 'cohort age group' in chat_df_11.columns:
+#     chat_df_12['cohort age group'] = chat_df_11['cohort age group'].apply(std_epi.standardize_age_group)
+# else:
+#     print("Column 'cohort age group' is missing. Skipping this step.")
 
-chat_df_12.to_csv("chat_df_epi_10.csv", index=False)
+# chat_df_12.to_csv("chat_df_epi_10.csv", index=False)

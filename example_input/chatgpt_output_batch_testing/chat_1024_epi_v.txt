@@ -1,0 +1,90 @@
+	1.	Article Title: Higher incidence of acute symptomatic seizures in probable antibody-negative pediatric autoimmune encephalitis than in major antibody-positive autoimmune encephalitis
+	•	Line(s): 1-2
+	•	Section: Title
+	•	Quote(s): “Higher incidence of acute symptomatic seizures in probable antibody-negative pediatric autoimmune encephalitis than in major antibody-positive autoimmune encephalitis”
+	2.	Publication Year: 2024
+	•	Line(s): 5
+	•	Section: Journal Citation
+	•	Quote(s): “Frontiers in Neurology, Published: 19 July 2024”
+	3.	Region: Asia
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Osaka City General Hospital, Osaka, Japan; Tokyo Metropolitan Institute of Medical Science, Tokyo, Japan”
+	4.	Country: Japan
+	•	Line(s): 10-12
+	•	Section: Author Affiliations
+	•	Quote(s): “Osaka City General Hospital, Osaka, Japan; Tokyo Metropolitan Institute of Medical Science, Tokyo, Japan”
+	5.	Study Coverage Area: Single-center study (Osaka City General Hospital, Japan)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Eighteen consecutive pediatric patients with a diagnosis of probable Ab-negative AE who were referred to Osaka City General Hospital between 1 January 2015 and 31 March 2023 were included in this study.”
+	6.	Study Design: Retrospective cohort study
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “This was a retrospective cohort study comparing probable antibody-negative AE with NMDARE and MOGAD.”
+	7.	Population Cohort: Pediatric patients diagnosed with autoimmune encephalitis (AE)
+	•	Line(s): 30-34
+	•	Section: Methods
+	•	Quote(s): “Eighteen consecutive pediatric patients (age < 18 years) with a diagnosis of probable Ab-negative AE.”
+	8.	Population Characteristics: Median age 8.1 years, 67% male
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age at onset was 8.1 years (IQR 6.0-11.0), with males accounting for 67% (12/18).”
+	9.	Data Source: Hospital medical records
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Clinical data were collected from 18 pediatric patients with AE at the Osaka City General Hospital.”
+	10.	Prospective or Retrospective: Retrospective
+	•	Line(s): 30
+	•	Section: Methods
+	•	Quote(s): “This was a retrospective cohort study.”
+	11.	Sites or Centers Involved: Single center (Osaka City General Hospital)
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Osaka City General Hospital, Japan.”
+	12.	Study Duration: January 2015 – March 2023
+	•	Line(s): 30-32
+	•	Section: Methods
+	•	Quote(s): “Patients were included between 1 January 2015 and 31 March 2023.”
+	13.	Population Ethnicity: NR
+	14.	Disease Analysis: Autoimmune encephalitis (AE) and seizure outcomes
+	•	Line(s): 27-30
+	•	Section: Methods
+	•	Quote(s): “This study compared the clinical features and outcomes of probable antibody-negative AE, NMDARE, and MOGAD.”
+	15.	Classification or Diagnosis: Autoimmune Encephalitis International Working Group criteria
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “The diagnosis of AE was based on criteria from the Autoimmune Encephalitis International Working Group, with slight modifications.”
+	16.	Diagnosis Criteria Details: Probable antibody-negative AE classification based on clinical features, neuroinflammation markers, and absence of autoantibodies
+	•	Line(s): 82-86
+	•	Section: Methods
+	•	Quote(s): “Probable Ab-negative AE cases met criteria including acute neurological symptoms, neuroinflammation evidence, and negative autoantibody results.”
+	17.	Disease Phase: Acute or subacute
+	•	Line(s): 92-94
+	•	Section: Results
+	•	Quote(s): “Patients in the probable Ab-negative AE group exhibited acute symptomatic seizures significantly more frequently.”
+	18.	Cohort Age Group: Pediatric (median 8.1 years)
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “The median age at onset was 8.1 years (IQR 6.0-11.0).”
+	19.	Female Percentage in Cohort: 33%
+	•	Line(s): 90-92
+	•	Section: Results
+	•	Quote(s): “With males accounting for 67% (12/18), females accounted for 33% (6/18).”
+	20.	Patient Number of Autoimmune Encephalitis: 18 patients
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “Eighteen pediatric patients were included in the probable Ab-negative AE group.”
+	•	Subtypes and Patient Numbers:
+	•	Probable antibody-negative AE: 18 patients
+	•	Anti-NMDAR encephalitis (NMDARE): 13 patients
+	•	MOGAD: 13 patients
+	21.	Follow-up Period: Median 5.0 years (IQR 3.5-6.7)
+	•	Line(s): 213-215
+	•	Section: Results
+	•	Quote(s): “Follow-up duration was median 5.0 years (IQR 3.5-6.7).”
+	22.	Age of Patients by Subtype:
+	•	Probable antibody-negative AE:
+	•	Median: 8.1 years
+	•	IQR: 6.0 - 11.0
+	23.	Age of Diagnosis by Subtype: NR
