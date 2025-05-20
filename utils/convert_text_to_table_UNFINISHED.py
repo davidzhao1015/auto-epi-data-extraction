@@ -13,25 +13,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 import sys
-sys.path.append('/Users/xinzhao/ISMS_Work/Project_AIE/Working/python_codes/Epi_Toolbox_Py')  # Change the path to the folder containing the Epi_Toolbox_Py module
+# sys.path.append('/Users/xinzhao/ISMS_Work/Project_AIE/Working/python_codes/Epi_Toolbox_Py')  # Change the path to the folder containing the Epi_Toolbox_Py module
 
-import importlib
-import std_epi_parameters as std_epi # Import the standardization functions from the Epi_Toolbox_Py module
-importlib.reload(std_epi) # Reload the module to ensure the latest version is used
-
-# Todo (created on 2025.04.02):
-# ✅ 1. Add format checks for input chat files using try-except
-# 2. Handle slight variations in parameter names across chat files
-# ✅ 3.1 Refactor custom functions for parsing study duration with better readability and maintainability
-# 3.2 Optimize custom function for parsing study duration from free text "Literature review up to October 2021"
-# ✅ 4.1 Refactor custom function to parse and standardize follow-up period
-# 4.2 Improve function to extract IQR lower and upper bounds from follow-up period
-# 5. Align parameter column names with those in the Data Hub
-# 6. Write helper functions to safely apply custom functions to data frames
-# 7. Refactor codes to implement reading text to data frames
-
-# Solution to address 2 & 5: Link index of parameters with the Data Hub
-
+# import importlib
+# import std_epi_parameters as std_epi # Import the standardization functions from the Epi_Toolbox_Py module
+# importlib.reload(std_epi) # Reload the module to ensure the latest version is used
+from pathlib import Path
 
 
 #----------------------------------------------------------------
@@ -39,11 +26,6 @@ importlib.reload(std_epi) # Reload the module to ensure the latest version is us
 # List files in the folder
 
 #----------------------------------------------------------------
-
-# Change the working directory to the folder containing the txt files 
-# os.chdir('/Users/xinzhao/ISMS_Work/Project_AIE/Working/chatgpt_outputs/chatgpt_output_epi/batch_testing')  # <-- Change the directory to the folder containing the txt files
-
-from pathlib import Path
 
 def get_file_list(directory, file_extension):
     """
@@ -83,13 +65,41 @@ def get_file_list(directory, file_extension):
     
     return file_dict_epi
 
+
+
+# Test case
+input_files = get_file_list("example_input/chatgpt_output_batch_testing", 'txt')
+
+
+
+
 #--------------------------------------------------
 
 
-# Extract Ref IDs from txt file names ...
-# file_dict_epi_df = pd.DataFrame(list(file_dict_epi.items()), columns = ['File', 'Ref']) 
-# file_dict_epi_df['Ref'] = file_dict_epi_df['Ref'].str.split("_").str[0]
-# file_dict_epi_df.to_csv("file_dict_epi.csv", index=False)
+def get_ref_id_from_filename(file_dict_epi):
+    """
+    Extract the reference ID from the filenames in the dictionary.
+
+    Args:
+        file_dict_epi (dict): A dictionary of files with the specified extension.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing the reference ID and the corresponding file name.
+    """
+    ref_id_df = pd.DataFrame(
+        [(key, str(value)) for key, value in file_dict_epi.items()], 
+        columns=['File', 'Ref']
+    )
+    ref_id_df['Ref'] = ref_id_df['Ref'].apply(
+        lambda x:  re.search(r'\d+(?=\D+\.txt)', x).group() if re.search(r'\d+(?=\D+\.txt)', x) else "unknown_ref"
+    )
+    return ref_id_df
+
+# Test case
+print(input_files)
+
+ref_id_df = get_ref_id_from_filename(input_files)
+print(ref_id_df)
 
 
 #---------------------------------------------------------------
@@ -98,6 +108,12 @@ def get_file_list(directory, file_extension):
 
 #---------------------------------------------------------------
 
+
+
+
+
+
+#--------------------------------------------------
 chat_dict_epi = {} # Create a dictionary to store the chat output
 for key0, value0 in file_dict_epi.items():
     # print(key0, value0)
@@ -266,7 +282,9 @@ chat_df_4.to_csv("chat_df_epi_4.csv", index=False)
 # Add the reference to the data frame
 chat_df_5 = chat_df_4.copy()
 chat_df_5['Ref'] = chat_df_5['File'].map(file_dict_epi)
-chat_df_5['Ref'] = chat_df_5['Ref'].str.split("_").str[0]
+chat_df_5['Ref'] = chat_df_5['Ref'].apply(
+    lambda x: x.split("_")[0] if "_" in x else "Unknown_Ref"
+)
 
 chat_df_5.to_csv("chat_df_epi_5.csv", index=False)
 
