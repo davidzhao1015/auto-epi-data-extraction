@@ -69,6 +69,7 @@ def get_file_list(directory, file_extension):
 
 # Test case
 input_files = get_file_list("example_input/chatgpt_output_batch_testing", 'txt')
+print(input_files)
 
 
 
@@ -109,94 +110,200 @@ print(ref_id_df)
 #---------------------------------------------------------------
 
 
-
-
-
-
-#--------------------------------------------------
-chat_dict_epi = {} # Create a dictionary to store the chat output
-for key0, value0 in file_dict_epi.items():
-    # print(key0, value0)
-    # Remove the line with "Quote(s)" in the txt file 
-    with open(f"{value0}", "r") as f:
-        lines = f.readlines()
-        
-        # Check if extra leading or trailing lines exist
-        if len(lines) == 0 or 'article title' not in lines[0].lower():
-            print(f"File {value0} might begin with extra leading lines.")
-            continue
-        if len(lines) == 0 or ':' not in lines[-1]:
-            print(f"File {value0} might end with extra trailing lines.")
-            continue
+# def parse_text_file(file_dict_epi):
+#     """
+#     Parses .txt files and extracts key-value pairs from structured text.
+    
+#     Args:
+#         file_dict_epi (dict): Dictionary with keys as indices and values as filenames (not full paths).
+    
+#     Returns:
+#         dict: Nested dictionary with parsed key-value pairs.
+#     """
+#     chat_dict_epi = {} # Create a dictionary to store the chat output
+    
+#     for key0, value0 in file_dict_epi.items():
+#         # print(key0, value0)
+#         # Remove the line with "Quote(s)" in the txt file 
+#         with open(f"{value0}", "r") as f:
+#             lines = f.readlines()
             
-        lines = [line for line in lines if 'Line(s)' not in line]
-        lines = [line for line in lines if 'Section' not in line] 
-        lines = [line for line in lines if "Quote(s)" not in line]
-        # Skip empty lines
-        lines = [line for line in lines if line != '\n']
-        lines = [line for line in lines if line != ""]
-        lines = [line.strip("\t") for line in lines] 
-        lines = [line.strip("[") for line in lines] # Remove the leading [
-      
-        chat_key = key0 # key is the index of the file
-        chat_dict_epi[chat_key] = {} # Create a nested dictionary for each txt file 
+#             # Check if extra leading or trailing lines exist
+#             if len(lines) == 0 or 'article title' not in lines[0].lower():
+#                 print(f"File {value0} might begin with extra leading lines.")
+#                 continue
+#             if len(lines) == 0 or ':' not in lines[-1]:
+#                 print(f"File {value0} might end with extra trailing lines.")
+#                 continue
+                
+#             lines = [line for line in lines if 'Line(s)' not in line]
+#             lines = [line for line in lines if 'Section' not in line] 
+#             lines = [line for line in lines if "Quote(s)" not in line]
+#             # Skip empty lines
+#             lines = [line for line in lines if line != '\n']
+#             lines = [line for line in lines if line != ""]
+#             lines = [line.strip("\t") for line in lines] 
+#             lines = [line.strip("[") for line in lines] # Remove the leading [
+        
+#             chat_key = key0 # key is the index of the file
+#             chat_dict_epi[chat_key] = {} # Create a nested dictionary for each txt file 
 
-        for line in lines:
-            # print(line) # Check the content of the line
-            if ":" in line and re.match(r'^\d+', line): 
-                key1, value1 = line.split(":", 1)
-                if value1 != '\n':
-                    chat_dict_epi[chat_key][key1] = value1.strip() 
+#             for line in lines:
+#                 # print(line) # Check the content of the line
+#                 if ":" in line and re.match(r'^\d+', line): 
+#                     key1, value1 = line.split(":", 1)
+#                     if value1 != '\n':
+#                         chat_dict_epi[chat_key][key1] = value1.strip() 
 
-                if "Patient Number of Autoimmune Encephalitis" in key1:
-                    ind = lines.index(line) + 1
-                    try:
-                        while not re.match(r"^\d+", lines[ind]): 
-                            key2, value2 = lines[ind].split(":", 1) 
-                            key2 = key1 + " " + key2.strip() + " " + str(ind) 
-                            chat_dict_epi[chat_key][key2] = value2.strip()
-                            ind += 1
-                    except:
-                        continue        
+#                     if "Patient Number of Autoimmune Encephalitis" in key1:
+#                         ind = lines.index(line) + 1
+#                         try:
+#                             while not re.match(r"^\d+", lines[ind]): 
+#                                 key2, value2 = lines[ind].split(":", 1) 
+#                                 key2 = key1 + " " + key2.strip() + " " + str(ind) 
+#                                 chat_dict_epi[chat_key][key2] = value2.strip()
+#                                 ind += 1
+#                         except:
+#                             continue        
 
-                if "Age of Patients" in key1:
-                    ind = lines.index(line) + 1 
-                    try:
-                        while not re.match(r"^\d+", lines[ind]): 
-                            key2, value2 = lines[ind].split(":", 1)
-                            print(key2, f'the value is {value2}') # Check the key and value pairs
+#                     if "Age of Patients" in key1:
+#                         ind = lines.index(line) + 1 
+#                         try:
+#                             while not re.match(r"^\d+", lines[ind]): 
+#                                 key2, value2 = lines[ind].split(":", 1)
+#                                 print(key2, f'the value is {value2}') # Check the key and value pairs
 
-                            keywords = ['Mean', 'Median', 'SD', 'IQR', 'Subtype', 'Standard Deviation']
-                            if all(keyword not in key2 for keyword in keywords): 
-                                value3 = key2
-                                key3 = key1 + " " + "Subtype" + " " + str(ind) # Add a unique identifier to the key
-                                chat_dict_epi[chat_key][key3] = value3.strip()
-                            else:
-                                key3 = key1 + " " + key2.strip() + " " + str(ind) # Add a unique identifier to the key
-                                chat_dict_epi[chat_key][key3] = value2.strip()
-                                print(chat_dict_epi[chat_key])
-                            ind += 1
-                    except:
-                        continue        
+#                                 keywords = ['Mean', 'Median', 'SD', 'IQR', 'Subtype', 'Standard Deviation']
+#                                 if all(keyword not in key2 for keyword in keywords): 
+#                                     value3 = key2
+#                                     key3 = key1 + " " + "Subtype" + " " + str(ind) # Add a unique identifier to the key
+#                                     chat_dict_epi[chat_key][key3] = value3.strip()
+#                                 else:
+#                                     key3 = key1 + " " + key2.strip() + " " + str(ind) # Add a unique identifier to the key
+#                                     chat_dict_epi[chat_key][key3] = value2.strip()
+#                                     print(chat_dict_epi[chat_key])
+#                                 ind += 1
+#                         except:
+#                             continue        
 
-                if value1 == '\n':
-                    print(f'key1: {key1}')
-                    ind = lines.index(line) + 1
-                    try:
-                        while not re.match(r"^\d+", lines[ind]): 
-                            key2, value2 = lines[ind].split(":", 1) 
-                            key2 = key1 + " " + key2.strip() + str(ind)
-                            chat_dict_epi[chat_key][key2] = value2.strip()
-                            ind += 1
-                    except:
-                        continue
-                else:
-                    continue        
+#                     if value1 == '\n':
+#                         print(f'key1: {key1}')
+#                         ind = lines.index(line) + 1
+#                         try:
+#                             while not re.match(r"^\d+", lines[ind]): 
+#                                 key2, value2 = lines[ind].split(":", 1) 
+#                                 key2 = key1 + " " + key2.strip() + str(ind)
+#                                 chat_dict_epi[chat_key][key2] = value2.strip()
+#                                 ind += 1
+#                         except:
+#                             continue
+#                     else:
+#                         continue
+                
+#         print(f'{len(chat_dict_epi)}/{len(file_dict_epi)} input files are parsed successfully.')
 
-print(f'{len(chat_dict_epi)}/{len(file_dict_epi)} input files are parsed successfully.') 
+import re
+import logging
+from pathlib import Path
 
-# Todo: 
-# Show input articles that are not parsed successfully
+def parse_text_file(file_dict_epi, target_disease_name):
+    """
+    Parses .txt files and extracts key-value pairs from structured text.
+    
+    Args:
+        file_dict_epi (dict): Dictionary with keys as indices and values as filenames (not full paths).
+        target_disease_name (str): The name of the target disease to filter the data by.
+    
+    Returns:
+        dict: Nested dictionary with parsed key-value pairs.
+    """
+    chat_dict_epi = {}
+
+    def clean_lines(lines):
+        """Remove unwanted lines and characters."""
+        return [
+            line.strip().strip("[") for line in lines
+            if line.strip() and
+               all(skip not in line for skip in ['Line(s)', 'Section', 'Quote(s)'])
+        ]
+
+    def extract_additional_lines(start_index, lines, key_prefix):
+        """Extract key-value pairs from follow-up lines after a multi-line key."""
+        extracted = {}
+        index = start_index
+        try:
+            while index < len(lines) and not re.match(r"^\d+", lines[index]):
+                if ':' in lines[index]:
+                    subkey, subval = lines[index].split(':', 1)
+                    full_key = f"{key_prefix} {subkey.strip()} {index}"
+                    extracted[full_key] = subval.strip()
+                index += 1
+        except Exception as e:
+            logging.warning(f"Error extracting additional lines after line {start_index}: {e}")
+        return extracted
+
+    for key, filename in file_dict_epi.items():
+        try:
+            with open(filename, "r") as f:
+                lines = f.readlines()
+
+            if not lines or 'article title' not in lines[0].lower():
+                logging.warning(f"File {filename} might have extra leading lines. Skipping.")
+                continue
+            if not lines[-1] or ':' not in lines[-1]:
+                logging.warning(f"File {filename} might have extra trailing lines. Skipping.")
+                continue
+
+            lines = clean_lines(lines)
+            chat_dict_epi[key] = {}
+
+            for i, line in enumerate(lines):
+                if ':' in line and re.match(r'^\d+', line):
+                    key1, value1 = line.split(":", 1)
+                    key1 = key1.strip()
+                    value1 = value1.strip()
+                    chat_dict_epi[key][key1] = value1
+
+                    if f"Patient Number of {target_disease_name}" in key1:
+                        chat_dict_epi[key].update(
+                            extract_additional_lines(i + 1, lines, key1)
+                        )
+
+                    elif "Age of Patients" in key1:
+                        index = i + 1
+                        try:
+                            while index < len(lines) and not re.match(r"^\d+", lines[index]):
+                                if ':' in lines[index]:
+                                    k2, v2 = lines[index].split(":", 1)
+                                    k2 = k2.strip()
+                                    v2 = v2.strip()
+                                    if all(kw not in k2 for kw in ['Mean', 'Median', 'SD', 'IQR', 'Subtype', 'Standard Deviation']):
+                                        full_key = f"{key1} Subtype {index}"
+                                        chat_dict_epi[key][full_key] = k2
+                                    else:
+                                        full_key = f"{key1} {k2} {index}"
+                                        chat_dict_epi[key][full_key] = v2
+                                index += 1
+                        except Exception as e:
+                            logging.warning(f"Error processing 'Age of Patients' block in {filename}: {e}")
+
+                    elif not value1:  # Empty value; continue extraction
+                        chat_dict_epi[key].update(
+                            extract_additional_lines(i + 1, lines, key1)
+                        )
+
+        except Exception as e:
+            logging.error(f"Failed to process file {filename}: {e}")
+            continue
+
+    logging.info(f"{len(chat_dict_epi)}/{len(file_dict_epi)} input files parsed successfully.")
+    # Detect any files not processed successfully
+    if len(chat_dict_epi) != len(file_dict_epi):
+        logging.info(f"The files failed to process including {[value.name for key, value in file_dict_epi.items() if key not in chat_dict_epi.keys()]}")
+    return chat_dict_epi
+
+# Test case
+parsed_text_files = parse_text_file(input_files, "Autoimmune Encephalitis")
 
 
 #---------------------------------------------------------------
