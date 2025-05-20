@@ -110,98 +110,6 @@ print(ref_id_df)
 #---------------------------------------------------------------
 
 
-# def parse_text_file(file_dict_epi):
-#     """
-#     Parses .txt files and extracts key-value pairs from structured text.
-    
-#     Args:
-#         file_dict_epi (dict): Dictionary with keys as indices and values as filenames (not full paths).
-    
-#     Returns:
-#         dict: Nested dictionary with parsed key-value pairs.
-#     """
-#     chat_dict_epi = {} # Create a dictionary to store the chat output
-    
-#     for key0, value0 in file_dict_epi.items():
-#         # print(key0, value0)
-#         # Remove the line with "Quote(s)" in the txt file 
-#         with open(f"{value0}", "r") as f:
-#             lines = f.readlines()
-            
-#             # Check if extra leading or trailing lines exist
-#             if len(lines) == 0 or 'article title' not in lines[0].lower():
-#                 print(f"File {value0} might begin with extra leading lines.")
-#                 continue
-#             if len(lines) == 0 or ':' not in lines[-1]:
-#                 print(f"File {value0} might end with extra trailing lines.")
-#                 continue
-                
-#             lines = [line for line in lines if 'Line(s)' not in line]
-#             lines = [line for line in lines if 'Section' not in line] 
-#             lines = [line for line in lines if "Quote(s)" not in line]
-#             # Skip empty lines
-#             lines = [line for line in lines if line != '\n']
-#             lines = [line for line in lines if line != ""]
-#             lines = [line.strip("\t") for line in lines] 
-#             lines = [line.strip("[") for line in lines] # Remove the leading [
-        
-#             chat_key = key0 # key is the index of the file
-#             chat_dict_epi[chat_key] = {} # Create a nested dictionary for each txt file 
-
-#             for line in lines:
-#                 # print(line) # Check the content of the line
-#                 if ":" in line and re.match(r'^\d+', line): 
-#                     key1, value1 = line.split(":", 1)
-#                     if value1 != '\n':
-#                         chat_dict_epi[chat_key][key1] = value1.strip() 
-
-#                     if "Patient Number of Autoimmune Encephalitis" in key1:
-#                         ind = lines.index(line) + 1
-#                         try:
-#                             while not re.match(r"^\d+", lines[ind]): 
-#                                 key2, value2 = lines[ind].split(":", 1) 
-#                                 key2 = key1 + " " + key2.strip() + " " + str(ind) 
-#                                 chat_dict_epi[chat_key][key2] = value2.strip()
-#                                 ind += 1
-#                         except:
-#                             continue        
-
-#                     if "Age of Patients" in key1:
-#                         ind = lines.index(line) + 1 
-#                         try:
-#                             while not re.match(r"^\d+", lines[ind]): 
-#                                 key2, value2 = lines[ind].split(":", 1)
-#                                 print(key2, f'the value is {value2}') # Check the key and value pairs
-
-#                                 keywords = ['Mean', 'Median', 'SD', 'IQR', 'Subtype', 'Standard Deviation']
-#                                 if all(keyword not in key2 for keyword in keywords): 
-#                                     value3 = key2
-#                                     key3 = key1 + " " + "Subtype" + " " + str(ind) # Add a unique identifier to the key
-#                                     chat_dict_epi[chat_key][key3] = value3.strip()
-#                                 else:
-#                                     key3 = key1 + " " + key2.strip() + " " + str(ind) # Add a unique identifier to the key
-#                                     chat_dict_epi[chat_key][key3] = value2.strip()
-#                                     print(chat_dict_epi[chat_key])
-#                                 ind += 1
-#                         except:
-#                             continue        
-
-#                     if value1 == '\n':
-#                         print(f'key1: {key1}')
-#                         ind = lines.index(line) + 1
-#                         try:
-#                             while not re.match(r"^\d+", lines[ind]): 
-#                                 key2, value2 = lines[ind].split(":", 1) 
-#                                 key2 = key1 + " " + key2.strip() + str(ind)
-#                                 chat_dict_epi[chat_key][key2] = value2.strip()
-#                                 ind += 1
-#                         except:
-#                             continue
-#                     else:
-#                         continue
-                
-#         print(f'{len(chat_dict_epi)}/{len(file_dict_epi)} input files are parsed successfully.')
-
 import re
 import logging
 from pathlib import Path
@@ -378,19 +286,32 @@ chat_df_dropped = drop_subtype_specific_parameters(chat_df_epi, keywords=keyword
 
 #---------------------------------------------------------------
 
-# Remove digits and periods from the parameter names
-chat_df_3 = chat_df_dropped2.copy()
-chat_df_3['Parameter'] = chat_df_dropped2['Parameter'].str.replace(r'^\d+(\.|\])*\s*', '', regex=True)
+def clean_parameter_names(chat_df):
+    """
+    Clean the 'Parameter' column in a DataFrame:
+    - Remove leading digits, periods, and brackets
+    - Strip extra whitespace
+    - Convert to lowercase
 
-# Trim white spaces from the parameter names
-chat_df_3['Parameter'] = chat_df_3['Parameter'].str.strip()
+    Args:
+        chat_df (pd.DataFrame): Input DataFrame with a 'Parameter' column.
 
-# Turn the parameter names into small cases
-chat_df_3['Parameter'] = chat_df_3['Parameter'].str.lower()
+    Returns:
+        pd.DataFrame: A cleaned copy of the input DataFrame.
+    """
+    df = chat_df.copy()
+    
+    # Remove leading digits, optional period or closing bracket, and whitespace
+    df['Parameter'] = df['Parameter'].str.replace(r'^\d+[\.\]]*\s*', '', regex=True)
 
+    # Trim whitespace and lowercase
+    df['Parameter'] = df['Parameter'].str.strip().str.lower()
 
-# Export the data frame to a csv file
-chat_df_3.to_csv("chat_df_epi_3.csv", index=False)
+    return df
+
+# Test case
+chat_df_dropped2 = clean_parameter_names(chat_df_dropped)
+print(chat_df_dropped2.head(20))
 
 
 #---------------------------------------------------------------
@@ -399,11 +320,23 @@ chat_df_3.to_csv("chat_df_epi_3.csv", index=False)
 
 #---------------------------------------------------------------
 
-# Make long table wide
-chat_df_4 = chat_df_3.pivot(index='File', columns='Parameter', values='Value').reset_index() 
 
-chat_df_4.to_csv("chat_df_epi_4.csv", index=False)
+def reshape_dataframe(chat_df):
+    """
+    Reshape the DataFrame to have 'File', 'Parameter', and 'Value' columns.
 
+    Args:
+        chat_df (pd.DataFrame): The DataFrame containing the parsed data.
+
+    Returns:
+        pd.DataFrame: Reshaped DataFrame with 'File', 'Parameter', and 'Value' columns.
+    """
+    reshaped_df = chat_df.pivot(index='File', columns='Parameter', values='Value').reset_index() 
+    return reshaped_df
+
+# Test case
+chat_df_reshaped = reshape_dataframe(chat_df_dropped2)
+print(chat_df_reshaped.head(20))
 
 
 
@@ -412,90 +345,29 @@ chat_df_4.to_csv("chat_df_epi_4.csv", index=False)
 # Map Ref to the data frame
 
 #---------------------------------------------------------------
-# Add the reference to the data frame
-chat_df_5 = chat_df_4.copy()
-chat_df_5['Ref'] = chat_df_5['File'].map(file_dict_epi)
-chat_df_5['Ref'] = chat_df_5['Ref'].apply(
-    lambda x: x.split("_")[0] if "_" in x else "Unknown_Ref"
-)
 
-chat_df_5.to_csv("chat_df_epi_5.csv", index=False)
-
-
-
-
-# #---------------------------------------------------------------
-
-# # Standardize certain parameters - Study duration
-
-# #---------------------------------------------------------------
-
-# # Split the study duration into start and end years
-# split_duration_df = chat_df_5.copy() # Create a copy of the data frame
-# split_duration_df[['Source start year', 'Source end year']] = split_duration_df['study duration'].apply(std_epi.split_duration).apply(pd.Series)
-
-
-# # Clean the "Source start year" and "Source end year" columns 
-# chat_df_7 = split_duration_df.copy() # Create a copy of the data frame 
-# chat_df_8 = chat_df_7.copy()
-
-# chat_df_8['Source start year'] = chat_df_7['Source start year'].apply(std_epi.parse_dates, if_start_year=True) 
-# chat_df_8['Source end year'] = chat_df_7['Source end year'].apply(std_epi.parse_dates, if_start_year=False) 
-
-# chat_df_9 = chat_df_8.copy()
-
-# chat_df_9['Source start year'] = pd.to_datetime(chat_df_8['Source start year'], errors='coerce') # Convert the columns to datetime objects 
-# chat_df_9['Source end year'] = pd.to_datetime(chat_df_8['Source end year'], errors='coerce')  # Convert the columns to datetime objects 
-
-# chat_df_9.to_csv("chat_df_epi_7.csv", index=False)
-
-
-# #---------------------------------------------------------------
-
-# # Standardize follow-up period
-
-# #---------------------------------------------------------------
-
-# # Add the follow-up periods to the data frame
-# chat_df_10 = chat_df_9.copy()
-
-# if 'follow-up period' in chat_df_9.columns:
-#     chat_df_10[['Follow-up period mean', 'Follow-up period median']] = (
-#         chat_df_9['follow-up period']
-#         .apply(std_epi.process_follow_up_duration)
-#         .apply(pd.Series)
-#     )
-# else:
-#     print("Column 'follow-up period' is missing. Skipping this step.")
-
-# chat_df_10.to_csv("chat_df_epi_8.csv", index=False)
-
-
-
-# #---------------------------------------------------------------
-
-# # Standardize female percentage in cohort
-
-# #---------------------------------------------------------------
+def map_ref_to_dataframe(chat_df, input_files):
+    """
+    Map reference IDs to the DataFrame based on the input files.
     
-# chat_df_11 = chat_df_10.copy()
-# chat_df_11['female percentage in cohort'] = chat_df_10['female percentage in cohort'].apply(std_epi.convert_string_to_float)  
+    Args:
+        chat_df (pd.DataFrame): The DataFrame containing the parsed data.
+        input_files (dict): A dictionary of files with the specified extension.
+        
+    Returns:
+        pd.DataFrame: A DataFrame with an additional 'Ref' column.
+    """
+    chat_df2 = chat_df.copy()
 
-# chat_df_11.to_csv("chat_df_epi_9.csv", index=False)
+    file_ref_df = get_ref_id_from_filename(input_files)
+
+    chat_df2 = chat_df2.merge(file_ref_df, on='File', how='left')
+
+    return chat_df2
+
+# Test case
+chat_df_mapped = map_ref_to_dataframe(chat_df_reshaped, input_files)
+print(chat_df_mapped.head(20))
 
 
-# #---------------------------------------------------------------
 
-# # Standardize cohort age group
-
-# #---------------------------------------------------------------
-
-# chat_df_12 = chat_df_11.copy()
-
-# # Check if the column 'cohort age group' exists before applying the function
-# if 'cohort age group' in chat_df_11.columns:
-#     chat_df_12['cohort age group'] = chat_df_11['cohort age group'].apply(std_epi.standardize_age_group)
-# else:
-#     print("Column 'cohort age group' is missing. Skipping this step.")
-
-# chat_df_12.to_csv("chat_df_epi_10.csv", index=False)
