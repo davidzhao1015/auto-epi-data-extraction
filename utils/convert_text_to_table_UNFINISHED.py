@@ -312,19 +312,29 @@ parsed_text_files = parse_text_file(input_files, "Autoimmune Encephalitis")
 
 #--------------------------------------------------------------- 
 
-chat_df = pd.DataFrame(columns = ["File", "Parameter", "Value"])
-rows = []
 
-for key3, value3 in chat_dict_epi.items():
-    for parameter, cell in value3.items():
-        rows.append({'File': key3, 'Parameter': parameter, 'Value': cell})
+def convert_dict_to_df(parsed_text_files):
+    """
+    Convert a nested dictionary (parsed from text files) into a flat DataFrame.
 
-chat_df = pd.concat([chat_df, pd.DataFrame(rows)], ignore_index=True)   
+    Args:
+        parsed_text_files (dict): Dictionary of dictionaries with file names as keys and parameter-value pairs as values.
 
-chat_df.head()
+    Returns:
+        pd.DataFrame: A DataFrame with columns ['File', 'Parameter', 'Value'].
+    """
+    rows = [
+        {'File': file_key, 'Parameter': param, 'Value': val}
+        for file_key, params in parsed_text_files.items()
+        for param, val in params.items()
+    ]
 
-# Export the data frame to a csv file
-chat_df.to_csv("chat_df_epi.csv", index=False)
+    return pd.DataFrame(rows)
+
+# Test case
+chat_df_epi = convert_dict_to_df(parsed_text_files)
+print(chat_df_epi.head(20))
+
 
 
 #---------------------------------------------------------------
