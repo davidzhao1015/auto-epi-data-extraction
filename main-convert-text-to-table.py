@@ -27,11 +27,19 @@ def main():
     
     # Enter the subtype parameter list to drop
     subtype_parameter_list = input("Enter the subtype parameter list (comma-separated): ").strip()
+    subtype_parameters = subtype_parameter_list.split(",") if subtype_parameter_list else []
+    subtype_parameters2 = [param.strip() for param in subtype_parameters if param.strip()]
     if not subtype_parameter_list:
         logging.error("Subtype parameter list cannot be empty.")
         return
+    logging.info(f"Subtype parameters to drop: {subtype_parameter_list}")
     
+    # Get file list from the specified directory
     input_files = convert.get_file_list(chat_output_dict, file_extension)
+    logging.info(f"Found {len(input_files)} files with extension {file_extension} in {chat_output_dict}.")
+    if not input_files:
+        logging.error(f"No files found with extension {file_extension} in {chat_output_dict}.")
+        return
 
     ref_id_df = convert.get_ref_id_from_filename(input_files)
 
@@ -39,7 +47,7 @@ def main():
 
     chat_epi_df = convert.convert_dict_to_df(parsed_text_file)
 
-    chat_df_dropped = convert.drop_subtype_specific_parameters(chat_epi_df, subtype_parameter_list)
+    chat_df_dropped = convert.drop_subtype_specific_parameters(chat_epi_df, subtype_parameters2)
 
     chat_df_dropped2 = convert.clean_parameter_names(chat_df_dropped)
 
@@ -48,7 +56,7 @@ def main():
     chat_df_mapped = convert.map_ref_to_dataframe(chat_df_reshaped, input_files)
 
     chat_df_mapped.to_excel("results/output.xlsx", index=False)
-    print("Data processing completed. Output saved to output.xlsx.")
+    logging.info("Data processing completed. Output saved to output.xlsx.")
 
 
 

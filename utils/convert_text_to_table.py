@@ -67,9 +67,9 @@ def get_file_list(directory, file_extension):
 
 
 
-# Test case
-input_files = get_file_list("example_input/chatgpt_output_batch_testing", 'txt')
-print(input_files)
+# # Test case
+# input_files = get_file_list("example_input/chatgpt_output_batch_testing", 'txt')
+# print(input_files)
 
 
 
@@ -96,11 +96,11 @@ def get_ref_id_from_filename(file_dict_epi):
     )
     return ref_id_df
 
-# Test case
-print(input_files)
+# # Test case
+# print(input_files)
 
-ref_id_df = get_ref_id_from_filename(input_files)
-print(ref_id_df)
+# ref_id_df = get_ref_id_from_filename(input_files)
+# print(ref_id_df)
 
 
 #---------------------------------------------------------------
@@ -211,7 +211,7 @@ def parse_text_file(file_dict_epi, target_disease_name):
     return chat_dict_epi
 
 # Test case
-parsed_text_files = parse_text_file(input_files, "Autoimmune Encephalitis")
+# parsed_text_files = parse_text_file(input_files, "Autoimmune Encephalitis")
 
 
 #---------------------------------------------------------------
@@ -239,9 +239,9 @@ def convert_dict_to_df(parsed_text_files):
 
     return pd.DataFrame(rows)
 
-# Test case
-chat_df_epi = convert_dict_to_df(parsed_text_files)
-print(chat_df_epi.head(20))
+# # Test case
+# chat_df_epi = convert_dict_to_df(parsed_text_files)
+# print(chat_df_epi.head(20))
 
 
 
@@ -275,9 +275,9 @@ def drop_subtype_specific_parameters(chat_df, keywords=None):
 
     return filtered_df
 
-# Test case
-keywords = ['Age of Patients', 'Patient Number of Autoimmune Encephalitis', 'Age of Diagnosis']
-chat_df_dropped = drop_subtype_specific_parameters(chat_df_epi, keywords=keywords)
+# # Test case
+# keywords = ['Age of Patients', 'Patient Number of Autoimmune Encephalitis', 'Age of Diagnosis']
+# chat_df_dropped = drop_subtype_specific_parameters(chat_df_epi, keywords=keywords)
 
 
 #---------------------------------------------------------------
@@ -309,9 +309,9 @@ def clean_parameter_names(chat_df):
 
     return df
 
-# Test case
-chat_df_dropped2 = clean_parameter_names(chat_df_dropped)
-print(chat_df_dropped2.head(20))
+# # Test case
+# chat_df_dropped2 = clean_parameter_names(chat_df_dropped)
+# print(chat_df_dropped2.head(20))
 
 
 #---------------------------------------------------------------
@@ -334,9 +334,9 @@ def reshape_dataframe(chat_df):
     reshaped_df = chat_df.pivot(index='File', columns='Parameter', values='Value').reset_index() 
     return reshaped_df
 
-# Test case
-chat_df_reshaped = reshape_dataframe(chat_df_dropped2)
-print(chat_df_reshaped.head(20))
+# # Test case
+# chat_df_reshaped = reshape_dataframe(chat_df_dropped2)
+# print(chat_df_reshaped.head(20))
 
 
 
@@ -365,9 +365,9 @@ def map_ref_to_dataframe(chat_df, input_files):
 
     return chat_df2
 
-# Test case
-chat_df_mapped = map_ref_to_dataframe(chat_df_reshaped, input_files)
-print(chat_df_mapped.head(20))
+# # Test case
+# chat_df_mapped = map_ref_to_dataframe(chat_df_reshaped, input_files)
+# print(chat_df_mapped.head(20))
 
 
 
