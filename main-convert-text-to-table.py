@@ -67,8 +67,10 @@ def main():
         lambda x: pd.Series(unify.split_duration(x))
     )
 
-    chat_df_duration['study duration start'] = chat_df_duration['study duration start'].apply(unify.parse_dates, is_start_year=True)
-    chat_df_duration['study duration end'] = chat_df_duration['study duration end'].apply(unify.parse_dates, is_start_year=False)
+    chat_df_duration['study duration start'] = chat_df_duration['study duration start'].apply(
+    lambda x: unify.parse_dates(x, is_start_year=True))
+    chat_df_duration['study duration end'] = chat_df_duration['study duration end'].apply(
+    lambda x: unify.parse_dates(x, is_start_year=False))
 
     chat_df_duration.to_excel("results/output_unified_duration.xlsx", index=False)
     logging.info("Data processing completed. Output saved to output.xlsx.")

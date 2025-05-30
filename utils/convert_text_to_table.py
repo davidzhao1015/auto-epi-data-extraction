@@ -276,7 +276,7 @@ def drop_subtype_specific_parameters(chat_df, keywords=None):
     return filtered_df
 
 # # Test case
-# keywords = ['Age of Patients', 'Patient Number of Autoimmune Encephalitis', 'Age of Diagnosis']
+# keywords = ['Age of Patients','Patient Number of Autoimmune Encephalitis','Age of Diagnosis']
 # chat_df_dropped = drop_subtype_specific_parameters(chat_df_epi, keywords=keywords)
 
 
