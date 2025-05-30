@@ -68,6 +68,9 @@ def parse_dates(input_string, is_start_year=True):
     - If is_start_year=False: returns the end of the period.
     - 'NR' is returned as-is.
     """
+    if not input_string or pd.isna(input_string) or str(input_string).strip() == "":
+        return None 
+    
     if input_string == 'NR':
         return 'NR'
 
