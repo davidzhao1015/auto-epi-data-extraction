@@ -3,6 +3,12 @@ import os
 import utils.convert_text_to_table as convert
 import pandas as pd
 
+import utils.unify_epi_para_UNFINISHED as unify
+
+
+# Todo:
+# - To optimize the input for subtype_parameter_list, enable case insensitive matching
+
 
 
 
@@ -25,14 +31,14 @@ def main():
         logging.error("Target disease name cannot be empty.")
         return
     
-    # Enter the subtype parameter list to drop
+    # Enter the subtype parameter list to drop 
     subtype_parameter_list = input("Enter the subtype parameter list (comma-separated): ").strip()
     subtype_parameters = subtype_parameter_list.split(",") if subtype_parameter_list else []
     subtype_parameters2 = [param.strip() for param in subtype_parameters if param.strip()]
     if not subtype_parameter_list:
         logging.error("Subtype parameter list cannot be empty.")
         return
-    logging.info(f"Subtype parameters to drop: {subtype_parameter_list}")
+    logging.info(f"Subtype parameters to drop: {subtype_parameters2}")
     
     # Get file list from the specified directory
     input_files = convert.get_file_list(chat_output_dict, file_extension)
@@ -55,9 +61,20 @@ def main():
 
     chat_df_mapped = convert.map_ref_to_dataframe(chat_df_reshaped, input_files)
 
-    chat_df_mapped.to_excel("results/output.xlsx", index=False)
+    # Unify numeric values in study demographic parameters, including study duration, follow-up period, female percentage in cohort
+    chat_df_duration = chat_df_mapped.copy()
+    chat_df_duration[['study duration start', 'study duration end']] = chat_df_mapped['study duration'].apply(
+        lambda x: pd.Series(unify.split_duration(x))
+    )
+
+    chat_df_duration['study duration start'] = chat_df_duration['study duration start'].apply(unify.parse_dates, is_start_year=True)
+    chat_df_duration['study duration end'] = chat_df_duration['study duration end'].apply(unify.parse_dates, is_start_year=False)
+
+    chat_df_duration.to_excel("results/output_unified_duration.xlsx", index=False)
     logging.info("Data processing completed. Output saved to output.xlsx.")
 
+
+     
 
 
 if __name__ == "__main__":
