@@ -107,12 +107,13 @@ chat_df = pd.concat([chat_df, pd.DataFrame(rows)], ignore_index=True)
 # Export the data frame to a csv file
 chat_df.to_csv("parsed_patient_age.csv", index=False)
 
+chat_df.head(10) # Check the first 10 rows of the data frame    
 
 #---------------------------------------------------------------
-# Unify Parameter column
+# *Unify Parameter column
 #---------------------------------------------------------------
 
-# Remove "22.    Age of Patients by Subtype" from the Parameter column
+# *Remove "22.    Age of Patients by Subtype" from the Parameter column
 chat_df2 = chat_df.copy()
 chat_df2['Parameter'] = chat_df['Parameter'].str.replace(r'22.\t*Age of Patients by Subtype', "", regex=True)
 
@@ -274,6 +275,8 @@ chat_df10.to_csv("parsed_patient_age_wide_3.csv", index=False)
 #---------------------------------------------------------------
 
 chat_df11 = pd.read_csv("parsed_patient_age_wide_4.csv")
+
+chat_df11.head(10)
 
 
 #---------------------------------------------------------------
