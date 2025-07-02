@@ -108,37 +108,63 @@ import pyxlsb
 # # Export the data frame to a csv file
 # chat_df.to_csv("parsed_patient_age.csv", index=False)
 
-# chat_df.head(10) # Check the first 10 rows of the data frame    
+chat_df.head(10) # Check the first 10 rows of the data frame    
 
 #---------------------------------------------------------------
 # *Unify Parameter column
 #---------------------------------------------------------------
 
-# *Remove "22.    Age of Patients by Subtype" from the Parameter column
-chat_df2 = chat_df.copy()
-chat_df2['Parameter'] = chat_df['Parameter'].str.replace(r'22.\t*Age of Patients by Subtype', "", regex=True)
+# # *Remove "22.    Age of Patients by Subtype" from the Parameter column
+# chat_df2 = chat_df.copy()
+# chat_df2['Parameter'] = chat_df['Parameter'].str.replace(r'22.\t*Age of Patients by Subtype', "", regex=True)
 
-chat_df2.head(10)
+# chat_df2.head(10)
 
-# Remove •\t from the Parameter column
-chat_df2['Parameter'] = chat_df2['Parameter'].str.replace(r'•\t', "", regex=True)
-chat_df2.head(10)
+# # Remove •\t from the Parameter column
+# chat_df2['Parameter'] = chat_df2['Parameter'].str.replace(r'•\t', "", regex=True)
+# chat_df2.head(10)
 
-# Remove digits from the Parameter column
-chat_df3 = chat_df2.copy()
-chat_df3['Parameter'] = chat_df2['Parameter'].str.replace(r'\d*', "", regex=True)
+# # Remove digits from the Parameter column
+# chat_df3 = chat_df2.copy()
+# chat_df3['Parameter'] = chat_df2['Parameter'].str.replace(r'\d*', "", regex=True)
 
-chat_df3.head(10)
+# chat_df3.head(10)
 
-# Unify the names in Parameter column
-chat_df3['Parameter'].unique()
+# # Unify the names in Parameter column
+# chat_df3['Parameter'].unique()
 
-chat_df3['Parameter'] = chat_df3['Parameter'].str.strip()
-chat_df3['Parameter'].unique()
+# chat_df3['Parameter'] = chat_df3['Parameter'].str.strip()
+# chat_df3['Parameter'].unique()
 
-# Replace Standard Deviation with SD
-chat_df3['Parameter'] = chat_df3['Parameter'].str.replace("Standard Deviation", "SD")
-chat_df3['Parameter'].unique()
+# # Replace Standard Deviation with SD
+# chat_df3['Parameter'] = chat_df3['Parameter'].str.replace("Standard Deviation", "SD")
+# chat_df3['Parameter'].unique()
+
+chat_df3.head(10) # Check the first 10 rows of the data frame   
+
+
+
+import pandas as pd
+import re
+
+def clean_age_parameter_name(df, param='Parameter'):
+    """
+    Clean the parameter name by removing leading and trailing spaces and special characters.
+    The function exclusively handles the 'Age of Patients by Subtype' parameter.
+    """
+    df2 = df.copy()
+    df2[param] = df['Parameter'].str.replace(r'22.\t*Age of Patients by Subtype', "", regex=True) 
+    df2[param] = df2[param].str.replace(r'•\t', "", regex=True)
+    df2[param] = df2[param].str.replace(r'\d*', "", regex=True)
+    df2[param] = df2[param].str.strip()
+    df2[param] = df2[param].str.replace('Standard Deviation', 'SD')
+
+    return df2
+
+
+# # Test case
+# df_param_cleaned = clean_age_parameter_name(chat_df)
+df_param_cleaned.head(30)
 
 
 #---------------------------------------------------------------
@@ -173,6 +199,63 @@ chat_df6.head(30)
 
 # Export the data frame to a csv file
 chat_df6.to_csv("parsed_patient_age_wide.csv", index=False)
+
+chat_df6.head(10) # Check the first 30 rows of the data frame
+
+
+
+
+def pivot_age_dataframe(df):
+    """
+    Reshape the DataFrame to have 'File' and 'Subtype' as index and 'Parameter' as columns.
+    The function exclusively handles the 'Age of Patients by Subtype' parameter.
+    It returns a new DataFrame with the reshaped data.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing patient age data.
+    Returns:
+    pd.DataFrame: A new DataFrame with 'File' and 'Subtype' as index and 'Parameter' as columns.
+    """
+    df2 = df.copy()
+
+    # Create a new column for Subtype
+    subtype_list = [None] * len(df2)  # Initialize with None values
+    current_subtype = None
+    
+    for i in range(len(df2)):
+        if df2.iloc[i]['Parameter'] == "Subtype":
+            current_subtype = df2.iloc[i]['Value']
+            # Don't assign subtype to the "Subtype" row itself
+        else:
+            # Assign current subtype to non-subtype rows
+            if current_subtype is not None:
+                subtype_list[i] = current_subtype
+
+    df2['Subtype'] = subtype_list
+
+    # Drop rows with Parameter = 'Subtype' and rows without subtype assignment
+    df3 = df2[(df2['Parameter'] != 'Subtype') & (df2['Subtype'].notna())]
+
+    # Check if we have any data left after filtering
+    if df3.empty:
+        print("Warning: No data remaining after filtering. Check input data format.")
+        return pd.DataFrame()
+
+    # Make long table wide 
+    try:
+        df4 = df3.pivot(index=['File', 'Subtype'], 
+                           columns='Parameter', 
+                           values='Value').reset_index()
+        return df4
+    except Exception as e:
+        print(f"Error during pivot operation: {e}")
+        print("Available columns:", df3.columns.tolist())
+        print("Unique parameters:", df3['Parameter'].unique() if 'Parameter' in df3.columns else "Parameter column missing")
+        return pd.DataFrame()
+
+# Test the pivot function
+# df_pivoted = pivot_age_dataframe(df_param_cleaned)
+# df_pivoted.head(30)
 
 
 #---------------------------------------------------------------
@@ -253,23 +336,48 @@ chat_df8.head(30)
 # Map Ref to File
 #---------------------------------------------------------------
 
-chat_df9 = chat_df8.copy()
+# Note: This section requires file_dict_epi to be defined
+# Uncomment and define file_dict_epi if you need this functionality
+# 
+# Example of how file_dict_epi should be created:
+# file_dict_epi = {i: file_list_epi[i] for i in range(len(file_list_epi))}
 
-chat_df9['Ref'] = chat_df8['File'].map(file_dict_epi)
-chat_df9['Ref'] = chat_df9['Ref'].str.split("_").str[1]
-chat_df9.head(30)
+# This section is commented out because it depends on variables that are not defined
+# Uncomment and modify as needed when the prerequisite variables are available
+
+# try:
+#     chat_df9 = chat_df8.copy()
+    
+#     # Check if file_dict_epi exists in the current scope
+#     try:
+#         file_dict_epi
+#         chat_df9['Ref'] = chat_df8['File'].map(file_dict_epi)
+#         chat_df9['Ref'] = chat_df9['Ref'].str.split("_").str[1]
+#         chat_df9.head(30)
+#     except NameError:
+#         print("Warning: file_dict_epi is not defined. Skipping reference mapping.")
+#         print("To use this functionality, define file_dict_epi as a mapping from file indices to filenames.")
+#         # Use File column as Ref if no mapping available
+#         chat_df9['Ref'] = chat_df8['File']
+        
+# except NameError as e:
+#     print(f"Variables not defined for reference mapping: {e}")
+#     print("This section requires chat_df8 and file_dict_epi to be defined.")
 
 
 #---------------------------------------------------------------
 # Reorder the columns
 #---------------------------------------------------------------
 
-chat_df10 = chat_df9[['Ref', 'Subtype', 'Mean', 'SD', 'Median', 'IQR_Lower', 'IQR_Upper']].reset_index(drop=True)
-chat_df10.head(30)
+# This section is commented out because it depends on chat_df9 which is not defined
+# Uncomment when the prerequisite variables are available
+
+# chat_df10 = chat_df9[['Ref', 'Subtype', 'Mean', 'SD', 'Median', 'IQR_Lower', 'IQR_Upper']].reset_index(drop=True)
+# chat_df10.head(30)
 
 
 # Export the data frame to a csv file
-chat_df10.to_csv("parsed_patient_age_wide_3.csv", index=False)
+# chat_df10.to_csv("parsed_patient_age_wide_3.csv", index=False)
 
 # #---------------------------------------------------------------
 # # Align Subtype with data hub manually

@@ -31,7 +31,7 @@ def main():
         logging.error("Target disease name cannot be empty.")
         return
     
-    # Enter the subtype parameter list to drop 
+    # *Enter the subtype parameter list to drop 
     subtype_parameter_list = input("Enter the subtype parameter list (comma-separated): ").strip()
     subtype_parameters = subtype_parameter_list.split(",") if subtype_parameter_list else []
     subtype_parameters2 = [param.strip() for param in subtype_parameters if param.strip()]
@@ -53,6 +53,7 @@ def main():
 
     chat_epi_df = convert.convert_dict_to_df(parsed_text_file)
 
+    # *Drop subtype-specific parameters from the DataFrame - a crucial step
     chat_df_dropped = convert.drop_subtype_specific_parameters(chat_epi_df, subtype_parameters2)
 
     chat_df_dropped2 = convert.clean_parameter_names(chat_df_dropped)
