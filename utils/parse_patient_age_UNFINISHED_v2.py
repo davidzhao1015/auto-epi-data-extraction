@@ -326,37 +326,128 @@ def clean_subtype_name(df, subtype_column='Subtype'):
 #---------------------------------------------------------------
 # Standardize the Mean, Median, and SD columns
 #---------------------------------------------------------------
-def standardize_age(age):
-    age = str(age)
 
-    if age == "NR":
+def standardize_age(age, verbose=False):
+    """
+    Standardize age values by converting various text formats to numeric years.
+    
+    Parameters:
+    age: Age value in various formats (string, numeric, or NaN)
+    verbose (bool): If True, print debugging information
+    
+    Returns:
+    float: Age in years, or np.nan if cannot be parsed
+    
+    Examples:
+    - "25.5" -> 25.5
+    - "30 years" -> 30.0
+    - "6 months" -> 0.5
+    - "25 years 6 months" -> 25.5
+    - "NR" -> np.nan
+    """
+    # Handle NaN and None inputs
+    if pd.isna(age) or age is None:
         return np.nan
-    elif 'year' in age.lower() or 'month' in age.lower():
-        print(age)
-        # Find the number immediately before "month"
-        match = re.findall(r'(\d+(?:\.\d+)?)\s+(?=years|months)', age)
-        if len(match) == 2:
-            years, months = map(float, match)
-            return years + months/12
-        elif len(match) == 1:
-            years = float(match[0])
-            return years
+    
+    age_str = str(age).strip().lower()
+    
+    # Handle "not reported" cases
+    if age_str in ["nr", "not reported", "na", "n/a", "", "nan"]:
+        return np.nan
+    
+    # Try to convert simple numeric values first
+    try:
+        # Check if it's already a number
+        numeric_age = float(age_str)
+        # Reasonable age range check (0-150 years)
+        if 0 <= numeric_age <= 150:
+            return numeric_age
         else:
+            if verbose:
+                print(f"Warning: Age {numeric_age} is outside reasonable range (0-150)")
             return np.nan
-    else:
-        return age    
+    except ValueError:
+        pass  # Continue to text parsing
+    
+    # Parse text containing age information
+    if any(keyword in age_str for keyword in ['year', 'month', 'yr', 'mo']):
+        if verbose:
+            print(f"Parsing age text: {age_str}")
+        
+        total_years = 0.0
+        
+        # Extract years - handles: "25 years", "25 yrs", "25y", "25 yr"
+        year_patterns = [
+            r'(\d+(?:\.\d+)?)\s*(?:years?|yrs?|y)\b',
+            r'(\d+(?:\.\d+)?)\s*(?=\s*years?|\s*yrs?|\s*y\b)'
+        ]
+        
+        for pattern in year_patterns:
+            year_matches = re.findall(pattern, age_str)
+            if year_matches:
+                try:
+                    total_years += float(year_matches[0])
+                    break  # Use first successful match
+                except ValueError:
+                    continue
+        
+        # Extract months - handles: "6 months", "6 mos", "6m", "6 mo"
+        month_patterns = [
+            r'(\d+(?:\.\d+)?)\s*(?:months?|mos?|m)\b',
+            r'(\d+(?:\.\d+)?)\s*(?=\s*months?|\s*mos?|\s*m\b)'
+        ]
+        
+        for pattern in month_patterns:
+            month_matches = re.findall(pattern, age_str)
+            if month_matches:
+                try:
+                    months = float(month_matches[0])
+                    if months <= 24:  # Reasonable check (up to 24 months)
+                        total_years += months / 12.0
+                        break
+                except ValueError:
+                    continue
+        
+        # Return result if we found something
+        if total_years > 0:
+            return round(total_years, 2)  # Round to 2 decimal places
+        else:
+            if verbose:
+                print(f"Warning: Could not extract age from '{age_str}'")
+            return np.nan
+    
+    # Try to extract any number from the string as last resort
+    numbers = re.findall(r'\d+(?:\.\d+)?', age_str)
+    if numbers:
+        try:
+            numeric_age = float(numbers[0])
+            if 0 <= numeric_age <= 150:
+                return numeric_age
+            else:
+                if verbose:
+                    print(f"Warning: Extracted age {numeric_age} is outside reasonable range")
+                return np.nan
+        except ValueError:
+            pass
+    
+    # If all else fails
+    if verbose:
+        print(f"Warning: Unable to parse age value: '{age}'")
+    return np.nan    
 
         
-chat_df7 = chat_df6.copy()
-chat_df7['Mean'] = chat_df6['Mean'].apply(standardize_age)
+# chat_df7 = chat_df6.copy()
+# chat_df7['Mean'] = chat_df6['Mean'].apply(standardize_age)
 
-chat_df7['Median'] = chat_df6['Median'].apply(standardize_age)
-chat_df7['SD'] = chat_df6['SD'].apply(standardize_age)
+# chat_df7['Median'] = chat_df6['Median'].apply(standardize_age)
+# chat_df7['SD'] = chat_df6['SD'].apply(standardize_age)
 
-chat_df7.head(30)
+# chat_df7.head(30)
 
-# Export the data frame to a csv file
-chat_df7.to_csv("parsed_patient_age_wide_2.csv", index=False)
+# # Export the data frame to a csv file
+# chat_df7.to_csv("parsed_patient_age_wide_2.csv", index=False)
+
+
 
 
 
@@ -375,15 +466,15 @@ def parse_irq(iqr):
         iqr = [standardize_age(i) for i in iqr]
         return (iqr[0], iqr[1])
     
-chat_df8['IQR'] = chat_df7['IQR'].apply(parse_irq)
-chat_df8.head(30)
+# chat_df8['IQR'] = chat_df7['IQR'].apply(parse_irq)
+# chat_df8.head(30)
 
-# Create two new columns for IQR - IQR_Lower and IQR_Upper
-chat_df8['IQR_Lower'] = chat_df8['IQR'].apply(lambda x: x[0] if pd.notna(x) and isinstance(x, (list, tuple)) else np.nan)
+# # Create two new columns for IQR - IQR_Lower and IQR_Upper
+# chat_df8['IQR_Lower'] = chat_df8['IQR'].apply(lambda x: x[0] if pd.notna(x) and isinstance(x, (list, tuple)) else np.nan)
 
-chat_df8['IQR_Upper'] = chat_df8['IQR'].apply(lambda x: x[1] if pd.notna(x) and isinstance(x, (list, tuple)) else np.nan)
+# chat_df8['IQR_Upper'] = chat_df8['IQR'].apply(lambda x: x[1] if pd.notna(x) and isinstance(x, (list, tuple)) else np.nan)
 
-chat_df8.head(30)
+# chat_df8.head(30)
 
 
 
@@ -480,3 +571,80 @@ chat_df8.head(30)
 
 # # Export the data frame to Excel
 # merged_df.to_excel("merged_patient_age.xlsx", index=False)
+
+# Test function for standardize_age
+def test_standardize_age():
+    """Test the standardize_age function with various input scenarios"""
+    test_cases = [
+        # Simple numeric cases
+        ("25.5", 25.5),
+        ("30", 30.0),
+        (45, 45.0),
+        
+        # Text with years only
+        ("25 years", 25.0),
+        ("30 yrs", 30.0),
+        ("45y", 45.0),
+        ("50 yr", 50.0),
+        
+        # Text with months only
+        ("6 months", 0.5),
+        ("18 mos", 1.5),
+        ("24m", 2.0),
+        ("3 mo", 0.25),
+        
+        # Combined years and months
+        ("25 years 6 months", 25.5),
+        ("30 yrs 3 mos", 30.25),
+        ("2 years 18 months", 3.5),
+        
+        # Edge cases and invalid inputs
+        ("NR", np.nan),
+        ("Not reported", np.nan),
+        ("NA", np.nan),
+        ("", np.nan),
+        (None, np.nan),
+        (np.nan, np.nan),
+        
+        # Out of range values
+        ("200 years", np.nan),  # Too old
+        ("-5 years", np.nan),   # Negative
+        
+        # Complex text
+        ("Mean age: 45.5 years", 45.5),
+        ("Age range 25-30 years", 25.0),  # Takes first number
+        ("approximately 35 years old", 35.0),
+    ]
+    
+    print("Testing standardize_age function:")
+    print("=" * 50)
+    
+    all_passed = True
+    for i, (input_val, expected) in enumerate(test_cases, 1):
+        try:
+            result = standardize_age(input_val)
+            
+            # Handle NaN comparison
+            if pd.isna(expected) and pd.isna(result):
+                status = "PASS"
+            elif pd.isna(expected) or pd.isna(result):
+                status = "FAIL"
+                all_passed = False
+            elif abs(result - expected) < 0.01:  # Allow small floating point differences
+                status = "PASS"
+            else:
+                status = "FAIL"
+                all_passed = False
+            
+            print(f"Test {i:2d}: {str(input_val):20} -> {result:8} (expected: {expected:8}) [{status}]")
+            
+        except Exception as e:
+            print(f"Test {i:2d}: {str(input_val):20} -> ERROR: {e} [FAIL]")
+            all_passed = False
+    
+    print("=" * 50)
+    print(f"Overall result: {'ALL TESTS PASSED' if all_passed else 'SOME TESTS FAILED'}")
+    return all_passed
+
+# Uncomment to run test
+# test_result = test_standardize_age()
