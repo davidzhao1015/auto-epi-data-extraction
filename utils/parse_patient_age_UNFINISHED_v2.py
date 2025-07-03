@@ -267,6 +267,61 @@ chat_df6['Subtype'] = chat_df6['Subtype'].str.replace(r'•\t', "", regex=True)
 chat_df6['Subtype'] = chat_df6['Subtype'].str.strip()
 chat_df6['Subtype'].unique()
 
+import pandas as pd
+
+
+def clean_subtype_name(df, subtype_column='Subtype'):
+    """
+    Clean the subtype names by removing leading and trailing spaces and special characters.
+    This function handles various formatting issues commonly found in subtype data.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing patient age data.
+    subtype_column (str, optional): The name of the column containing subtype information. 
+                                   Defaults to 'Subtype'.
+    
+    Returns:
+    pd.DataFrame: A new DataFrame with cleaned subtype names.
+    
+    Raises:
+    KeyError: If the specified subtype_column doesn't exist in the DataFrame.
+    """
+    # Validate input
+    if not isinstance(df, pd.DataFrame):
+        raise TypeError("Input must be a pandas DataFrame")
+    
+    if subtype_column not in df.columns:
+        raise KeyError(f"Column '{subtype_column}' not found in DataFrame. "
+                      f"Available columns: {list(df.columns)}")
+    
+    df2 = df.copy()
+    
+    # Skip processing if column is empty or all NaN
+    if df2[subtype_column].isna().all():
+        print(f"Warning: Column '{subtype_column}' contains only NaN values")
+        return df2
+    
+    # Clean subtype names with comprehensive pattern matching
+    # Remove bullet points and tabs
+    df2[subtype_column] = df2[subtype_column].str.replace(r'•\t', "", regex=True)
+    
+    # Remove other common bullet point patterns
+    df2[subtype_column] = df2[subtype_column].str.replace(r'[•·‣▪▫]\s*', "", regex=True)
+    
+    # Remove leading/trailing whitespace and normalize internal spaces
+    df2[subtype_column] = df2[subtype_column].str.strip()
+    df2[subtype_column] = df2[subtype_column].str.replace(r'\s+', " ", regex=True)
+    
+    # Remove any remaining tab characters
+    df2[subtype_column] = df2[subtype_column].str.replace(r'\t', "", regex=True)
+    
+    # Convert empty strings to NaN for consistency
+    df2[subtype_column] = df2[subtype_column].replace('', np.nan)
+    
+    return df2
+
+# Test case
+# df_cleaned = clean_subtype_name(chat_df6, subtype_column='Subtype')
 
 #---------------------------------------------------------------
 # Standardize the Mean, Median, and SD columns
