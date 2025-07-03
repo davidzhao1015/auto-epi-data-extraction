@@ -454,27 +454,60 @@ def standardize_age(age, verbose=False):
 #---------------------------------------------------------------
 # Deal with IQR
 #---------------------------------------------------------------
-chat_df8 = chat_df7.copy()
 
-def parse_irq(iqr):
-    iqr = str(iqr)
-    if iqr == "NR":
-        return np.nan
-    if "–" in iqr:
-        print(iqr)
-        iqr = iqr.split("–")
-        iqr = [standardize_age(i) for i in iqr]
-        return (iqr[0], iqr[1])
-    
-# chat_df8['IQR'] = chat_df7['IQR'].apply(parse_irq)
-# chat_df8.head(30)
+def parse_irq(iqr, verbose=False):
+    """
+    Parse interquartile range (IQR) values from text and convert them into a tuple of numeric values.
 
-# # Create two new columns for IQR - IQR_Lower and IQR_Upper
-# chat_df8['IQR_Lower'] = chat_df8['IQR'].apply(lambda x: x[0] if pd.notna(x) and isinstance(x, (list, tuple)) else np.nan)
+    Parameters:
+    iqr (str): The IQR value in text format.
+    verbose (bool): If True, print debugging information.
 
-# chat_df8['IQR_Upper'] = chat_df8['IQR'].apply(lambda x: x[1] if pd.notna(x) and isinstance(x, (list, tuple)) else np.nan)
+    Returns:
+    tuple: A tuple (lower, upper) representing the IQR in numeric format, or (np.nan, np.nan) if invalid.
 
-# chat_df8.head(30)
+    Examples:
+    - "25–30" -> (25.0, 30.0)
+    - "25 - 30" -> (25.0, 30.0)
+    - "25 to 30" -> (25.0, 30.0)
+    - "NR" -> (np.nan, np.nan)
+    """
+    # Handle NaN and None inputs
+    if pd.isna(iqr) or iqr is None:
+        return (np.nan, np.nan)
+
+    iqr_str = str(iqr).strip().lower()
+
+    # Handle "not reported" cases
+    if iqr_str in ["nr", "not reported", "na", "n/a", "", "nan"]:
+        return (np.nan, np.nan)
+
+    # Define delimiters for splitting IQR
+    delimiters = ["–", "-", "to"]
+    for delimiter in delimiters:
+        if delimiter in iqr_str:
+            try:
+                # Split the IQR string using the delimiter
+                lower, upper = iqr_str.split(delimiter, 1)
+                lower = standardize_age(lower.strip())
+                upper = standardize_age(upper.strip())
+
+                # Ensure both values are numeric
+                if pd.notna(lower) and pd.notna(upper):
+                    return (lower, upper)
+                else:
+                    if verbose:
+                        print(f"Warning: Invalid IQR values after parsing: '{lower}', '{upper}'")
+                    return (np.nan, np.nan)
+            except ValueError:
+                if verbose:
+                    print(f"Error: Unable to split IQR string '{iqr_str}' using delimiter '{delimiter}'")
+                return (np.nan, np.nan)
+
+    # If no valid delimiter is found
+    if verbose:
+        print(f"Warning: No valid delimiter found in IQR string: '{iqr_str}'")
+    return (np.nan, np.nan)
 
 
 
@@ -524,127 +557,3 @@ def parse_irq(iqr):
 
 # Export the data frame to a csv file
 # chat_df10.to_csv("parsed_patient_age_wide_3.csv", index=False)
-
-# #---------------------------------------------------------------
-# # Align Subtype with data hub manually
-# #---------------------------------------------------------------
-
-# chat_df11 = pd.read_csv("parsed_patient_age_wide_4.csv")
-
-# chat_df11.head(10)
-
-
-# #---------------------------------------------------------------
-# # Read in the data hub
-# #---------------------------------------------------------------
-
-# data_hub_df = pd.read_excel("/Users/xinzhao/ISMS_Work/Project_AIE/Working/archived/ARG_Autoimmune_Encephalitis_Econ_Burden_Datahub_2025.01.17_CB_Mar14.xlsb", 
-#                             engine='pyxlsb',
-#                             sheet_name='Econ burden_copy_Mar13',
-#                             usecols="C:CS",
-#                             skiprows=4)
-
-# data_hub_df.head(10)
-
-# #---------------------------------------------------------------
-# # Merge the data frames
-# #---------------------------------------------------------------
-
-# # Rename columns in chat_df11
-# chat_df12 = chat_df11.copy()
-
-# renamed_list = {"Ref": "Ref #",
-#                 "Subtype": "AIE subtype",
-#                 "Mean": "Mean age (years)",
-#                 "SD": "Age (SD)",
-#                 "Median": "Median age (years)",
-#                 "IQR_Lower": "Age (lower IQR)",
-#                 "IQR_Upper": "Age (higher IQR)"}
-
-# chat_df12.rename(columns=renamed_list, inplace=True)
-
-# chat_df12.head(10)
-
-# # Merge the data frames
-# merged_df = pd.merge(data_hub_df, chat_df12, on=("Ref #", "AIE subtype"), how="left")
-# merged_df.head(10)
-
-# # Export the data frame to Excel
-# merged_df.to_excel("merged_patient_age.xlsx", index=False)
-
-# Test function for standardize_age
-def test_standardize_age():
-    """Test the standardize_age function with various input scenarios"""
-    test_cases = [
-        # Simple numeric cases
-        ("25.5", 25.5),
-        ("30", 30.0),
-        (45, 45.0),
-        
-        # Text with years only
-        ("25 years", 25.0),
-        ("30 yrs", 30.0),
-        ("45y", 45.0),
-        ("50 yr", 50.0),
-        
-        # Text with months only
-        ("6 months", 0.5),
-        ("18 mos", 1.5),
-        ("24m", 2.0),
-        ("3 mo", 0.25),
-        
-        # Combined years and months
-        ("25 years 6 months", 25.5),
-        ("30 yrs 3 mos", 30.25),
-        ("2 years 18 months", 3.5),
-        
-        # Edge cases and invalid inputs
-        ("NR", np.nan),
-        ("Not reported", np.nan),
-        ("NA", np.nan),
-        ("", np.nan),
-        (None, np.nan),
-        (np.nan, np.nan),
-        
-        # Out of range values
-        ("200 years", np.nan),  # Too old
-        ("-5 years", np.nan),   # Negative
-        
-        # Complex text
-        ("Mean age: 45.5 years", 45.5),
-        ("Age range 25-30 years", 25.0),  # Takes first number
-        ("approximately 35 years old", 35.0),
-    ]
-    
-    print("Testing standardize_age function:")
-    print("=" * 50)
-    
-    all_passed = True
-    for i, (input_val, expected) in enumerate(test_cases, 1):
-        try:
-            result = standardize_age(input_val)
-            
-            # Handle NaN comparison
-            if pd.isna(expected) and pd.isna(result):
-                status = "PASS"
-            elif pd.isna(expected) or pd.isna(result):
-                status = "FAIL"
-                all_passed = False
-            elif abs(result - expected) < 0.01:  # Allow small floating point differences
-                status = "PASS"
-            else:
-                status = "FAIL"
-                all_passed = False
-            
-            print(f"Test {i:2d}: {str(input_val):20} -> {result:8} (expected: {expected:8}) [{status}]")
-            
-        except Exception as e:
-            print(f"Test {i:2d}: {str(input_val):20} -> ERROR: {e} [FAIL]")
-            all_passed = False
-    
-    print("=" * 50)
-    print(f"Overall result: {'ALL TESTS PASSED' if all_passed else 'SOME TESTS FAILED'}")
-    return all_passed
-
-# Uncomment to run test
-# test_result = test_standardize_age()
