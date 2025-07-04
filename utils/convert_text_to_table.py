@@ -1,6 +1,19 @@
-#===========================================================================================
-# This script is used to tabularize the chat output of the epi data for eco burden articles
-#===========================================================================================
+#-------------------------------------------------------------------------------------------------
+# About this script:
+# This script is used to tabularize the AI chat output of the epidemiology data extracted for literature review.
+# It includes functions to:
+# - List files in a directory with a specified file extension
+# - Extract reference IDs from filenames
+# - Parse structured text files into a nested dictionary
+# - Convert the nested dictionary into a DataFrame
+# - Drop subtype-specific parameters from the DataFrame
+# - Clean parameter names by removing special characters and converting to lowercase
+# - Reshape the DataFrame to have 'File', 'Parameter', and 'Value'
+# - Map reference IDs to the DataFrame based on the input files
+# # The script is designed to be modular and can be used as a utility in larger data processing pipelines.
+#-------------------------------------------------------------------------------------------------
+
+
 
 import re
 import pandas as pd
@@ -13,19 +26,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 import sys
-# sys.path.append('/Users/xinzhao/ISMS_Work/Project_AIE/Working/python_codes/Epi_Toolbox_Py')  # Change the path to the folder containing the Epi_Toolbox_Py module
-
-# import importlib
-# import std_epi_parameters as std_epi # Import the standardization functions from the Epi_Toolbox_Py module
-# importlib.reload(std_epi) # Reload the module to ensure the latest version is used
 from pathlib import Path
 
 
-#----------------------------------------------------------------
 
-# List files in the folder
 
-#----------------------------------------------------------------
+# === List files in the folder ===
+
 
 def get_file_list(directory, file_extension):
     """
@@ -103,12 +110,11 @@ def get_ref_id_from_filename(file_dict_epi):
 # print(ref_id_df)
 
 
-#---------------------------------------------------------------
 
-# Read Text Files into Data Frames
 
-#---------------------------------------------------------------
 
+
+# === Read Text Files into Data Frames ===
 
 import re
 import logging
@@ -214,12 +220,10 @@ def parse_text_file(file_dict_epi, target_disease_name):
 # parsed_text_files = parse_text_file(input_files, "Autoimmune Encephalitis")
 
 
-#---------------------------------------------------------------
 
-# Convert the dictionary to a data frame
 
-#--------------------------------------------------------------- 
 
+# === Convert the dictionary to a data frame ===
 
 def convert_dict_to_df(parsed_text_files):
     """
@@ -245,11 +249,8 @@ def convert_dict_to_df(parsed_text_files):
 
 
 
-#---------------------------------------------------------------
 
-# Drop subtype-specific parameters for separate processing *
-
-#---------------------------------------------------------------
+#=== Drop subtype-specific parameters for separate processing ===
 
 def drop_subtype_specific_parameters(chat_df, keywords=None):
     """
@@ -280,11 +281,10 @@ def drop_subtype_specific_parameters(chat_df, keywords=None):
 # chat_df_dropped = drop_subtype_specific_parameters(chat_df_epi, keywords=keywords)
 
 
-#---------------------------------------------------------------
 
-# Clean parameter names, remove special characters
 
-#---------------------------------------------------------------
+
+#=== Clean parameter names, remove special characters ===
 
 def clean_parameter_names(chat_df):
     """
@@ -314,12 +314,10 @@ def clean_parameter_names(chat_df):
 # print(chat_df_dropped2.head(20))
 
 
-#---------------------------------------------------------------
 
-# Reshape the data frame
 
-#---------------------------------------------------------------
 
+# === Reshape the data frame ===
 
 def reshape_dataframe(chat_df):
     """
@@ -340,11 +338,9 @@ def reshape_dataframe(chat_df):
 
 
 
-#---------------------------------------------------------------
 
-# Map Ref to the data frame
 
-#---------------------------------------------------------------
+# === Map Ref to the data frame ===
 
 def map_ref_to_dataframe(chat_df, input_files):
     """

@@ -1,148 +1,19 @@
-#==============================================================================
-# This script is used to parse subtype-specific patient ages for eco burden data 
-#==============================================================================
-
-import os
-import re
-import numpy as np
-import pandas as pd
-import pyxlsb
-
-# #----------------------------------------------------------------
-# # List files in the folder
-# #----------------------------------------------------------------
-
-# # Change the working directory to the folder containing the txt files 
-# os.chdir('/Users/xinzhao/ISMS_Work/Project_AIE/Working/chatgpt_outputs/chatgpt_output_epi/batch_3_eco') 
-
-# # List all files in the directory
-# file_list_epi = [] 
-# for file in os.listdir():
-#     if file.endswith("epi_v.txt"):
-#         file_list_epi.append(file)
-#     else:
-#         print(f"File {file} is not a txt file.") 
-
-# # Sort the file list
-# file_list_epi.sort() 
-# print(file_list_epi)
-
-# print(len(file_list_epi)) # Check the number of files in the list
-
-# # Convert the list to a dictionary 
-# file_dict_epi = {i:file_list_epi[i] for i in range(0, len(file_list_epi))}
-# print(file_dict_epi)
-
-# # file_dict_epi_df = pd.DataFrame(list(file_dict_epi.items()), columns = ['File', 'Ref']) 
-# # file_dict_epi_df['Ref'] = file_dict_epi_df['Ref'].str.split("_").str[1]
-# # file_dict_epi_df.to_csv("file_dict_epi.csv", index=False)
-
-
-# #---------------------------------------------------------------
-# # Read in each txt file, and write the contents to data frames 
-# #---------------------------------------------------------------
-
-# chat_dict_epi = {} # Create a dictionary to store the chat output
-# for key0, value0 in file_dict_epi.items():
-#     print(key0, value0)
-#     # Remove the line with "Quote(s)" in the txt file 
-#     with open(f"{value0}", "r") as f:
-#         lines = f.readlines()
-#         lines = [line for line in lines if 'Line(s)' not in line]
-#         lines = [line for line in lines if 'Section' not in line] 
-#         lines = [line for line in lines if "Quote(s)" not in line]
-#         # Skip empty lines
-#         lines = [line for line in lines if line != '\n']
-#         lines = [line for line in lines if line != ""]
-#         lines = [line.strip("\t") for line in lines] # Remove the leading and trailing tabs which is critical for the split function
-      
-#         chat_key = key0 # key is the index of the file
-#         chat_dict_epi[chat_key] = {} # Create a nested dictionary for each txt file 
-
-#         for line in lines:
-#             # print(line)
-#             if ":" in line and re.match(r'^\d+', line): 
-#                 key1, value1 = line.split(":", 1)
-#                 # print(key1, f'the value is {value1}')
-
-#                 if "Age of Patients by Subtype" in key1:
-#                     ind = lines.index(line) + 1 
-#                     while not re.match(r"^\d+", lines[ind]): 
-#                         key2, value2 = lines[ind].split(":", 1)
-#                         print(key2, f'the value is {value2}') # Check the key and value pairs
-
-#                         keywords = ['Mean', 'Median', 'SD', 'IQR', 'Subtype', 'Standard Deviation']
-#                         if all(keyword not in key2 for keyword in keywords): 
-#                             value3 = key2
-#                             key3 = key1 + " " + "Subtype" + " " + str(ind) # Add a unique identifier to the key
-#                             chat_dict_epi[chat_key][key3] = value3.strip()
-#                         else:
-#                             key3 = key1 + " " + key2.strip() + " " + str(ind) # Add a unique identifier to the key
-#                             chat_dict_epi[chat_key][key3] = value2.strip()
-#                             print(chat_dict_epi[chat_key])
-#                         ind += 1
-#                     else:
-#                         continue
-#                 else:
-#                     continue
-#             else:
-#                 continue    
-
-# print(len(chat_dict_epi)) # Check the number of files read in
-# print(chat_dict_epi[2]) 
+# --------------------------------------------------------------------------------------------------------
+# About this script:
+# This script contains functions to parse and clean patient age data from a DataFrame.
+# It includes functions:
+# - Clean parameter names
+# - Reshape the DataFrame
+# - Normalize subtype names
+# - Standardize age values
+# - Parse interquartile range (IQR) values
+# The script is designed to be modular and can be used as a utility in larger data processing pipelines.
+# -------------------------------------------------------------------------------------------------------
 
 
 
-# #---------------------------------------------------------------
-# # Convert the dictionary to a data frame
-# #--------------------------------------------------------------- 
-# chat_df = pd.DataFrame(columns = ["File", "Parameter", "Value"])
-# rows = []
 
-# for key4, value4 in chat_dict_epi.items():
-#     for parameter, cell in value4.items():
-#         rows.append({'File': key4, 'Parameter': parameter, 'Value': cell})
-
-# chat_df = pd.concat([chat_df, pd.DataFrame(rows)], ignore_index=True)   
-
-# # Export the data frame to a csv file
-# chat_df.to_csv("parsed_patient_age.csv", index=False)
-
-chat_df.head(10) # Check the first 10 rows of the data frame    
-
-#---------------------------------------------------------------
-# *Unify Parameter column
-#---------------------------------------------------------------
-
-# # *Remove "22.    Age of Patients by Subtype" from the Parameter column
-# chat_df2 = chat_df.copy()
-# chat_df2['Parameter'] = chat_df['Parameter'].str.replace(r'22.\t*Age of Patients by Subtype', "", regex=True)
-
-# chat_df2.head(10)
-
-# # Remove •\t from the Parameter column
-# chat_df2['Parameter'] = chat_df2['Parameter'].str.replace(r'•\t', "", regex=True)
-# chat_df2.head(10)
-
-# # Remove digits from the Parameter column
-# chat_df3 = chat_df2.copy()
-# chat_df3['Parameter'] = chat_df2['Parameter'].str.replace(r'\d*', "", regex=True)
-
-# chat_df3.head(10)
-
-# # Unify the names in Parameter column
-# chat_df3['Parameter'].unique()
-
-# chat_df3['Parameter'] = chat_df3['Parameter'].str.strip()
-# chat_df3['Parameter'].unique()
-
-# # Replace Standard Deviation with SD
-# chat_df3['Parameter'] = chat_df3['Parameter'].str.replace("Standard Deviation", "SD")
-# chat_df3['Parameter'].unique()
-
-chat_df3.head(10) # Check the first 10 rows of the data frame   
-
-
+# === Clean (normalize) parameter names ===
 
 import pandas as pd
 import re
@@ -162,47 +33,12 @@ def clean_age_parameter_name(df, param='Parameter'):
     return df2
 
 
-# # Test case
-# df_param_cleaned = clean_age_parameter_name(chat_df)
-df_param_cleaned.head(30)
 
 
-#---------------------------------------------------------------
-# Reshape the data frame
-#---------------------------------------------------------------
-chat_df4 = chat_df3.copy()
+# === Reshape the data frame ===
 
-# Create a new column for Subtype
-subtype_list = []
-
-for i in range(0, len(chat_df4)):
-    if chat_df4['Parameter'][i] == "Subtype":
-        subtype_list.append(chat_df4['Value'][i])
-        
-        index = i+1
-        while chat_df4['Parameter'][index] != "Subtype":
-            subtype_list.append(chat_df4['Value'][i])
-            index += 1
-    else:
-        continue
-
-chat_df4['Subtype'] = subtype_list
-chat_df4.head(30)
-
-# Drop row with Parameter = Subtype
-chat_df5 = chat_df4[chat_df4.Parameter != "Subtype"] 
-chat_df5.head(30)
-
-# Make long table wide 
-chat_df6 = chat_df5.pivot(index=('File', 'Subtype'), columns='Parameter', values='Value').reset_index()
-chat_df6.head(30)
-
-# Export the data frame to a csv file
-chat_df6.to_csv("parsed_patient_age_wide.csv", index=False)
-
-chat_df6.head(10) # Check the first 30 rows of the data frame
-
-
+import pandas as pd
+import numpy as np
 
 
 def pivot_age_dataframe(df):
@@ -253,19 +89,11 @@ def pivot_age_dataframe(df):
         print("Unique parameters:", df3['Parameter'].unique() if 'Parameter' in df3.columns else "Parameter column missing")
         return pd.DataFrame()
 
-# Test the pivot function
-# df_pivoted = pivot_age_dataframe(df_param_cleaned)
-# df_pivoted.head(30)
 
 
-#---------------------------------------------------------------
-# Standardize the data
-#---------------------------------------------------------------
 
-# Remove •\t from Subtype column
-chat_df6['Subtype'] = chat_df6['Subtype'].str.replace(r'•\t', "", regex=True)
-chat_df6['Subtype'] = chat_df6['Subtype'].str.strip()
-chat_df6['Subtype'].unique()
+
+# === Normalize subtype names ===
 
 import pandas as pd
 
@@ -323,9 +151,10 @@ def clean_subtype_name(df, subtype_column='Subtype'):
 # Test case
 # df_cleaned = clean_subtype_name(chat_df6, subtype_column='Subtype')
 
-#---------------------------------------------------------------
-# Standardize the Mean, Median, and SD columns
-#---------------------------------------------------------------
+
+
+
+# === Standardize ages (mean, SD, median and IQR) ===
 
 def standardize_age(age, verbose=False):
     """
@@ -433,27 +262,17 @@ def standardize_age(age, verbose=False):
     # If all else fails
     if verbose:
         print(f"Warning: Unable to parse age value: '{age}'")
-    return np.nan    
-
-        
-# chat_df7 = chat_df6.copy()
-# chat_df7['Mean'] = chat_df6['Mean'].apply(standardize_age)
-
-# chat_df7['Median'] = chat_df6['Median'].apply(standardize_age)
-# chat_df7['SD'] = chat_df6['SD'].apply(standardize_age)
-
-# chat_df7.head(30)
-
-# # Export the data frame to a csv file
-# chat_df7.to_csv("parsed_patient_age_wide_2.csv", index=False)
+    return np.nan
 
 
 
 
 
-#---------------------------------------------------------------
-# Deal with IQR
-#---------------------------------------------------------------
+
+# === Parse interquartile range (IQR) values ===
+
+import pandas as pd
+import numpy as np
 
 def parse_irq(iqr, verbose=False):
     """
