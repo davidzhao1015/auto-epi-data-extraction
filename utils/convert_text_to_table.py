@@ -79,10 +79,7 @@ def get_file_list(directory, file_extension):
 # print(input_files)
 
 
-
-
-#--------------------------------------------------
-
+# === Extract reference ID from filenames ===
 
 def get_ref_id_from_filename(file_dict_epi):
     """
@@ -114,7 +111,7 @@ def get_ref_id_from_filename(file_dict_epi):
 
 
 
-# === Read Text Files into Data Frames ===
+#=== Read Text Files into Data Frames ===
 
 import re
 import logging
@@ -223,7 +220,7 @@ def parse_text_file(file_dict_epi, target_disease_name):
 
 
 
-# === Convert the dictionary to a data frame ===
+#=== Convert the dictionary to a data frame ===
 
 def convert_dict_to_df(parsed_text_files):
     """
@@ -279,6 +276,38 @@ def drop_subtype_specific_parameters(chat_df, keywords=None):
 # # Test case
 # keywords = ['Age of Patients','Patient Number of Autoimmune Encephalitis','Age of Diagnosis']
 # chat_df_dropped = drop_subtype_specific_parameters(chat_df_epi, keywords=keywords)
+
+
+
+
+
+
+#=== Subset subtype-specific parameters for separate processing ===
+
+def subset_subtype_specific_parameters(chat_df, keywords=None):
+    """
+    Subset subtype-specific parameters from the DataFrame.
+
+    Args:
+        chat_df (pd.DataFrame): The DataFrame containing the parsed data.
+        keywords (list, optional): A list of keywords to identify subtype-specific parameters.
+                                   Parameters containing these keywords will be retained.
+                                   Matching is case-insensitive.
+
+    Returns:
+        pd.DataFrame: Filtered DataFrame with only subtype-specific parameters retained.
+    """
+    if keywords is None:
+        keywords = ['Age', 'Patient Number']
+
+    # Build regex pattern from keywords
+    pattern = '|'.join(map(re.escape, keywords))  # Join keywords with '|'; re.escape to escape special characters
+
+    # Filter matching rows
+    filtered_df = chat_df[chat_df['Parameter'].str.contains(pattern, case=False, na=False)]
+
+    return filtered_df
+
 
 
 

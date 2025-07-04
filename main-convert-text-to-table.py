@@ -5,7 +5,7 @@ import pandas as pd
 
 import utils.unify_epi_para as unify
 
-from utils import 
+from utils import parse_age_stats as parse_age # Importing parse_age_stats module for age statistics parsing
 
 
 
@@ -46,18 +46,14 @@ def main():
         return
 
     ref_id_df = convert.get_ref_id_from_filename(input_files)
-
     parsed_text_file = convert.parse_text_file(input_files, "Autoimmune Encephalitis")
-
     chat_epi_df = convert.convert_dict_to_df(parsed_text_file)
+
 
     # *Drop subtype-specific parameters from the DataFrame - a crucial step
     chat_df_dropped = convert.drop_subtype_specific_parameters(chat_epi_df, subtype_parameters2)
-
     chat_df_dropped2 = convert.clean_parameter_names(chat_df_dropped)
-
     chat_df_reshaped = convert.reshape_dataframe(chat_df_dropped2)
-
     chat_df_mapped = convert.map_ref_to_dataframe(chat_df_reshaped, input_files)
 
     # Unify numeric values in study demographic parameters, including study duration, follow-up period, female percentage in cohort
@@ -75,7 +71,13 @@ def main():
     logging.info("Data processing completed. Output saved to output.xlsx.")
 
 
-     
+     # Subset subtype-specific parameters (eg. at onset or diagnosis ages, case numbers) for distinct processing
+    chat_df_subtype_specific = convert.subset_subtype_specific_parameters(chat_epi_df, subtype_parameters2)
+
+    # To do: 
+    # apply parse_age_stats to chat_df_subtype_specific
+
+
 
 
 if __name__ == "__main__":
