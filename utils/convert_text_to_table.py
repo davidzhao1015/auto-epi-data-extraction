@@ -221,6 +221,8 @@ def parse_text_file(file_dict_epi, target_disease_name):
 
 
 #=== Convert the dictionary to a data frame ===
+import re
+import pandas as pd
 
 def convert_dict_to_df(parsed_text_files):
     """
@@ -237,6 +239,10 @@ def convert_dict_to_df(parsed_text_files):
         for file_key, params in parsed_text_files.items()
         for param, val in params.items()
     ]
+
+    # Normalize Parameter names, by removing leading digits, periods, and brackets
+    for row in rows:
+        row['Parameter'] = re.sub(r'[^a-zA-Z\s]', '', row['Parameter']).strip().lower()
 
     return pd.DataFrame(rows)
 

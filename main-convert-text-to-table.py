@@ -21,10 +21,10 @@ def main():
         return
     
     # Enter the file extension for AI-generate output files
-    file_extension = input("Enter the file extension for AI-generate output files (e.g., .txt, .csv): ").strip()
+    file_extension = input("Enter the file extension for AI-generate output files (e.g., txt, csv): ").strip()
 
     # Enter the target disease name
-    target_disease_name = input("Enter the target disease name: ").strip()
+    target_disease_name = input("Enter the target disease name (eg. CMS): ").strip()
     if not target_disease_name:
         logging.error("Target disease name cannot be empty.")
         return
@@ -67,7 +67,7 @@ def main():
     # chat_df_duration['study duration end'] = chat_df_duration['study duration end'].apply(
     # lambda x: unify.parse_dates(x, is_start_year=False))
 
-    chat_df_mapped.to_excel("results/output_unified_duration.xlsx", index=False)
+    chat_df_mapped.to_excel("results/output.xlsx", index=False)
     logging.info("Data processing completed. Output saved to output.xlsx.")
 
 
