@@ -1,0 +1,33 @@
+Task: Extract the following details from the uploaded file, ensuring accuracy and completeness. If specific information is unavailable, use “NR” (Not Reported). If the study includes multiple analyses (e.g., meta-analyses or systematic reviews), indicate as “multiple studies analysis” where relevant.
+
+1. Article Title – Exact title of the paper.
+2. Publication Year – Year the study was published.
+3. Region – Broad geographical region (e.g., North America, Europe, Asia).
+4. Country – Specific country or countries studied.
+5. Coverage Area – Geographic extent (e.g., international, national, multi-regional).
+6. Study Design – Type of study (e.g., cohort, case-control, cross-sectional).
+7. Study Population – Overall or subgroup population studied.
+8. Population Characteristics – Key details (e.g., age range, sex distribution, comorbidities).
+9. Data Source Type – E.g., hospital records, registries, clinical data, lab data.
+10. Data Source Details – Description of the data source(s).
+11. Study Timeline Type – Indicate if the study is prospective, retrospective, or neither.
+12. Number of Sites – Number of study sites or centers involved.
+13. Study Start Year – Year or date the study began (use “NR” if not reported).
+14. Study End Year – Year or date the study ended (use “NR” if not reported).
+15. Main Ethnicity – Primary ethnicity studied (e.g., Caucasian, Chinese; use “NR” if not reported).
+16. Ethnicity Details – All ethnicities and percentages included (use “NR” if not reported).
+17. Disease Studied – Name of disease(s) or subtypes analyzed.
+18. Diagnosis Method – How diagnosis was made (e.g., clinical, biomarker, imaging).
+19. Diagnosis Criteria Details – Description of diagnostic standards used.
+20. Disease Phase – Reported phase (e.g., acute, chronic, both; or “NR” if unclear).
+21. Cohort Age Group – Pediatric, adult, or mixed.
+22. Female % in Cohort – Percentage of female participants (use “NR” if unavailable).
+23. Consanguinity – Number of cases from consanguineous families.
+
+Output Requirements:
+- Display each required item individually, one at a time, in the specified order. Avoid combining multiple items into a single entry.
+- Provide the line numbers and key quotes from the file for each relevant detail, formatted as follows:
+    - [Numerical index] [Item Name]: [Brief description] Please follow this format: keep the brief description immediately after the item name, separated by a colon, on the same line.
+    - Line(s): [line number(s)]
+    - Section: Specify the section of paper, such as Abstract, Methods, Results or Discussion and so on. This information helps me locate the extracted data in paper.
+    - Quote(s): [relevant text]
