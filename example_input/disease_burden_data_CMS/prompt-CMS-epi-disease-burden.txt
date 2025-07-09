@@ -1,0 +1,41 @@
+Task: Extract the following data items related to Congenital Myasthenic Syndrome (CMS) from the uploaded document. Ensure accuracy and completeness. Use “NR” (Not Reported) if the information is not explicitly reported, or “multiple studies analysis” if derived from a systematic review or meta-analysis.
+
+Patient Counts
+	1.	Total patient number: Total number of patients in the study, regardless of CMS subtype.
+	2.	Subtype-specific patient numbers: For each of the four predefined gene-related subtypes (DOK7, AGRN, LRP4, MuSK), provide:
+        •	Subtype (gene name)
+        •	Patient number
+	3.	Subtype proportions: Proportion of each predefined subtype within the cohort. Provide:
+        •	Subtype (gene name)
+        •	Proportion
+
+Incidence Metrics
+	4.	Incidence denominator
+	5.	Total incidence
+	6.	Total incidence standard deviation
+	7.	Total incidence confidence interval – lower bound
+	8.	Total incidence confidence interval – upper bound
+	9.	Subtype-specific incidence: For each of DOK7, AGRN, LRP4, and MuSK, provide:
+        •	Subtype (gene name)
+        •	Incidence
+        •	Incidence standard deviation
+        •	Confidence interval – lower bound
+        •	Confidence interval – upper bound
+
+Prevalence Metrics
+	10.	Total prevalence
+	11.	Total prevalence standard deviation
+	12.	Total prevalence confidence interval – lower bound
+	13.	Total prevalence confidence interval – upper bound
+	14.	Subtype-specific prevalence: For each of DOK7, AGRN, LRP4, and MuSK, provide:
+        •	Subtype (gene name)
+        •	Prevalence
+        •	Prevalence standard deviation
+        •	Confidence interval – lower bound
+        •	Confidence interval – upper bound
+
+____________
+
+Output Instructions:
+	•	Present each item individually in the order listed above.
+	•	Do not merge or group multiple items into one response.

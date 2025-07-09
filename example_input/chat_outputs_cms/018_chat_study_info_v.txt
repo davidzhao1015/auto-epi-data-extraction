@@ -1,0 +1,163 @@
+[1] Article Title: A 20-year Clinical and Genetic Neuromuscular Cohort Analysis in Lebanon: An International Effort
+	•	Line(s): 193
+	•	Section: Title Page
+	•	Quote(s): “A 20-year Clinical and Genetic Neuromuscular Cohort Analysis in Lebanon: An International Effort”
+
+⸻
+
+[2] Publication Year: 2022
+	•	Line(s): 193
+	•	Section: Journal Header
+	•	Quote(s): “Journal of Neuromuscular Diseases 9 (2022) 193–210”
+
+⸻
+
+[3] Region: Middle East
+	•	Line(s): 194
+	•	Section: Introduction
+	•	Quote(s): “especially in the Middle East, where the prevalence of these diseases is thought to be high and underestimated”
+
+⸻
+
+[4] Country: Lebanon
+	•	Line(s): 194
+	•	Section: Abstract
+	•	Quote(s): “This study aims to provide a retrospective overview of hereditary NMDs based on our clinical consultations in Lebanon.”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 194, 195
+	•	Section: Methods
+	•	Quote(s): “Patients were mainly referred… from various Lebanese hospitals and clinics.”
+
+⸻
+
+[6] Study Design: Retrospective cohort study
+	•	Line(s): 194, 195
+	•	Section: Abstract, Methods
+	•	Quote(s): “retrospective overview… over a 20-year period (1999–2019)”
+“Clinical and genetic reports… compiled from available medical records.”
+
+⸻
+
+[7] Study Population: Patients referred for neuromuscular disorders
+	•	Line(s): 195
+	•	Section: Methods
+	•	Quote(s): “Patients were mainly referred by neuropediatricians, adult neurologists, pathologists, and orthopedic surgeons…”
+
+⸻
+
+[8] Population Characteristics: 506 patients; 57.5% male, 42.5% female; age 0–60 years; pediatric predominant
+	•	Line(s): 196
+	•	Section: Results
+	•	Quote(s): “506 patients, including 291 males (57.5%) and 215 females (42.5%)… diagnosed between the ages of 0 and 60… pediatric disease presentation (median = 2yrs; mean = 8yrs).”
+
+⸻
+
+[9] Data Source Type: Clinical data and genetic lab data
+	•	Line(s): 195
+	•	Section: Methods
+	•	Quote(s): “Clinical and genetic reports of patients… compiled from available medical records.”
+“Genetic testing was carried out in different Lebanese private laboratories… as well as in public or private laboratories abroad”
+
+⸻
+
+[10] Data Source Details: Clinical referrals from hospitals; testing by local and international genetic labs
+	•	Line(s): 195
+	•	Section: Methods
+	•	Quote(s): “Patients were mainly referred by… from various Lebanese hospitals and clinics.”
+“Genetic testing was carried out in different Lebanese private laboratories… abroad, whenever the required test was not available in Lebanon.”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 194
+	•	Section: Abstract
+	•	Quote(s): “This study aims to provide a retrospective overview…”
+
+⸻
+
+[12] Number of Sites: Multiple (across Lebanese hospitals and clinics)
+	•	Line(s): 195
+	•	Section: Methods
+	•	Quote(s): “Patients were mainly referred… from various Lebanese hospitals and clinics.”
+
+⸻
+
+[13] Study Start Year: 1999
+	•	Line(s): 194
+	•	Section: Abstract
+	•	Quote(s): “over a 20-year period (1999–2019)”
+
+⸻
+
+[14] Study End Year: 2019
+	•	Line(s): 194
+	•	Section: Abstract
+	•	Quote(s): “over a 20-year period (1999–2019)”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Neuromuscular disorders (NMDs), including subtypes like SMA, DMD, BMD, LGMD, CMT
+	•	Line(s): 194, 196
+	•	Section: Abstract, Results
+	•	Quote(s): “62 different disorders encompassing 10 classes of NMDs… spinal muscular atrophy (SMA)… Duchenne and Becker muscular dystrophy…”
+
+⸻
+
+[18] Diagnosis Method: Clinical and molecular (e.g., sequencing, PCR, MLPA)
+	•	Line(s): 195
+	•	Section: Methods
+	•	Quote(s): “confirmed only clinically or coupled with molecular diagnosis… Multiplex PCR, Southern blot, MLPA, Sanger sequencing… Next Generation Sequencing (NGS)… Whole Exome Sequencing (WES)”
+
+⸻
+
+[19] Diagnosis Criteria Details: Clinical phenotype and genetic confirmation per ACMG guidelines
+	•	Line(s): 195
+	•	Section: Methods
+	•	Quote(s): “All patients underwent thorough clinical and medical investigations… categorized based on the guidelines of the American College of Medical Genetics and Genomics (ACMG).”
+
+⸻
+
+[20] Disease Phase: NR (mixed acute and chronic implied)
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Mixed (predominantly pediatric)
+	•	Line(s): 196
+	•	Section: Results
+	•	Quote(s): “diagnosed between the ages of 0 and 60, and mainly exhibited a pediatric disease presentation”
+
+⸻
+
+[22] Female % in Cohort: 42.5%
+	•	Line(s): 196
+	•	Section: Results
+	•	Quote(s): “including 291 males (57.5%) and 215 females (42.5%)”
+
+⸻
+
+[23] Consanguinity: Not directly reported; population has high consanguinity (28.4–35.5%)
+	•	Line(s): 205
+	•	Section: Limitations
+	•	Quote(s): “we do not report on parental consanguinity… this may be attributed to high rates of consanguinity, estimated to be an average between 28.4% and 35.5% in Lebanon”
+
+

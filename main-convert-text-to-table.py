@@ -30,19 +30,19 @@ def main():
         return
     
     # *Enter the subtype parameter list to drop 
-    subtype_parameter_list = input("Enter the subtype parameter list (comma-separated): ").strip()
-    subtype_parameters = subtype_parameter_list.split(",") if subtype_parameter_list else []
-    subtype_parameters2 = [param.strip() for param in subtype_parameters if param.strip()]
-    if not subtype_parameter_list:
-        logging.error("Subtype parameter list cannot be empty.")
-        return
-    logging.info(f"Subtype parameters to drop: {subtype_parameters2}")
+    # subtype_parameter_list = input("Enter the subtype parameter list (comma-separated): ").strip()
+    # subtype_parameters = subtype_parameter_list.split(",") if subtype_parameter_list else []
+    # subtype_parameters2 = [param.strip() for param in subtype_parameters if param.strip()]
+    # if not subtype_parameter_list:
+    #     logging.error("Subtype parameter list cannot be empty.")
+    #     return
+    # logging.info(f"Subtype parameters to drop: {subtype_parameters2}")
     
     # Get file list from the specified directory
     input_files = convert.get_file_list(chat_output_dict, file_extension)
     logging.info(f"Found {len(input_files)} files with extension {file_extension} in {chat_output_dict}.")
     if not input_files:
-        logging.error(f"No files found with extension {file_extension} in {chat_output_dict}.")
+        logging.error(f"No files found with extension {file_extension} in {chat_output_dict}")
         return
 
     ref_id_df = convert.get_ref_id_from_filename(input_files)
@@ -51,31 +51,24 @@ def main():
 
 
     # *Drop subtype-specific parameters from the DataFrame - a crucial step
-    chat_df_dropped = convert.drop_subtype_specific_parameters(chat_epi_df, subtype_parameters2)
-    chat_df_dropped2 = convert.clean_parameter_names(chat_df_dropped)
-    chat_df_reshaped = convert.reshape_dataframe(chat_df_dropped2)
+    # chat_df_dropped = convert.drop_subtype_specific_parameters(chat_epi_df, subtype_parameters2)
+    # chat_df_dropped2 = convert.clean_parameter_names(chat_df_dropped)
+    chat_df_reshaped = convert.reshape_dataframe(chat_epi_df)
     chat_df_mapped = convert.map_ref_to_dataframe(chat_df_reshaped, input_files)
 
     # Unify numeric values in study demographic parameters, including study duration, follow-up period, female percentage in cohort
-    chat_df_duration = chat_df_mapped.copy()
-    chat_df_duration[['study duration start', 'study duration end']] = chat_df_mapped['study duration'].apply(
-        lambda x: pd.Series(unify.split_duration(x))
-    )
+    # chat_df_duration = chat_df_mapped.copy()
+    # chat_df_duration[['study duration start', 'study duration end']] = chat_df_mapped['study duration'].apply(
+    #     lambda x: pd.Series(unify.split_duration(x))
+    # )
 
-    chat_df_duration['study duration start'] = chat_df_duration['study duration start'].apply(
-    lambda x: unify.parse_dates(x, is_start_year=True))
-    chat_df_duration['study duration end'] = chat_df_duration['study duration end'].apply(
-    lambda x: unify.parse_dates(x, is_start_year=False))
+    # chat_df_duration['study duration start'] = chat_df_duration['study duration start'].apply(
+    # lambda x: unify.parse_dates(x, is_start_year=True))
+    # chat_df_duration['study duration end'] = chat_df_duration['study duration end'].apply(
+    # lambda x: unify.parse_dates(x, is_start_year=False))
 
-    chat_df_duration.to_excel("results/output_unified_duration.xlsx", index=False)
+    chat_df_mapped.to_excel("results/output_unified_duration.xlsx", index=False)
     logging.info("Data processing completed. Output saved to output.xlsx.")
-
-
-     # Subset subtype-specific parameters (eg. at onset or diagnosis ages, case numbers) for distinct processing
-    chat_df_subtype_specific = convert.subset_subtype_specific_parameters(chat_epi_df, subtype_parameters2)
-
-    # To do: 
-    # apply parse_age_stats to chat_df_subtype_specific
 
 
 

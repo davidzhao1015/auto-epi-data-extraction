@@ -1,0 +1,73 @@
+Patient Counts
+
+[1] Total patient number: 32
+	•	Line(s): 59
+	•	Section: Abstract
+	•	Quote(s): “Clinical, electrophysiological and genetic data of 32 CMS patients were collected…”
+
+⸻
+
+[2] Subtype-specific patient numbers:
+	•	Subtype: DOK7 – 11
+	•	Subtype: AGRN – 1
+	•	Subtype: LRP4 – 0
+	•	Subtype: MuSK – 0
+	•	Line(s): 275–281
+	•	Section: Results – Genetic spectrum
+	•	Quote(s):
+	•	“The most frequent subtype was DOK7-CMS (n = 11, 34.4%)…”
+	•	“One patient was diagnosed with AGRN-CMS…”
+	•	LRP4 and MuSK are not mentioned in the genetic results.
+
+⸻
+
+[3] Subtype proportions:
+	•	Subtype: DOK7 – 34.4%
+	•	Subtype: AGRN – 3.1%
+	•	Subtype: LRP4 – 0%
+	•	Subtype: MuSK – 0%
+	•	Line(s): 275–281
+	•	Section: Results – Genetic spectrum
+	•	Quote(s): Same as above
+
+⸻
+
+Incidence Metrics
+
+[4] Incidence denominator: NR
+
+[5] Total incidence: NR
+
+[6] Total incidence standard deviation: NR
+
+[7] Total incidence confidence interval – lower bound: NR
+
+[8] Total incidence confidence interval – upper bound: NR
+
+[9] Subtype-specific incidence:
+	•	Subtype: DOK7 – NR
+	•	Subtype: AGRN – NR
+	•	Subtype: LRP4 – NR
+	•	Subtype: MuSK – NR
+
+No incidence calculations are reported.
+
+⸻
+
+Prevalence Metrics
+
+[10] Total prevalence: NR
+
+[11] Total prevalence standard deviation: NR
+
+[12] Total prevalence confidence interval – lower bound: NR
+
+[13] Total prevalence confidence interval – upper bound: NR
+
+[14] Subtype-specific prevalence:
+	•	Subtype: DOK7 – NR
+	•	Subtype: AGRN – NR
+	•	Subtype: LRP4 – NR
+	•	Subtype: MuSK – NR
+
+Prevalence is not reported in this study.

@@ -1,0 +1,161 @@
+[1] Article Title: Clinical Characteristics of Pediatric Myasthenia: A Surveillance Study
+	•	Line(s): 1
+	•	Section: Title Page
+	•	Quote(s): “Clinical Characteristics of Pediatric Myasthenia: A Surveillance Study”
+
+⸻
+
+[2] Publication Year: 2013
+	•	Line(s): 10
+	•	Section: Title Page
+	•	Quote(s): “PEDIATRICS Volume 132, Number 4, October 2013”
+
+⸻
+
+[3] Region: North America
+	•	Line(s): 6
+	•	Section: Abstract
+	•	Quote(s): “…the largest descriptive series of pediatric myasthenia in North America…”
+
+⸻
+
+[4] Country: Canada
+	•	Line(s): 5
+	•	Section: Abstract
+	•	Quote(s): “…pediatric myasthenia in Canada…”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 74–76
+	•	Section: Discussion
+	•	Quote(s): “…first population-based study to systematically evaluate incidence of pediatric myasthenia gravis across Canada.”
+
+⸻
+
+[6] Study Design: Active national surveillance study
+	•	Line(s): 24–27
+	•	Section: Methods
+	•	Quote(s): “The CPSP is a national active surveillance program using a voluntary 2-tiered reporting process…”
+
+⸻
+
+[7] Study Population: Pediatric patients with myasthenia
+	•	Line(s): 22–24
+	•	Section: Abstract & Methods
+	•	Quote(s): “Inclusion criteria were any child <18 years old with ≥1 of the following: fluctuating ptosis or extraocular weakness…”
+
+⸻
+
+[8] Population Characteristics:
+	•	Line(s): 50–56
+	•	Section: Results
+	•	Quote(s): “Age of onset ranged from ‘birth’ to 17 years… girls to boys was 1.1:1 in the generalized group… predominantly white (59%)…”
+
+⸻
+
+[9] Data Source Type: Registry/Surveillance reporting
+	•	Line(s): 21–27
+	•	Section: Methods
+	•	Quote(s): “Cases of pediatric myasthenia were reported to the Canadian Pediatric Surveillance Program…”
+
+⸻
+
+[10] Data Source Details: Canadian Pediatric Surveillance Program (CPSP) using physician reports and questionnaires
+	•	Line(s): 22–30
+	•	Section: Methods
+	•	Quote(s): “…surveyed by the CPSP… A detailed clinical questionnaire is completed for reported cases…”
+
+⸻
+
+[11] Study Timeline Type: Prospective
+	•	Line(s): 21–23
+	•	Section: Methods
+	•	Quote(s): “Cases… were reported… from January 1, 2010, through December 31, 2011.”
+
+⸻
+
+[12] Number of Sites: Multiple; reports from 5 provinces
+	•	Line(s): 35–37
+	•	Section: Results
+	•	Quote(s): “Reports were received from Alberta, Manitoba, Ontario, Quebec, and Newfoundland.”
+
+⸻
+
+[13] Study Start Year: 2010
+	•	Line(s): 21
+	•	Section: Methods
+	•	Quote(s): “…from January 1, 2010…”
+
+⸻
+
+[14] Study End Year: 2011
+	•	Line(s): 21
+	•	Section: Methods
+	•	Quote(s): “…through December 31, 2011.”
+
+⸻
+
+[15] Main Ethnicity: White
+	•	Line(s): 52–54
+	•	Section: Results
+	•	Quote(s): “…generalized group were predominantly white (59%)… ocular group… predominantly Asian (44%).”
+
+⸻
+
+[16] Ethnicity Details:
+	•	Line(s): Table 1
+	•	Section: Results
+	•	Quote(s):
+	•	“White: 59% (generalized), 28% (ocular)”
+	•	“Asian: 6% (generalized), 44% (ocular)”
+	•	Others: African American, East Indian, Native American, Middle Eastern, Multiethnicity
+
+⸻
+
+[17] Disease Studied: Juvenile Myasthenia Gravis (JMG), Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): 5, 38–39
+	•	Section: Abstract, Results
+	•	Quote(s): “…34 generalized and 18 ocular reports of juvenile myasthenia gravis plus 5 congenital myasthenic syndrome cases.”
+
+⸻
+
+[18] Diagnosis Method: Clinical criteria plus supportive diagnostic testing
+	•	Line(s): 28–34
+	•	Section: Methods
+	•	Quote(s): “…clinical features… and any of the following supportive tests: Tensilon test… antibodies… abnormal electrodiagnostic studies…”
+
+⸻
+
+[19] Diagnosis Criteria Details: Clinical symptoms plus one or more of: AChR/MuSK antibodies, Tensilon response, abnormal EMG
+	•	Line(s): 28–34
+	•	Section: Methods
+	•	Quote(s): “…supportive tests: Tensilon test… elevated AChR or MuSK antibody levels… abnormal electrodiagnostic studies…”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Pediatric
+	•	Line(s): 22, 50
+	•	Section: Abstract, Results
+	•	Quote(s): “…any child <18 years old…” / “…onset ranged from ‘birth’ to 17 years…”
+
+⸻
+
+[22] Female % in Cohort: Generalized: 53%, Ocular: 72%
+	•	Line(s): Table 1
+	•	Section: Results
+	•	Quote(s): “Female: 53% (generalized), 72% (ocular)”
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
