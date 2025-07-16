@@ -1,0 +1,158 @@
+[1] Article Title: How common is childhood myasthenia? The UK incidence and prevalence of autoimmune and congenital myasthenia
+	•	Line(s): Title page
+	•	Section: Title
+	•	Quote(s): “How common is childhood myasthenia? The UK incidence and prevalence of autoimmune and congenital myasthenia”
+
+⸻
+
+[2] Publication Year: 2014
+	•	Line(s): 20
+	•	Section: Title block
+	•	Quote(s): “Arch Dis Child 2014;99:539–542.”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 9–14
+	•	Section: Author affiliations
+	•	Quote(s): “Newcastle University, Newcastle Upon Tyne, UK… University of Oxford, Oxford, UK”
+
+⸻
+
+[4] Country: United Kingdom
+	•	Line(s): Throughout, e.g., 60–75
+	•	Section: Abstract, Methods
+	•	Quote(s): “The UK detected prevalence of genetically confirmed CMS…” / “UK census data from 2001…”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 60–75
+	•	Section: Abstract, Methods
+	•	Quote(s): “UK detected prevalence…” / “All laboratories in the UK…” / “UK census data…”
+
+⸻
+
+[6] Study Design: Cross-sectional and retrospective surveillance
+	•	Line(s): 60–75
+	•	Section: Methods
+	•	Quote(s): “All children under 18… were identified by the only UK laboratory undertaking CMS genetic testing…” / “All cases with positive acetylcholine receptor (AChR) and muscle specific kinase (MuSK) receptor antibodies in the 5 years between 2003 and 2007…”
+
+⸻
+
+[7] Study Population: Children under 18 years with CMS or antibody-positive autoimmune myasthenia
+	•	Line(s): 60–75
+	•	Section: Methods
+	•	Quote(s): “All children under 18 years of age on 31 December 2009…” / “children aged from 1 year to under 18 years…”
+
+⸻
+
+[8] Population Characteristics: Age <18, with subgroup analyses by sex and antibody subtype
+	•	Line(s): 330–350
+	•	Section: Results
+	•	Quote(s): “66 girls and 24 boys, gender data missing for 11 children… mean age at diagnosis was 12 years 8 months (range: 1–17 years 11 months)”
+
+⸻
+
+[9] Data Source Type: Laboratory data
+	•	Line(s): 60–75, 130–150
+	•	Section: Abstract, Methods
+	•	Quote(s): “identified by the only UK laboratory undertaking CMS genetic testing” / “information received from all laboratories in the UK performing immunological tests”
+
+⸻
+
+[10] Data Source Details: CMS data from Oxford NCG laboratory; autoimmune data from UK AChR/MuSK labs
+	•	Line(s): 130–150
+	•	Section: Methods
+	•	Quote(s): “Oxford based service… for CMS” / “quality control sample provider… contacted all clinical laboratories undertaking AChR antibody and MuSK antibody tests”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 130–160
+	•	Section: Methods
+	•	Quote(s): “data from antibody-positive samples… from the 5 years from 2003 to 2007…” / “CMS data collection time period (1992–2009 inclusive)”
+
+⸻
+
+[12] Number of Sites: Multiple
+	•	Line(s): 130–150
+	•	Section: Methods
+	•	Quote(s): “All laboratories in the UK performing immunological tests…” / “The laboratories have not been named for reasons of commercial confidentiality”
+
+⸻
+
+[13] Study Start Year: 1992
+	•	Line(s): 140–160
+	•	Section: Methods
+	•	Quote(s): “CMS data collection time period (1992–2009 inclusive)” / “data… from the 5 years from 2003 to 2007…”
+
+⸻
+
+[14] Study End Year: 2009
+	•	Line(s): 140–160
+	•	Section: Methods
+	•	Quote(s): “CMS data collection time period (1992–2009 inclusive)” / “data… from the 5 years from 2003 to 2007…”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Childhood myasthenia (autoimmune and congenital myasthenic syndrome)
+	•	Line(s): Title, Abstract
+	•	Section: Title, Abstract
+	•	Quote(s): “autoimmune and congenital myasthenia” / “childhood myasthenia”
+
+⸻
+
+[18] Diagnosis Method: Genetic testing for CMS; antibody testing for autoimmune cases
+	•	Line(s): 130–160
+	•	Section: Methods
+	•	Quote(s): “confirmed CMS genetic mutation…” / “positive acetylcholine receptor (AChR) and muscle specific kinase (MuSK) receptor antibodies…”
+
+⸻
+
+[19] Diagnosis Criteria Details: Laboratory confirmation; standard assays used
+	•	Line(s): 130–160
+	•	Section: Methods
+	•	Quote(s): “confirmed CMS genetic mutation” / “positive antibody samples (on standard assay)…”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Pediatric
+	•	Line(s): 60–70
+	•	Section: Abstract
+	•	Quote(s): “All children under 18 years of age…”
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): 330–340
+	•	Section: Results
+	•	Quote(s): “66 girls and 24 boys… gender data missing for 11 children”
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): 380–390
+	•	Section: Discussion
+	•	Quote(s): “possible that other factors may underlie this variability… frequency of consanguineous relationships”

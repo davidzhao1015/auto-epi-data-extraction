@@ -1,0 +1,158 @@
+[1] Article Title: Epidemiology of childhood neuromuscular diseases in two hospital districts in Finland
+	•	Line(s): 1
+	•	Section: Title Page
+	•	Quote(s): “Epidemiology of childhood neuromuscular diseases in two hospital districts in Finland”
+
+⸻
+
+[2] Publication Year: 2025
+	•	Line(s): ~100
+	•	Section: Footer / Journal info
+	•	Quote(s): “European Journal of Paediatric Neurology 55 (2025) 97–102”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 1
+	•	Section: Title Page
+	•	Quote(s): “…in two hospital districts in Finland”
+
+⸻
+
+[4] Country: Finland
+	•	Line(s): 1
+	•	Section: Title Page
+	•	Quote(s): “…in two hospital districts in Finland”
+
+⸻
+
+[5] Coverage Area: Multi-regional
+	•	Line(s): ~35–40
+	•	Section: Methods – Study population
+	•	Quote(s): “A retrospective registry-based study in the Pirkanmaa and Päijät-Häme Hospital Districts”
+
+⸻
+
+[6] Study Design: Retrospective, registry-based
+	•	Line(s): ~35
+	•	Section: Methods – Study population
+	•	Quote(s): “A retrospective registry-based study in the Pirkanmaa and Päijät-Häme Hospital Districts…”
+
+⸻
+
+[7] Study Population: All children <17 years old with neuromuscular diseases in the study region
+	•	Line(s): ~41–45
+	•	Section: Methods – Procedures
+	•	Quote(s): “…identify all under 17-year-old individuals with a neuromuscular disorder…”
+
+⸻
+
+[8] Population Characteristics: Age <17 years, 65,592 males among 128,358 children
+	•	Line(s): ~37–40
+	•	Section: Methods – Study population
+	•	Quote(s): “The population of individuals under 17 years old was 128,358 (65,592 males)”
+
+⸻
+
+[9] Data Source Type: Hospital records
+	•	Line(s): ~43
+	•	Section: Methods – Procedures
+	•	Quote(s): “We searched the patient records of both Tampere University Hospital… and Päijät-Häme Central Hospital…”
+
+⸻
+
+[10] Data Source Details: ICD-10 coded hospital records (G12, G60-G64, G70-G73)
+	•	Line(s): ~43–45
+	•	Section: Methods – Procedures
+	•	Quote(s): “…for the following ICD-10 codes: G12, G60–G64 and G70–G73”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): ~35
+	•	Section: Methods – Study population
+	•	Quote(s): “A retrospective registry-based study…”
+
+⸻
+
+[12] Number of Sites: 2
+	•	Line(s): ~35
+	•	Section: Methods – Study population
+	•	Quote(s): “…in the Pirkanmaa and Päijät-Häme Hospital Districts”
+
+⸻
+
+[13] Study Start Year: 2008
+	•	Line(s): ~41–45
+	•	Section: Methods – Procedures
+	•	Quote(s): “…individuals who received a neuromuscular diagnosis between 2008 and 2018”
+
+⸻
+
+[14] Study End Year: 2018
+	•	Line(s): ~41–45
+	•	Section: Methods – Procedures
+	•	Quote(s): “…on December 31, 2018 and all under 17-year-old individuals who received a neuromuscular diagnosis between 2008 and 2018.”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Childhood neuromuscular diseases
+	•	Line(s): Throughout
+	•	Section: Title, Introduction, Results
+	•	Quote(s): “…neuromuscular diseases in children…” and “The most prevalent myopathic disease was DMD… the most prevalent neurogenic disease was Charcot-Marie-Tooth…”
+
+⸻
+
+[18] Diagnosis Method: Clinical, EMG, nerve conduction, muscle biopsy, and genetic testing
+	•	Line(s): ~50–55
+	•	Section: Methods – Data collection
+	•	Quote(s): “…clinical picture of a neuromuscular disease and/or abnormal findings on electromyography (EMG), nerve conduction studies, muscle biopsy or genetic testing.”
+
+⸻
+
+[19] Diagnosis Criteria Details: Diagnosis by pediatric neurologist; inclusion confirmed by review
+	•	Line(s): ~48–50
+	•	Section: Methods – Data collection
+	•	Quote(s): “The inclusion criterion was a neuromuscular diagnosis established by the treating pediatric neurologist.”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Pediatric
+	•	Line(s): ~35–45
+	•	Section: Methods – Study population
+	•	Quote(s): “…under 17-year-old individuals…”
+
+⸻
+
+[22] Female % in Cohort: 48.9%
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

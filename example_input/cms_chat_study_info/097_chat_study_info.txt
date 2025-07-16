@@ -1,0 +1,161 @@
+[1] Article Title: Epidemiological study of congenital myasthenic syndromes based on national electronic health database of Turkiye
+	•	Line(s): 1
+	•	Section: Title Page
+	•	Quote(s): Epidemiological study of congenital myasthenic syndromes based on national electronic health database of Turkiye
+
+⸻
+
+[2] Publication Year: 2025
+	•	Line(s): 82
+	•	Section: Turkish Abstract Footer
+	•	Quote(s): (NCI-2025-4-1)
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 1–5
+	•	Section: Title Page (Affiliations)
+	•	Quote(s): Turkiye (Turkey is located in both Europe and Asia; however, in epidemiological contexts, it is typically grouped under Europe.)
+
+⸻
+
+[4] Country: Turkiye
+	•	Line(s): 1, 5
+	•	Section: Title Page
+	•	Quote(s): Republic of Turkiye Ministry of Health, Ankara, Turkiye
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 6, 21
+	•	Section: Abstract
+	•	Quote(s): national electronic health registry, first comprehensive nationwide epidemiological analysis
+
+⸻
+
+[6] Study Design: Retrospective national cohort study
+	•	Line(s): 10
+	•	Section: Abstract (Methods)
+	•	Quote(s): The study was a retrospective national cohort study
+
+⸻
+
+[7] Study Population: Patients with CMS identified via ICD-10 code G70.2
+	•	Line(s): 10
+	•	Section: Abstract (Methods)
+	•	Quote(s): patients with at least three G70.2 ICD-10 code entries
+
+⸻
+
+[8] Population Characteristics: NR
+	•	Line(s): 12–14
+	•	Section: Abstract (Results)
+	•	Quote(s):
+The mean age at diagnosis was 20.59±21.65 years (median: 12.00, min-max: 0-86).
+females comprising 48.8% of the cohort.
+58.6% were diagnosed before the age of 18, and 12.3% before the age of one.
+
+⸻
+
+[9] Data Source Type: National electronic health registry
+	•	Line(s): 6
+	•	Section: Abstract (Objective)
+	•	Quote(s): utilizing data from the national electronic health registry
+
+⸻
+
+[10] Data Source Details: Patients identified by ≥3 entries of ICD-10 code G70.2 in national database
+	•	Line(s): 10
+	•	Section: Abstract (Methods)
+	•	Quote(s): patients with at least three G70.2 ICD-10 code entries between 1 January 2015 and 22 May 2024
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 10
+	•	Section: Abstract (Methods)
+	•	Quote(s): The study was a retrospective national cohort study
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[13] Study Start Year: 1 January 2015
+	•	Line(s): 10
+	•	Section: Abstract (Methods)
+	•	Quote(s): between 1 January 2015 and 22 May 2024
+
+⸻
+
+[14] Study End Year: 22 May 2024
+	•	Line(s): 10
+	•	Section: Abstract (Methods)
+	•	Quote(s): between 1 January 2015 and 22 May 2024
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): 3
+	•	Section: Abstract (Objective)
+	•	Quote(s): Congenital myasthenic syndromes (CMS) represent a group of genetically heterogenous disorders
+
+⸻
+
+[18] Diagnosis Method: Clinical diagnosis based on ICD-10 coding
+	•	Line(s): 10
+	•	Section: Abstract (Methods)
+	•	Quote(s): patients with at least three G70.2 ICD-10 code entries
+
+⸻
+
+[19] Diagnosis Criteria Details: At least three ICD-10 G70.2 entries in national database
+	•	Line(s): 10
+	•	Section: Abstract (Methods)
+	•	Quote(s): patients with at least three G70.2 ICD-10 code entries
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 13
+	•	Section: Abstract (Results)
+	•	Quote(s): 58.6% were diagnosed before the age of 18
+
+⸻
+
+[22] Female % in Cohort: 48.8%
+	•	Line(s): 12
+	•	Section: Abstract (Results)
+	•	Quote(s): females comprising 48.8% of the cohort
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

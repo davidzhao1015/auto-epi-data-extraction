@@ -1,0 +1,158 @@
+[1] Article Title: Epidemiological Study of Pediatric Neuromuscular Disorders in South West France Regions
+	•	Line(s): Page 1, Line 1
+	•	Section: Title Page
+	•	Quote(s): Epidemiological Study of Pediatric Neuromuscular Disorders in South West France Regions
+
+⸻
+
+[2] Publication Year: 2024
+	•	Line(s): Page 1, Line 23
+	•	Section: Title Page
+	•	Quote(s): Posted Date: May 29th, 2024
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): Page 2, Abstract; Page 3, Methods
+	•	Section: Abstract, Methods
+	•	Quote(s): Southwest regions of France / Southwest France is organized in two geographic areas: Nouvelle-Aquitaine and Occitanie
+
+⸻
+
+[4] Country: France
+	•	Line(s): Page 2, Abstract
+	•	Section: Abstract
+	•	Quote(s): we described the epidemiological profile of neuromuscular disorders on Southwest regions of France
+
+⸻
+
+[5] Coverage Area: Multi-regional
+	•	Line(s): Page 3, Study Population
+	•	Section: Methods
+	•	Quote(s): Southwest France is organized in two geographic areas: Nouvelle-Aquitaine and Occitanie, which are subdivided in departmental sections
+
+⸻
+
+[6] Study Design: Retrospective cohort study
+	•	Line(s): Page 2, Methods
+	•	Section: Abstract
+	•	Quote(s): We performed a retrospective cohort study
+
+⸻
+
+[7] Study Population: Pediatric patients (<18 years) with neuromuscular disorders
+	•	Line(s): Page 3, Study Population
+	•	Section: Methods
+	•	Quote(s): patients having at least one care activity at pediatric age (under 18)... and having an NMD diagnostic code
+
+⸻
+
+[8] Population Characteristics: Median age at inclusion: 8 years; 62% male
+	•	Line(s): Page 4
+	•	Section: Results – Demographic information
+	•	Quote(s): 1,621 children were included ... median age at inclusion of 8 years ... sex ratio was 1.64 in favor of male
+
+⸻
+
+[9] Data Source Type: National registry
+	•	Line(s): Page 2, Methods
+	•	Section: Abstract
+	•	Quote(s): data extracted from the French National Rare Disease Databank
+
+⸻
+
+[10] Data Source Details: French National Rare Disease Databank (BNDMR) using Orphanet nomenclature
+	•	Line(s): Page 3
+	•	Section: Diagnoses Classification
+	•	Quote(s): The BNDMR allowed us to identify patients ... using Orphanet nomenclature
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): Page 2, Methods
+	•	Section: Abstract
+	•	Quote(s): retrospective cohort study
+
+⸻
+
+[12] Number of Sites: Multiple
+	•	Line(s): Page 2 and 3
+	•	Section: Abstract, Study Population
+	•	Quote(s): in three expert centers (Toulouse, Montpellier and Bordeaux) / All regional reference expert centers in Southwest France
+
+⸻
+
+[13] Study Start Year: May 1, 2001
+	•	Line(s): Page 2, Abstract
+	•	Section: Abstract
+	•	Quote(s): from May 1, 2001
+
+⸻
+
+[14] Study End Year: June 1, 2022
+	•	Line(s): Page 2, Abstract
+	•	Section: Abstract
+	•	Quote(s): to June 1, 2022
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Neuromuscular disorders (NMD), including subtypes such as DMD, BMD, SMA, CMT1
+	•	Line(s): Page 2, Abstract
+	•	Section: Abstract
+	•	Quote(s): neuromuscular disorders ... Duchene, Becker, Charcot-Marie-Tooth type 1 and Spinal muscular atrophy
+
+⸻
+
+[18] Diagnosis Method: NR
+	•	Line(s): Page 2, Abstract
+	•	Section: Abstract
+	•	Quote(s): We screened medical and genetic hospital records / using Orphanet nomenclature
+
+⸻
+
+[19] Diagnosis Criteria Details: Orphanet classification (ORPHADATA 2022); BNDMR coding
+	•	Line(s): Page 3
+	•	Section: Diagnoses Classification
+	•	Quote(s): We used the 2021 version of the gene table of neuromuscular disorders ... using Orphanet nomenclature
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Pediatric
+	•	Line(s): Page 3
+	•	Section: Study Population
+	•	Quote(s): patients having at least one care activity at pediatric age (under 18)
+
+⸻
+
+[22] Female % in Cohort: 38%
+	•	Line(s): Page 4
+	•	Section: Results – Demographic information
+	•	Quote(s): 1,621 children were included ... with 62% of males
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

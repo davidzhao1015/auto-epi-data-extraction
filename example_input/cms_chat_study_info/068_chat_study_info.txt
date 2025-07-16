@@ -1,0 +1,158 @@
+[1] Article Title: Pregnancy in congenital myasthenic syndrome
+	•	Line(s): 1
+	•	Section: Title Page / Header
+	•	Quote(s): “Pregnancy in congenital myasthenic syndrome”
+
+⸻
+
+[2] Publication Year: 2013
+	•	Line(s): 26
+	•	Section: Title Page / Journal citation
+	•	Quote(s): “J Neurol (2013) 260:815–819”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 20, 36–38
+	•	Section: Author Affiliations
+	•	Quote(s): “Groupe Hospitalier Pitié-Salpêtrière, Paris, France”
+
+⸻
+
+[4] Country: France
+	•	Line(s): 36–38
+	•	Section: Author Affiliations
+	•	Quote(s): “Groupe Hospitalier Pitié-Salpêtrière, Paris, France”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 12–14, 55–56
+	•	Section: Abstract, Introduction
+	•	Quote(s): “…all patients with CMS listed in the French Registry…”; “…patients with CMS recorded in the French CMS database.”
+
+⸻
+
+[6] Study Design: Retrospective
+	•	Line(s): 67, 145
+	•	Section: Introduction, Discussion
+	•	Quote(s): “We therefore retrospectively reviewed the medical, gynecological, and obstetrical history…”; “…only a retrospective study was feasible.”
+
+⸻
+
+[7] Study Population: Adult female patients with congenital myasthenic syndrome (CMS)
+	•	Line(s): 70–71
+	•	Section: Patients and Methods
+	•	Quote(s): “…24 of the 26 adult female CMS patients recorded in the French database…”
+
+⸻
+
+[8] Population Characteristics: Age range 20–60 years; all female
+	•	Line(s): 88
+	•	Section: Results
+	•	Quote(s): “Data was obtained from 24 patients, aged from 20 to 60 at inclusion (mean 37.3 years).”
+
+⸻
+
+[9] Data Source Type: Registry
+	•	Line(s): 14, 56
+	•	Section: Abstract, Introduction
+	•	Quote(s): “…patients with CMS listed in the French Registry…”; “…recorded in the French CMS database.”
+
+⸻
+
+[10] Data Source Details: French CMS database; verified with patients
+	•	Line(s): 14–15
+	•	Section: Abstract
+	•	Quote(s): “The data were reviewed with the assistance of the patients to insure accuracy.”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 67, 145
+	•	Section: Introduction, Discussion
+	•	Quote(s): “…retrospectively reviewed the medical… history of the patients…”; “…only a retrospective study was feasible.”
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndrome (CMS)
+	•	Line(s): 1, 12
+	•	Section: Title, Abstract
+	•	Quote(s): “Pregnancy in congenital myasthenic syndrome”
+
+⸻
+
+[18] Diagnosis Method: Molecular analysis
+	•	Line(s): 72
+	•	Section: Patients and Methods
+	•	Quote(s): “Diagnosis of CMS was confirmed by molecular analysis for all patients.”
+
+⸻
+
+[19] Diagnosis Criteria Details: Based on molecular confirmation
+	•	Line(s): 72
+	•	Section: Patients and Methods
+	•	Quote(s): “Diagnosis of CMS was confirmed by molecular analysis for all patients.”
+
+⸻
+
+[20] Disease Phase: Chronic
+	•	Line(s): 59, 108
+	•	Section: Introduction, Results
+	•	Quote(s): “…CMS is a rare… inherited disease…” and “…recovered their pre-pregnancy clinical status six months after the delivery.”
+
+⸻
+
+[21] Cohort Age Group: Adult
+	•	Line(s): 70–71
+	•	Section: Patients and Methods
+	•	Quote(s): “…24 of the 26 adult female CMS patients…”
+
+⸻
+
+[22] Female % in Cohort: 100%
+	•	Line(s): 70
+	•	Section: Patients and Methods
+	•	Quote(s): “…adult female CMS patients…”
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

@@ -1,0 +1,155 @@
+[1] Article Title: Congenital myasthenic syndromes
+	•	Line(s): 1
+	•	Section: Title Page
+	•	Quote(s): “Congenital myasthenic syndromes”
+
+⸻
+
+[2] Publication Year: 2019
+	•	Line(s): 73
+	•	Section: Footer / Metadata
+	•	Quote(s): “Finsterer Orphanet Journal of Rare Diseases (2019) 14:57”
+
+⸻
+
+[3] Region: Global
+	•	Line(s): 85–90
+	•	Section: Abstract / Introduction
+	•	Quote(s): “The present review aimed at summarizing and discussing current knowledge and recent advances…”
+
+⸻
+
+[4] Country: Multiple (Global)
+	•	Line(s): 164–167
+	•	Section: Methods
+	•	Quote(s): “…published between 1966 and 2017 were included… Websites checked… Neuromuscular homepage… Genetics Home Reference… National Organisation for Rare Disorders”
+
+⸻
+
+[5] Coverage Area: International
+	•	Line(s): 82–85
+	•	Section: Abstract / Introduction
+	•	Quote(s): “…summarizing and discussing current knowledge and recent advances concerning the etiology…”
+
+⸻
+
+[6] Study Design: Systematic literature review
+	•	Line(s): 78
+	•	Section: Abstract
+	•	Quote(s): “Methods: Systematic literature review.”
+
+⸻
+
+[7] Study Population: Patients with Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): 78–82
+	•	Section: Abstract
+	•	Quote(s): “CMSs are a genotypically and phenotypically heterogeneous group of neuromuscular disorders…”
+
+⸻
+
+[8] Population Characteristics: Early-onset, various genetic subtypes, both sexes, multiple ethnicities
+	•	Line(s): 104–117
+	•	Section: Introduction
+	•	Quote(s): “…onset of endplate myopathy is intrauterine, congenital, in infancy, or childhood, and rarely in adolescence.”
+
+⸻
+
+[9] Data Source Type: Literatures
+	•	Line(s): 164–166
+	•	Section: Methods
+	•	Quote(s): “…case series, and case reports were included. Only original articles about humans…”
+
+⸻
+
+[10] Data Source Details: MEDLINE search, plus genetic databases and rare disease websites
+	•	Line(s): 159–167
+	•	Section: Methods
+	•	Quote(s): “Data for this review were identified by searches of MEDLINE… Neuromuscular homepage… Genetics home reference…”
+
+⸻
+
+[11] Study Timeline Type: Neither
+	•	Line(s): 78
+	•	Section: Abstract
+	•	Quote(s): “Systematic literature review.”
+
+⸻
+
+[12] Number of Sites: NA
+	•	Line(s): 164
+	•	Section: Methods
+	•	Quote(s): “…case reports were included…”
+
+⸻
+
+[13] Study Start Year: 1966
+	•	Line(s): 165
+	•	Section: Methods
+	•	Quote(s): “…published between 1966 and 2017 were included.”
+
+⸻
+
+[14] Study End Year: 2017
+	•	Line(s): 165
+	•	Section: Methods
+	•	Quote(s): “…published between 1966 and 2017 were included.”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: Not specified
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: Not specified
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): 1, 78–82
+	•	Section: Title, Abstract, and throughout
+	•	Quote(s): “Congenital myasthenic syndromes (CMSs) are a genotypically and phenotypically heterogeneous group…”
+
+⸻
+
+[18] Diagnosis Method: Genetic testing, clinical signs, electromyography
+	•	Line(s): 160–170, 857–870
+	•	Section: Methods, Diagnosis
+	•	Quote(s): “…confirmation of a heterocygote or biallelic pathogenic variant in one of the 32 CMS genes…”
+
+⸻
+
+[19] Diagnosis Criteria Details: Clinical symptoms, decrement on RNS or jitter on SF-EMG, genetic confirmation, response to AchEI
+	•	Line(s): 860–880
+	•	Section: Diagnosis
+	•	Quote(s): “A CMS should be generally suspected if… LF-RNS evokes a decrement of > 10% or if SF-EMG shows increased jitter or blockings…”
+
+⸻
+
+[20] Disease Phase: Both
+	•	Line(s): 111–113, 225–229
+	•	Section: Introduction, Classification
+	•	Quote(s): “…onset of endplate myopathy is intrauterine, congenital, in infancy, or childhood… CMS may be classified as progressive, fluctuating, or regressive.”
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 111–113
+	•	Section: Introduction
+	•	Quote(s): “Onset of endplate myopathy is intrauterine, congenital, in infancy, or childhood, and rarely in adolescence.”
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): NR
+	•	Section: Not specified
+
+⸻
+
+[23] Consanguinity: Reported in some case examples, but no aggregate number
+	•	Line(s): e.g., 1292–1295
+	•	Section: Results (MYO9A case)
+	•	Quote(s): “The unaffected parents were consanguineous and had previously lost four children…”

@@ -1,0 +1,158 @@
+[1] Article Title: Comprehensive review of congenital myasthenic syndromes from around the world
+	•	Line(s): 3
+	•	Section: Title Page
+	•	Quote(s): Comprehensive review of congenital myasthenic syndromes from around the world
+
+⸻
+
+[2] Publication Year: 2023
+	•	Line(s): 7
+	•	Section: Title Page
+	•	Quote(s): Journal of Neurology (2023)
+
+⸻
+
+[3] Region: Global
+	•	Line(s): 3, 61–65
+	•	Section: Title, Abstract
+	•	Quote(s): from around the world; We aimed to analyze the global landscape of CMS studies
+
+⸻
+
+[4] Country: Multiple (Global review)
+	•	Line(s): 125–135
+	•	Section: Methods
+	•	Quote(s): All relevant studies of CMS cases in humans published in English from January 2000 to September 2021 were included
+
+⸻
+
+[5] Coverage Area: International
+	•	Line(s): 65, 135
+	•	Section: Abstract, Methods
+	•	Quote(s): the global landscape; CMS cases in humans published in English
+
+⸻
+
+[6] Study Design: Systematic review
+	•	Line(s): 125–126
+	•	Section: Methods
+	•	Quote(s): We performed a systematic review using PubMed
+
+⸻
+
+[7] Study Population: CMS patients across all reported cases from eligible studies
+	•	Line(s): 125–130
+	•	Section: Methods
+	•	Quote(s): All relevant studies of CMS cases in humans… were included in this systematic review.
+
+⸻
+
+[8] Population Characteristics: All ages; mixed demographics depending on original studies
+	•	Line(s): 155–158
+	•	Section: Results
+	•	Quote(s): The ages at onset ranged widely from the neonatal period to adulthood.
+
+⸻
+
+[9] Data Source Type: Published clinical reports / case series
+	•	Line(s): 125–135
+	•	Section: Methods
+	•	Quote(s): We performed a systematic review using PubMed…
+
+⸻
+
+[10] Data Source Details:
+	•	Line(s): 125–135
+	•	Section: Methods
+	•	Quote(s): We performed a systematic review using PubMed… published in English from January 2000 to September 2021.
+
+⸻
+
+[11] Study Timeline Type: Neither
+	•	Line(s): 125–130
+	•	Section: Methods
+	•	Quote(s): All relevant studies of CMS cases in humans published in English from January 2000 to September 2021
+
+⸻
+
+[12] Number of Sites: 
+	•	Line(s): 125–130
+	•	Section: Methods
+	•	Quote(s): All relevant studies…
+
+⸻
+
+[13] Study Start Year: NA
+	•	Line(s): 125–130
+	•	Section: Methods
+	•	Quote(s): published in English from January 2000…
+
+⸻
+
+[14] Study End Year: NA
+	•	Line(s): 125–130
+	•	Section: Methods
+	•	Quote(s): …to September 2021
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): 3, 60
+	•	Section: Title, Abstract
+	•	Quote(s): Comprehensive review of congenital myasthenic syndromes; CMS are heterogeneous inherited disorders
+
+⸻
+
+[18] Diagnosis Method: Genetic testing, clinical evaluation
+	•	Line(s): 60–63
+	•	Section: Abstract
+	•	Quote(s): diagnosed using clinical symptoms and confirmed by genetic testing
+
+⸻
+
+[19] Diagnosis Criteria Details: Based on clinical symptoms and genetic confirmation
+	•	Line(s): 60–63
+	•	Section: Abstract
+	•	Quote(s): CMS are… characterized by fatigable muscle weakness and confirmed by genetic testing.
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 157–158
+	•	Section: Results
+	•	Quote(s): The ages at onset ranged widely from the neonatal period to adulthood.
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): 349–350
+	•	Section: Results
+	•	Quote(s): Consanguinity was reported in 1325 families (38.7%) out of 3421 families

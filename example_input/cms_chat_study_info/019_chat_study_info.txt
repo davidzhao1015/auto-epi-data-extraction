@@ -1,0 +1,163 @@
+[1] Article Title: Prevalence and incidence rates of 17 neuromuscular disorders: An updated review of the literature
+	•	Line(s): 2–3
+	•	Section: Title Page
+	•	Quote(s): “Prevalence and incidence rates of 17 neuromuscular disorders: An updated review of the literature”
+
+⸻
+
+[2] Publication Year: 2025
+	•	Line(s): 22
+	•	Section: Title Page
+	•	Quote(s): “© The Author(s) 2025”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 48
+	•	Section: Introduction
+	•	Quote(s): “to enable comparison with… a nationwide registry… in the Netherlands”
+
+⸻
+
+[4] Country: Netherlands
+	•	Line(s): 48, 64
+	•	Section: Introduction, Acknowledgements
+	•	Quote(s):
+	•	“comparison with… a nationwide registry… in the Netherlands”
+	•	“Radboud university medical center, Nijmegen, the Netherlands”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 48
+	•	Section: Introduction
+	•	Quote(s): “a nationwide registry of newly diagnosed neuromuscular disorders in the Netherlands”
+
+⸻
+
+[6] Study Design: Systematic literature review with summary statistics and pooled estimate comparison
+	•	Line(s): 40–42
+	•	Section: Methods
+	•	Quote(s): “Pubmed was searched… from 1990 to 2023”
+“we searched for meta-analyses to compare the found mean prevalence rates…”
+
+⸻
+
+[7] Study Population: General population
+	•	Line(s): 44
+	•	Section: Methods – Inclusion criteria
+	•	Quote(s): “concerning the general population, not (a) specific ethnic group(s)”
+
+⸻
+
+[8] Population Characteristics: NR
+	•	Line(s): 36–37
+	•	Section: Methods
+	•	Quote(s): “contrary to the previous work it did not report age- and sex distributions”
+
+⸻
+
+[9] Data Source Type: Published literature
+	•	Line(s): 40
+	•	Section: Methods
+	•	Quote(s): “Pubmed was searched… to identify peer-reviewed literature”
+
+⸻
+
+[10] Data Source Details: PubMed-indexed peer-reviewed articles (1990–2023)
+	•	Line(s): 40–43
+	•	Section: Methods
+	•	Quote(s):
+	•	“Pubmed was searched… to identify peer-reviewed literature from 1990 to 2023”
+	•	“Full search details are provided in the Supplementary materials Table 1”
+
+⸻
+
+[11] Study Timeline Type: Neither prospective nor retrospective (literature-based synthesis)
+	•	Line(s): 40–43
+	•	Section: Methods
+	•	Quote(s): “Pubmed was searched… to identify peer-reviewed literature”
+
+⸻
+
+[12] Number of Sites: Multiple (as a review, covers studies from many countries)
+	•	Line(s): Table 2 (references studies from 25+ countries)
+	•	Section: Results
+	•	Quote(s): “Table 2… arranged by anatomical location and in alphabetical order, accompanied by the papers reporting on their incidence and prevalence”
+
+⸻
+
+[13] Study Start Year: 1990
+	•	Line(s): 40
+	•	Section: Methods
+	•	Quote(s): “peer-reviewed literature from 1990 to 2023”
+
+⸻
+
+[14] Study End Year: 2023
+	•	Line(s): 40
+	•	Section: Methods
+	•	Quote(s): “peer-reviewed literature from 1990 to 2023”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): 44
+	•	Section: Methods – Inclusion criteria
+	•	Quote(s): “concerning the general population, not (a) specific ethnic group(s)”
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): 44
+	•	Section: Methods – Inclusion criteria
+	•	Quote(s): Same as above.
+
+⸻
+
+[17] Disease Studied: 17 neuromuscular disorders (including CMT, CIDP, IBM, etc.)
+	•	Line(s): Table 1, Page 4
+	•	Section: Results – Table 1
+	•	Quote(s): “The 17 neuromuscular disorders included in this study… progressive (spinal) muscular atrophy, Charcot-Marie-Tooth disease…”
+
+⸻
+
+[18] Diagnosis Method: NR (study aggregates published estimates)
+	•	Line(s): 44
+	•	Section: Methods – Inclusion criteria
+	•	Quote(s): “methods of ascertainment and calculation of disease frequency mentioned”
+
+⸻
+
+[19] Diagnosis Criteria Details: NR
+	•	Line(s): 44
+	•	Section: Methods – Inclusion criteria
+	•	Quote(s): Same as above.
+
+⸻
+
+[20] Disease Phase: Chronic (selection criteria prioritized chronic disorders)
+	•	Line(s): 35
+	•	Section: Researched neuromuscular disorders
+	•	Quote(s): “2) the disorder is chronic”
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 34–35
+	•	Section: Researched neuromuscular disorders
+	•	Quote(s): “1) the disorder is also diagnosed in adulthood”
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): 36–37
+	•	Section: Methods
+	•	Quote(s): “did not report age- and sex distributions”
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): Not mentioned.

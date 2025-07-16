@@ -1,0 +1,158 @@
+[1] Article Title: Neuromuscular centre effect on prevalence of congenital myasthenic syndrome (CMS) in the UK
+	•	Line(s): 1
+	•	Section: Title
+	•	Quote(s): “Neuromuscular centre effect on prevalence of congenital myasthenic syndrome (CMS) in the UK”
+
+⸻
+
+[2] Publication Year: 2024
+	•	Line(s): 2
+	•	Section: Journal header
+	•	Quote(s): “Neuromuscular Disorders 43 (2024)”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 13
+	•	Section: Abstract
+	•	Quote(s): “To determine the prevalence of CMS in the Oxford Hospital Regional Referral Area, in England, Scotland, Wales and Northern Ireland”
+
+⸻
+
+[4] Country: United Kingdom
+	•	Line(s): 13
+	•	Section: Abstract
+	•	Quote(s): “in the Oxford Hospital Regional Referral Area, in England, Scotland, Wales and Northern Ireland”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 14–15
+	•	Section: Abstract
+	•	Quote(s): “giving a UK prevalence of 6.4 cases per million”
+
+⸻
+
+[6] Study Design: Cross-sectional
+	•	Line(s): 13–15
+	•	Section: Abstract
+	•	Quote(s): “To determine the prevalence of CMS… on the 31st of December 2023.”
+
+⸻
+
+[7] Study Population: UK resident patients with genetically confirmed CMS
+	•	Line(s): 14
+	•	Section: Abstract
+	•	Quote(s): “UK resident patients referred to the Oxford National CMS service… with genetically confirmed CMS”
+
+⸻
+
+[8] Population Characteristics: 432 individuals from 362 families
+	•	Line(s): 15
+	•	Section: Abstract
+	•	Quote(s): “432 individuals from 362 different families with genetically confirmed CMS”
+
+⸻
+
+[9] Data Source Type: Clinical data, genetic confirmation
+	•	Line(s): 14–15
+	•	Section: Abstract
+	•	Quote(s): “UK resident patients referred to the Oxford National CMS service… with genetically confirmed CMS”
+
+⸻
+
+[10] Data Source Details: Oxford National CMS service, John Walton Muscular Dystrophy Centre
+	•	Line(s): 14
+	•	Section: Abstract
+	•	Quote(s): “referred to the Oxford National CMS service (with additional John Walton Muscular Dystrophy Centre patients, Newcastle)”
+
+⸻
+
+[11] Study Timeline Type: Neither
+	•	Line(s): 13
+	•	Section: Abstract
+	•	Quote(s): “on the 31st of December 2023”
+
+⸻
+
+[12] Number of Sites: Multiple
+	•	Line(s): 16–17
+	•	Section: Abstract
+	•	Quote(s): “regions containing Neuromuscular Centres (NMCs) (London, North East, North West, South East and Yorkshire)”
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: December 31, 2023
+	•	Line(s): 13
+	•	Section: Abstract
+	•	Quote(s): “on the 31st of December 2023”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndrome (CMS) including subtypes CHRNE, DOK7, RAPSN
+	•	Line(s): 1
+	•	Section: Title
+	•	Quote(s): “congenital myasthenic syndrome (CMS)”
+
+⸻
+
+[18] Diagnosis Method: Genetic confirmation
+	•	Line(s): 15
+	•	Section: Abstract
+	•	Quote(s): “genetically confirmed CMS”
+
+⸻
+
+[19] Diagnosis Criteria Details: Genetically confirmed subtypes
+	•	Line(s): 18
+	•	Section: Abstract
+	•	Quote(s): “The CHRNE, DOK7, RAPSN subtypes were the most common.”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

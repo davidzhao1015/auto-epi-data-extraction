@@ -1,0 +1,158 @@
+[1] Article Title: Congenital myasthenic syndromes: difficulties in the diagnosis, course and prognosis, and therapy – The French national Congenital Myasthenic Syndrome network experience
+	•	Line(s): 5
+	•	Section: Title Page
+	•	Quote(s): “Congenital myasthenic syndromes: difficulties in the diagnosis, course and prognosis, and therapy - The French national Congenital Myasthenic Syndrome network experience”
+
+⸻
+
+[2] Publication Year: 2013
+	•	Line(s): 5
+	•	Section: Title Page
+	•	Quote(s): “REVUE NEUROLOGIQUE 169 (2013) S45-S55”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 5
+	•	Section: Affiliations / Title Page
+	•	Quote(s): “Hôpital de la Pitié- Salpêtrière, Paris, France” (Multiple French institutions listed)
+
+⸻
+
+[4] Country: France
+	•	Line(s): 5
+	•	Section: Affiliations
+	•	Quote(s): “France” (mentioned in institutional addresses and network description)
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 5
+	•	Section: Abstract / Introduction
+	•	Quote(s): “…the experience of our national network on CMS…” and “…réseau national”
+
+⸻
+
+[6] Study Design: Retrospective observational analysis
+	•	Line(s): 5, S51
+	•	Section: Methods / Evolution section
+	•	Quote(s): “Nous avons étudié l’évolution à long terme chez 79 patients…” and “retrospective clinical study”
+
+⸻
+
+[7] Study Population: Patients with congenital myasthenic syndromes (CMS)
+	•	Line(s): 5
+	•	Section: Abstract
+	•	Quote(s): “…79 patients recruited with the following gene mutations…”
+
+⸻
+
+[8] Population Characteristics: Mixed ages; some pediatric onset; both sexes; includes consanguinity and variable severity
+	•	Line(s): S47, S51
+	•	Section: Introduction / Results
+	•	Quote(s): “débutant le plus souvent dans la petite enfance” and “patients non consanguins… 3 filles asymptomatiques”
+
+⸻
+
+[9] Data Source Type: Clinical data
+	•	Line(s): S48–S52
+	•	Section: Methods / Case Series
+	•	Quote(s): “cas cliniques… l’EMG, la biopsie, l’évolution des symptômes…”
+
+⸻
+
+[10] Data Source Details: Clinical assessments, EMG, muscle biopsy, genetic testing
+	•	Line(s): S46–S52
+	•	Section: Diagnostic & Evolution
+	•	Quote(s): “…EMG révélait des tracés myogènes… biopsie… mutations du gène…”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): S51
+	•	Section: Evolution / Methods
+	•	Quote(s): “retrospective clinical study” (mentioned indirectly via long-term observation of previously diagnosed patients)
+
+⸻
+
+[12] Number of Sites: Multiple (French national network)
+	•	Line(s): 5
+	•	Section: Author Affiliations
+	•	Quote(s): Lists 17+ institutions under “réseau national”
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndromes (CMS) and gene subtypes (CHRNA1, CHRNE, DOK7, COLQ, RAPSN, AGRN, MUSK, etc.)
+	•	Line(s): S46–S51
+	•	Section: Abstract / Results
+	•	Quote(s): “mutations: CHRNA; CHRNE; DOK7; COLQ; RAPSN; AGRN; and MUSK”
+
+⸻
+
+[18] Diagnosis Method: Clinical symptoms, EMG, muscle biopsy, genetic analysis
+	•	Line(s): S48–S51
+	•	Section: Methods / Diagnosis section
+	•	Quote(s): “…le diagnostic repose sur l’analyse clinique, la mise en évidence d’un décrément à l’EMG et… mutations pathogènes”
+
+⸻
+
+[19] Diagnosis Criteria Details: Clinical signs (weakness, scoliosis, ptosis), EMG decrement, histology (fiber type), genetic mutation presence
+	•	Line(s): S48–S51
+	•	Section: Diagnosis Discussion
+	•	Quote(s): “…tracés myogènes… prédominance des fi bres de type I… décrément sur les couples nerfs-muscles proximaux…”
+
+⸻
+
+[20] Disease Phase: Chronic with fluctuating or progressive phases
+	•	Line(s): S51–S52
+	•	Section: Prognosis / Evolution
+	•	Quote(s): “multiplicité des schémas évolutifs… périodes de stabilité, d’amélioration… d’aggravation progressive…”
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): S47
+	•	Section: Abstract / Case Descriptions
+	•	Quote(s): “débutant le plus souvent dans la petite enfance” and adult deterioration
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[23] Consanguinity: Mentioned in at least one case
+	•	Line(s): S47
+	•	Section: Case S
+	•	Quote(s): “parents non consanguins” implies consanguinity was considered; further mentions include “communautés gitane ou maghrébine” in relation to genetic inheritance

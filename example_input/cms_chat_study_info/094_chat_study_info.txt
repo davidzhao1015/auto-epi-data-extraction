@@ -1,0 +1,158 @@
+[1] Article Title: Prevalence and genetic subtypes of congenital myasthenic syndromes in the pediatric population of Slovenia
+	•	Line(s): Title section
+	•	Section: Title Page / Header
+	•	Quote(s): Prevalence and genetic subtypes of congenital myasthenic syndromes in the pediatric population of Slovenia
+
+⸻
+
+[2] Publication Year: 2020
+	•	Line(s): Title section
+	•	Section: Title Page
+	•	Quote(s): European Journal of Paediatric Neurology, Volume 26, May 2020
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): Various mentions
+	•	Section: Methods, Abstract
+	•	Quote(s): …pediatric population of Slovenia.
+
+⸻
+
+[4] Country: Slovenia
+	•	Line(s): Multiple
+	•	Section: Abstract, Methods
+	•	Quote(s): …CMS in pediatric population of Slovenia. / …University Medical Centre, Ljubljana, Slovenia…
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): …retrospective, national, cross-sectional study…
+
+⸻
+
+[6] Study Design: Cross-sectional, retrospective
+	•	Line(s): Methods
+	•	Section: Abstract, Methods
+	•	Quote(s): …In this observational, national, cross-sectional study, medical records were retrospectively reviewed.
+
+⸻
+
+[7] Study Population: Pediatric patients with genetically confirmed CMS
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): Children with genetically confirmed CMS, referred over a 19-year period…
+
+⸻
+
+[8] Population Characteristics: Age < 19 years, 3 males and 5 females, all survived study period
+	•	Line(s): Results
+	•	Section: Prevalence
+	•	Quote(s): Eight children (3 males, 5 females)… / …under 19 years of age… / …none of the identified children died…
+
+⸻
+
+[9] Data Source Type: Clinical records and genetic lab data
+	•	Line(s): Methods
+	•	Section: Abstract, Methods
+	•	Quote(s): …medical records were retrospectively reviewed. / Genetic and phenotypic characteristics were collected…
+
+⸻
+
+[10] Data Source Details: University Medical Centre, Ljubljana – sole pediatric neuromuscular referral center in Slovenia
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): …referred over a 19 – year period…to the Department of Child, Adolescent and Developmental Neurology, University Medical Centre, Ljubljana…
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): …retrospective, national, cross-sectional study…
+
+⸻
+
+[12] Number of Sites: Single
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): …the only specialized pediatric centre for treatment of children with neuromuscular diseases in Slovenia…
+
+⸻
+
+[13] Study Start Year: 2000
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): …referred over a 19 – year period (2000–2018)…
+
+⸻
+
+[14] Study End Year: 2018
+	•	Line(s): Methods
+	•	Section: Methods
+	•	Quote(s): …referred over a 19 – year period (2000–2018)…
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): Not mentioned
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): Not mentioned
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): Title, Abstract, throughout
+	•	Section: Title, Abstract, Introduction
+	•	Quote(s): …congenital myasthenic syndromes (CMS)…
+
+⸻
+
+[18] Diagnosis Method: Genetic confirmation via molecular testing
+	•	Line(s): Abstract, Methods
+	•	Section: Abstract, Methods
+	•	Quote(s): Children with genetically confirmed CMS… / Genetic molecular testing has improved diagnostics…
+
+⸻
+
+[19] Diagnosis Criteria Details: Confirmation by pathogenic variants in known CMS genes via exome sequencing
+	•	Line(s): Introduction
+	•	Section: Introduction
+	•	Quote(s): Next generation sequencing (NGS) and whole exome sequencing have become important… / …confirmation of the diagnosis and the genetic subtype…
+
+⸻
+
+[20] Disease Phase: Chronic (inferred), though not explicitly stated
+	•	Line(s): Introduction
+	•	Section: Introduction
+	•	Quote(s): …disease usually presents during the first and second year of life with fluctuating weakness…
+
+⸻
+
+[21] Cohort Age Group: Pediatric
+	•	Line(s): Multiple
+	•	Section: Title, Abstract, Methods
+	•	Quote(s): …in the pediatric population… / …children with genetically confirmed CMS…
+
+⸻
+
+[22] Female % in Cohort: 62.5%
+	•	Line(s): Results
+	•	Section: Prevalence
+	•	Quote(s): Eight children (3 males, 5 females)…
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): Not reported
+	•	Section: NR
+	•	Quote(s): NR

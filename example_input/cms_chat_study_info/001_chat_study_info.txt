@@ -1,0 +1,160 @@
+[1] Article Title: Wales registry report
+	•	Line(s): 2, 5
+	•	Section: Title page, Header
+	•	Quote(s):
+
+⸻
+
+[2] Publication Year: 2024
+	•	Line(s): 2
+	•	Section: Header
+	•	Quote(s):
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 6
+	•	Section: Affiliations
+	•	Quote(s):
+
+⸻
+
+[4] Country: Wales
+	•	Line(s): 6
+	•	Section: Affiliations
+	•	Quote(s):
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 37, 198
+	•	Section: Abstract, Discussion
+	•	Quote(s):
+
+⸻
+
+[6] Study Design: Registry
+	•	Line(s): 198
+	•	Section: Discussion
+	•	Quote(s):
+
+⸻
+
+[7] Study Population:NR
+	•	Line(s): 63–72
+	•	Section: Methods
+	•	Quote(s):
+
+⸻
+
+[8] Population Characteristics:
+	•	Line(s): 134–135
+	•	Section: Results
+	•	Quote(s):
+
+⸻
+
+[9] Data Source Type:
+	•	Line(s): 60–63
+	•	Section: Methods
+	•	Quote(s):
+
+⸻
+
+[10] Data Source Details: 
+	•	Line(s): 60–63
+	•	Section: Methods
+	•	Quote(s):
+
+⸻
+
+[11] Study Timeline Type:Neither
+	•	Line(s): 38, 66
+	•	Section: Abstract, Methods
+	•	Quote(s):
+
+⸻
+
+[12] Number of Sites: Multiple
+	•	Line(s): 62
+	•	Section: Methods
+	•	Quote(s):
+
+⸻
+
+[13] Study Start Year: 1998
+	•	Line(s): 38
+	•	Section: Abstract
+	•	Quote(s):
+	•	“From January 1, 1999…”
+
+⸻
+
+[14] Study End Year: 2023
+	•	Line(s): 38
+	•	Section: Abstract
+	•	Quote(s):
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):
+	•	NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):
+	•	NR
+
+⸻
+
+[17] Disease Studied: NR
+	•	Line(s): 70–72
+	•	Section: Methods
+	•	Quote(s):
+
+⸻
+
+[18] Diagnosis Method: NR
+	•	Line(s): 75–78
+	•	Section: Methods
+	•	Quote(s):
+
+⸻
+
+[19] Diagnosis Criteria Details: NR
+	•	Line(s): 75–78
+	•	Section: Methods
+	•	Quote(s):
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):
+
+⸻
+
+[21] Cohort Age Group: NR
+	•	Line(s): 136
+	•	Section: Results
+	•	Quote(s):
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): 138
+	•	Section: Results
+	•	Quote(s):
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):

@@ -1,0 +1,194 @@
+[1] Article Title: The Epidemiology of Neuromuscular Disorders: A Comprehensive Overview of the Literature
+	•	Line(s): 7–10
+	•	Section: Title page
+	•	Quote(s):
+The Epidemiology of Neuromuscular Disorders: A Comprehensive Overview of the Literature
+
+⸻
+
+[2] Publication Year: 2015
+	•	Line(s): 6–7
+	•	Section: Header (journal information)
+	•	Quote(s):
+Journal of Neuromuscular Diseases 2 (2015) 73–85
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 10–13
+	•	Section: Author Affiliations
+	•	Quote(s):
+Radboud University Medical Center, Nijmegen, The Netherlands
+Leiden University Medical Centre, Leiden, The Netherlands
+
+⸻
+
+[4] Country: Global
+	•	Line(s): 10–13
+	•	Section: Author Affiliations
+	•	Quote(s):
+Radboud University Medical Center, Nijmegen, The Netherlands
+Leiden University Medical Centre, Leiden, The Netherlands
+
+⸻
+
+[5] Coverage Area: International
+	•	Line(s): 15–17, 24–25, 76–78
+	•	Section: Abstract, Introduction, Results
+	•	Quote(s):
+In 1991, the first world survey of neuromuscular disorders (NMDs) was published…
+…we aim to give useful estimates of prevalence, incidence and age and gender distribution based on the recent world literature.
+We identified 169 articles containing relevant information on one or more of the 30 specified disorders…
+
+⸻
+
+[6] Study Design: Systematic Literature Review
+	•	Line(s): 24–27, 74–76
+	•	Section: Introduction, Methods
+	•	Quote(s):
+This prompted us to search the scientific literature since 1990 for the epidemiology of NMDs.
+We searched Pubmed for thirty neuromuscular disorders… combining all search terms with the keywords epidemiology, incidence, and prevalence…
+
+⸻
+
+[7] Study Population: Multiple neuromuscular disorders in the general population
+	•	Line(s): 27–30, 74–76
+	•	Section: Introduction, Methods
+	•	Quote(s):
+…for the epidemiology of NMDs.
+…looking into one of the 30 scrutinised neuromuscular disorders, in case of multiple publications… concerning the general population and not specific subgroup(s)…
+
+⸻
+
+[8] Population Characteristics: NR
+	•	Line(s): 76, 125–129, Table 2B (page 76)
+	•	Section: Methods, Results
+	•	Quote(s):
+…we classified the age at diagnosis of each disorder as early, uniform or late… For gender, we reported the percentage of males within the total group of patients per disease.
+Age distribution was available for 17 disorders… Friedreich ataxia, Duchenne muscular dystrophy and congenital muscular dystrophies occurred early in life… Amyotrophic lateral sclerosis, post-polio syndrome… revealed later in life.
+Gender data for 19 disorders… Seven disorders showed male predominance… Myasthenia gravis, non-dystrophic myotonia, polymyositis and dermatomyositis occurred up to twice as often in women.
+
+⸻
+
+[9] Data Source Type: Peer-reviewed literature
+	•	Line(s): 25–26, 74–76
+	•	Section: Abstract, Methods
+	•	Quote(s):
+…we aim to give useful estimates… based on the recent world literature.
+We studied the peer reviewed literature published between January 1990 up until July 2014.
+
+⸻
+
+[10] Data Source Details: PubMed search for 30 neuromuscular disorders
+	•	Line(s): 74–76
+	•	Section: Methods
+	•	Quote(s):
+We searched Pubmed for thirty neuromuscular disorders… using the mentioned disease names as search term (Table 1)… combined all search terms with the keywords epidemiology, incidence, and prevalence in the title and as MeSH term.
+
+⸻
+
+[11] Study Timeline Type: Neither
+	•	Line(s): 76–78
+	•	Section: Methods
+	•	Quote(s):
+We studied the peer reviewed literature published between January 1990 up until July 2014.
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): 76, 125
+	•	Section: Methods, Results
+	•	Quote(s):
+We studied the peer reviewed literature…
+We identified 169 articles containing relevant information on one or more of the 30 specified disorders…
+
+⸻
+
+[13] Study Start Year: 1990
+	•	Line(s): 76
+	•	Section: Methods
+	•	Quote(s):
+…peer reviewed literature published between January 1990 up until July 2014.
+
+⸻
+
+[14] Study End Year: 2014
+	•	Line(s): 76
+	•	Section: Methods
+	•	Quote(s):
+…peer reviewed literature published between January 1990 up until July 2014.
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): No mention of primary ethnicity across the review.
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): The review does not report ethnicity breakdowns or percentages for study populations.
+
+⸻
+
+[17] Disease Studied: Multiple neuromuscular disorders (30 total)
+	•	Line(s): 27, Table 1 (page 74)
+	•	Section: Introduction, Methods
+	•	Quote(s):
+…we expanded the scope of the first world survey by investigating the epidemiology of thirty disorders…
+Table 1 – The considered thirty neuromuscular disorders, arranged by anatomical origin
+
+⸻
+
+[18] Diagnosis Method: Varies by disorder; generally includes clinical assessment and genetic confirmation
+	•	Line(s): 23–24, 28–30
+	•	Section: Introduction
+	•	Quote(s):
+Since then, diagnostics have been greatly improved through genetic confirmation and consensus on criteria.
+…consensus on diagnostic criteria was reached for a number of diseases…
+
+⸻
+
+[19] Diagnosis Criteria Details: Consensus criteria and genetic confirmation where applicable
+	•	Line(s): 23–24, 28–30
+	•	Section: Introduction
+	•	Quote(s):
+…diagnostics have been greatly improved through genetic confirmation and consensus on criteria.
+…consensus on diagnostic criteria was reached for a number of diseases…
+
+⸻
+
+[20] Disease Phase: Both
+	•	Line(s): 125–129
+	•	Section: Results
+	•	Quote(s):
+…Friedreich ataxia, Duchenne muscular dystrophy and congenital muscular dystrophies occurred early in life…
+…amyotrophic lateral sclerosis, post-polio syndrome, Lambert-Eaton myasthenic syndrome and inclusion body myositis are revealed later in life.
+
+[21] Cohort Age Group: Mixed (includes pediatric, adult, and all-ages populations depending on the disorder)
+	•	Line(s): 125–129, Table 2B (page 76)
+	•	Section: Results
+	•	Quote(s):
+Friedreich ataxia, Duchenne muscular dystrophy and congenital muscular dystrophies occurred early in life… amyotrophic lateral sclerosis, post-polio syndrome… revealed later in life.
+Table 2B – Age distribution… e.g., DMD = early, ALS = late, MD = uniform…
+
+⸻
+
+[22] Female % in Cohort: Varies by disorder
+	•	Line(s): Table 2B (page 76)
+	•	Section: Results
+	•	Quote(s):
+Gender, male
+e.g., DMD – 97% male, BMD – 100% male, MG – 38% male, Polymyositis – 36% male
+
+Note: Female % = 100 – Male % (e.g., Polymyositis: 64% female, MG: 62% female, etc.)
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): No mention of consanguinity or number of cases from consanguineous families.

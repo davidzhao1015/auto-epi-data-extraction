@@ -1,0 +1,158 @@
+[1] Article Title: Molecular characterisation of congenital myasthenic syndromes in Southern Brazil
+	•	Line(s): 20
+	•	Section: Title / Header
+	•	Quote(s): “Molecular characterisation of congenital myasthenic syndromes in Southern Brazil”
+
+⸻
+
+[2] Publication Year: 2010
+	•	Line(s): 5
+	•	Section: Header
+	•	Quote(s): “2010 Sep;81(9):973-7.”
+
+⸻
+
+[3] Region: South America
+	•	Line(s): 24
+	•	Section: Abstract
+	•	Quote(s): “…from the Southern Brazilian state of Parana.”
+
+⸻
+
+[4] Country: Brazil
+	•	Line(s): 24
+	•	Section: Abstract
+	•	Quote(s): “…from the Southern Brazilian state of Parana.”
+
+⸻
+
+[5] Coverage Area: Regional
+	•	Line(s): 24
+	•	Section: Abstract
+	•	Quote(s): “…from the Southern Brazilian state of Parana.”
+
+⸻
+
+[6] Study Design: Cross-sectional genetic study
+	•	Line(s): 25
+	•	Section: Abstract – Methods
+	•	Quote(s): “Known CMS genes were sequenced and restriction digest for the mutation RAPSN p.N88K was performed in all patients.”
+
+⸻
+
+[7] Study Population: CMS patients from Southern Brazil
+	•	Line(s): 24
+	•	Section: Abstract – Patients and methods
+	•	Quote(s): “Twenty-five CMS patients from 18 independent families were included in the study.”
+
+⸻
+
+[8] Population Characteristics: 25 patients from 18 families
+	•	Line(s): 24
+	•	Section: Abstract – Patients and methods
+	•	Quote(s): “Twenty-five CMS patients from 18 independent families were included in the study.”
+
+⸻
+
+[9] Data Source Type: Clinical data, genetic testing
+	•	Line(s): 25
+	•	Section: Abstract – Methods
+	•	Quote(s): “Known CMS genes were sequenced…”
+
+⸻
+
+[10] Data Source Details: Sequencing and mutation analysis (e.g., RAPSN p.N88K)
+	•	Line(s): 25
+	•	Section: Abstract – Methods
+	•	Quote(s): “…sequenced and restriction digest for the mutation RAPSN p.N88K was performed…”
+
+⸻
+
+[11] Study Timeline Type: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital myasthenic syndromes (CMS)
+	•	Line(s): 24
+	•	Section: Title & Abstract
+	•	Quote(s): “…patients with congenital myasthenic syndromes (CMS)…”
+
+⸻
+
+[18] Diagnosis Method: Genetic testing
+	•	Line(s): 25
+	•	Section: Abstract – Methods
+	•	Quote(s): “Known CMS genes were sequenced…”
+
+⸻
+
+[19] Diagnosis Criteria Details: Mutation identification in known CMS genes
+	•	Line(s): 25
+	•	Section: Abstract – Methods
+	•	Quote(s): “…sequenced and restriction digest for the mutation RAPSN p.N88K…”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

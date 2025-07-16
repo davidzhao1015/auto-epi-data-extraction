@@ -1,0 +1,158 @@
+[1] Article Title: Prevalence in congenital myasthenic syndrome
+	•	Line(s): Title line at top of page
+	•	Section: Title/Header
+	•	Quote(s): “Prevalence in congenital myasthenic syndrome”
+
+⸻
+
+[2] Publication Year: 2020
+	•	Line(s): Footer reference and citation info
+	•	Section: Footer / Metadata
+	•	Quote(s): “Volume 26, P5-6, May 2020”
+
+⸻
+
+[3] Region: Global
+	•	Line(s): Paragraph 2
+	•	Section: Main Text
+	•	Quote(s): “The prevalence of CMS varies considerably between regions.” (Followed by UK, Brazil, and general estimate)
+
+⸻
+
+[4] Country: United Kingdom, Brazil
+	•	Line(s): Paragraph 2
+	•	Section: Main Text
+	•	Quote(s): “In a UK-based study… In a Brazilian study…”
+
+⸻
+
+[5] Coverage Area: International
+	•	Line(s): Throughout
+	•	Section: Main Text
+	•	Quote(s): Multiple prevalence estimates across countries are discussed.
+
+⸻
+
+[6] Study Design: Commentary (not a primary study)
+	•	Line(s): Entire document
+	•	Section: Entire article
+	•	Quote(s): This is an editorial commentary rather than a formal research study.
+
+⸻
+
+[7] Study Population: Patients with congenital myasthenic syndromes (CMS)
+	•	Line(s): Paragraph 1
+	•	Section: Main Text
+	•	Quote(s): “Congenital myasthenic syndromes (CMS) constitute a group of… neuromuscular transmission disorders”
+
+⸻
+
+[8] Population Characteristics: NR
+	•	Line(s): Paragraph 1
+	•	Section: Main Text
+	•	Quote(s): “mostly early-onset… increased fatigability… permanent weakness… cognitive impairment, dysmorphism, neuropathy, or epilepsy…”
+
+⸻
+
+[9] Data Source Type: Multiple secondary sources (literature-based)
+	•	Line(s): Paragraph 2
+	•	Section: Main Text
+	•	Quote(s): “In a UK-based study… In a Brazilian study… In a recent review…”
+
+⸻
+
+[10] Data Source Details: Previously published studies (UK prevalence, Brazilian prevalence, review-based estimates)
+	•	Line(s): Paragraph 2
+	•	Section: Main Text
+	•	Quote(s): “In a UK-based study the prevalence varied… In a Brazilian study… In a recent review…”
+
+⸻
+
+[11] Study Timeline Type: NR
+	•	Line(s): NR
+	•	Section: Not applicable
+	•	Quote(s): NR
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): NR
+	•	Section: Not applicable
+	•	Quote(s): NR
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: Not applicable
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: NR
+	•	Line(s): NR
+	•	Section: Not applicable
+	•	Quote(s): NR
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: Not specified
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: Not specified
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital myasthenic syndromes (CMS), subtypes mentioned
+	•	Line(s): Paragraphs 1 and 2
+	•	Section: Main Text
+	•	Quote(s): “CMS are categorized as pre-synaptic… post-synaptic… glycosylation defects…”
+
+⸻
+
+[18] Diagnosis Method: NA
+	•	Line(s): Last paragraph
+	•	Section: Main Text
+	•	Quote(s): “CMS is diagnosed upon the individual and family history… and upon next generation sequencing (NGS)”
+
+⸻
+
+[19] Diagnosis Criteria Details: NA
+	•	Line(s): Last paragraph
+	•	Section: Main Text
+	•	Quote(s): “clinical exam, low- and high-frequency repetitive nerve stimulation… absence of antibodies… next generation sequencing (NGS)”
+
+⸻
+
+[20] Disease Phase: NA
+	•	Line(s): Paragraph 1
+	•	Section: Main Text
+	•	Quote(s): “Clinical severity varies considerably… mild, transient weakness and permanent weakness”
+
+⸻
+
+[21] Cohort Age Group: NR
+	•	Line(s): Paragraph 1
+	•	Section: Main Text
+	•	Quote(s): “mostly early-onset… pediatric population…”
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): NR
+	•	Section: Not specified
+	•	Quote(s): NR
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: Not specified
+	•	Quote(s): NR

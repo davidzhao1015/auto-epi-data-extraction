@@ -1,0 +1,158 @@
+[1] Article Title: 157 The epidemiology of congenital myasthenic syndromes in Northern Ireland
+	•	Line(s): 15
+	•	Section: Title
+	•	Quote(s): 157 The epidemiology of congenital myasthenic syndromes in Northern Ireland
+
+⸻
+
+[2] Publication Year: 2011
+	•	Line(s): 11
+	•	Section: Header
+	•	Quote(s): Abstracts from the Association of British Neurologists Annual Meeting 2011
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 15
+	•	Section: Title
+	•	Quote(s): Northern Ireland
+
+⸻
+
+[4] Country: United Kingdom (Northern Ireland)
+	•	Line(s): 15
+	•	Section: Title
+	•	Quote(s): Northern Ireland
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 23
+	•	Section: Methods
+	•	Quote(s): systematic review of patients attending the regional neuromuscular clinic over the past 30 years
+
+⸻
+
+[6] Study Design: Cross-sectional and retrospective review
+	•	Line(s): 23
+	•	Section: Methods
+	•	Quote(s): systematic review of patients attending… over the past 30 years and from those identified and excluded from an epidemiological study
+
+⸻
+
+[7] Study Population: Patients with congenital myasthenic syndromes (CMS)
+	•	Line(s): 23
+	•	Section: Methods
+	•	Quote(s): patients attending the regional neuromuscular clinic… Cases were confirmed clinically, genetically and with neurophysiological examination.
+
+⸻
+
+[8] Population Characteristics:
+	•	Line(s): 27
+	•	Section: Results
+	•	Quote(s): Age of onset: 0–60 years (mean: 15.2 years); four females, 12 males.
+
+⸻
+
+[9] Data Source Type: Clinical data
+	•	Line(s): 23
+	•	Section: Methods
+	•	Quote(s): patients attending the regional neuromuscular clinic… Cases were confirmed clinically, genetically and with neurophysiological examination.
+
+⸻
+
+[10] Data Source Details: Regional neuromuscular clinic
+	•	Line(s): 23
+	•	Section: Methods
+	•	Quote(s): patients attending the regional neuromuscular clinic… and from those identified and excluded from an epidemiological study of autoimmune myasthenia gravis in the area.
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 23
+	•	Section: Methods
+	•	Quote(s): systematic review… over the past 30 years
+
+⸻
+
+[12] Number of Sites: Single
+	•	Line(s): 23
+	•	Section: Methods
+	•	Quote(s): regional neuromuscular clinic
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): 15
+	•	Section: Title/Abstract
+	•	Quote(s): Congenital myasthenic syndromes (CMS) are a heterogeneous group of disorders
+
+⸻
+
+[18] Diagnosis Method: Clinical, genetic, and neurophysiological
+	•	Line(s): 25
+	•	Section: Methods
+	•	Quote(s): Cases were confirmed clinically, genetically and with neurophysiological examination.
+
+⸻
+
+[19] Diagnosis Criteria Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 27
+	•	Section: Results
+	•	Quote(s): Age of onset: 0–60 years
+
+⸻
+
+[22] Female % in Cohort: 25%
+	•	Line(s): 27
+	•	Section: Results
+	•	Quote(s): four females, 12 males
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

@@ -1,0 +1,150 @@
+1. Article Title: Clinical and genetic features of congenital myasthenic syndromes in Hungary
+	•	Line(s): 17–18
+	•	Section: Title Page
+	•	Quote(s): “Clinical and genetic features of congenital myasthenic syndromes in Hungary”
+
+⸻
+
+2. Publication Year: 2009
+	•	Line(s): 23
+	•	Section: Reference/Header
+	•	Quote(s): “Published online: 24 January 2009”
+
+⸻
+
+3. Region: Europe
+	•	Line(s): 40
+	•	Section: Introduction
+	•	Quote(s): “Hungarian patients…”
+
+⸻
+
+4. Country: Hungary
+	•	Line(s): 40
+	•	Section: Introduction
+	•	Quote(s): “Hungarian patients with genetically identified CMS…”
+
+⸻
+
+5. Coverage Area: National
+	•	Line(s): 40–42
+	•	Section: Introduction
+	•	Quote(s): “Hungarian patients…” and “patients were diagnosed at the Neuromuscular Centre of the National Institute of Neurosurgery.”
+
+⸻
+
+6. Study Design: Retrospective case series
+	•	Line(s): 83–90
+	•	Section: Patients and Methods
+	•	Quote(s): “Clinical data were obtained retrospectively…”
+
+⸻
+
+7. Study Population: Patients with genetically confirmed CMS
+	•	Line(s): 85–86
+	•	Section: Patients and Methods
+	•	Quote(s): “We studied 16 Hungarian patients from 13 families with genetically identified CMS.”
+
+⸻
+
+8. Population Characteristics: Age, sex distribution, ethnic background (Roma, Hungarian)
+	•	Line(s): 92–94, 118–120
+	•	Section: Results
+	•	Quote(s): “Ten of 16 patients belonged to the Roma population.”
+“Age at diagnosis ranged from 2 months to 32 years.”
+
+⸻
+
+9. Data Source Type: Clinical data and genetic testing
+	•	Line(s): 83–85
+	•	Section: Patients and Methods
+	•	Quote(s): “Clinical data were obtained retrospectively from medical records. Molecular genetic analysis…”
+
+⸻
+
+10. Data Source Details: Medical records, molecular genetic lab data from multiple genes
+	•	Line(s): 85–90
+	•	Section: Patients and Methods
+	•	Quote(s): “Clinical data were obtained retrospectively from medical records. Molecular genetic analysis was performed…”
+
+⸻
+
+11. Study Timeline Type: Retrospective
+	•	Line(s): 83–84
+	•	Section: Patients and Methods
+	•	Quote(s): “Clinical data were obtained retrospectively…”
+
+⸻
+
+12. Number of Sites: One primary national center
+	•	Line(s): 42
+	•	Section: Introduction
+	•	Quote(s): “Neuromuscular Centre of the National Institute of Neurosurgery.”
+
+⸻
+
+13. Study Start Year: NR
+
+⸻
+
+14. Study End Year: NR
+
+⸻
+
+15. Main Ethnicity: Roma and Hungarian
+	•	Line(s): 92
+	•	Section: Results
+	•	Quote(s): “Ten of 16 patients belonged to the Roma population.”
+
+⸻
+
+16. Ethnicity Details: 10 Roma, 6 Hungarian (inferred)
+	•	Line(s): 92
+	•	Section: Results
+	•	Quote(s): “Ten of 16 patients belonged to the Roma population.”
+
+⸻
+
+17. Disease Studied: Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): Title, throughout
+	•	Section: Title, Abstract, Introduction
+	•	Quote(s): “Congenital myasthenic syndromes…”
+
+⸻
+
+18. Diagnosis Method: Clinical presentation and genetic testing
+	•	Line(s): 85–90
+	•	Section: Patients and Methods
+	•	Quote(s): “Clinical data were obtained retrospectively from medical records. Molecular genetic analysis…”
+
+⸻
+
+19. Diagnosis Criteria Details: Genetic confirmation in various CMS genes (CHRNE, RAPSN, DOK7)
+	•	Line(s): 85–90, 96–110
+	•	Section: Methods, Results
+	•	Quote(s): “Molecular genetic analysis was performed… mutations in the CHRNE gene…”
+
+⸻
+
+20. Disease Phase: Chronic (inferred)
+	•	Line(s): Throughout Results
+	•	Section: Results
+	•	Quote(s): “Patients showed symptoms from early childhood…”
+
+⸻
+
+21. Cohort Age Group: Mixed (Pediatric and Adult)
+	•	Line(s): 94
+	•	Section: Results
+	•	Quote(s): “Age at diagnosis ranged from 2 months to 32 years.”
+
+⸻
+
+22. Female % in Cohort: NR
+
+⸻
+
+23. Consanguinity: NR
+	•	Line(s): 93
+	•	Section: Results
+	•	Quote(s): “Consanguinity was present in five families.”

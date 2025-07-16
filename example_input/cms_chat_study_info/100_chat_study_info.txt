@@ -1,0 +1,168 @@
+[1] Article Title: The clinical and molecular landscape of congenital myasthenic syndromes in Austria: a nationwide study
+	•	Line(s): 7–8
+	•	Section: Title Page
+	•	Quote(s): “The clinical and molecular landscape of congenital myasthenic syndromes in Austria: a nationwide study”
+
+⸻
+
+[2] Publication Year: 2023
+	•	Line(s): 10
+	•	Section: Journal Info
+	•	Quote(s): “Journal of Neurology (2023) 270:909–916”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 13
+	•	Section: Title, Affiliations
+	•	Quote(s): “Austria: a nationwide study”
+
+⸻
+
+[4] Country: Austria
+	•	Line(s): 13
+	•	Section: Title
+	•	Quote(s): “in Austria: a nationwide study”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 36
+	•	Section: Abstract / Methods
+	•	Quote(s): “We used a nationwide approach to collect Austrian patients…”
+
+⸻
+
+[6] Study Design: Retrospective cohort study
+	•	Line(s): 129
+	•	Section: Patients and Methods
+	•	Quote(s): “This retrospective, nationwide cohort study included all patients with genetically confirmed CMS…”
+
+⸻
+
+[7] Study Population: Patients with genetically confirmed CMS
+	•	Line(s): 129
+	•	Section: Patients and Methods
+	•	Quote(s): “…included all patients with genetically confirmed CMS…”
+
+⸻
+
+[8] Population Characteristics: onset usually <1 year; 92.3% of CHRNE subgroup independently walking
+	•	Line(s): 157–160, 198–201
+	•	Section: Results – Demographic and Clinical Characteristics
+	•	Quote(s):
+	•	“In our study cohort, females accounted for 64.3%.”
+	•	“One half of the patients experienced first symptoms just after birth or during the first year of life (50%).”
+	•	“12/13 patients (92.3%) in this subgroup were still able to walk independently…”
+
+⸻
+
+[9] Data Source Type: Clinical data and genetic data
+	•	Line(s): 131–137
+	•	Section: Patients and Methods – Data Collection
+	•	Quote(s): “…demographic, clinical and genetic details…”
+
+⸻
+
+[10] Data Source Details: Case report forms from neuromuscular centers, re-analyzed genetic variants
+	•	Line(s): 131–138
+	•	Section: Patients and Methods – Data Collection
+	•	Quote(s):
+	•	“…complete a pseudonymized case report form including demographic, clinical and genetic details.”
+	•	“All genetic variants were re-analyzed…”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 129
+	•	Section: Patients and Methods
+	•	Quote(s): “This retrospective, nationwide cohort study…”
+
+⸻
+
+[12] Number of Sites: Multi-center
+	•	Line(s): 128–129
+	•	Section: Patients and Methods
+	•	Quote(s): “…treated in one of the Austrian pediatric or adult neuromuscular centers…”
+	•	Note: Exact number of sites not reported.
+
+⸻
+
+[13] Study Start Year: January 1, 2000
+	•	Line(s): 130
+	•	Section: Patients and Methods
+	•	Quote(s): “…between 01/01/2000 and 31/12/2021.”
+
+⸻
+
+[14] Study End Year: December 31, 2021
+	•	Line(s): 130
+	•	Section: Patients and Methods
+	•	Quote(s): “…between 01/01/2000 and 31/12/2021.”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital myasthenic syndromes (CMS)
+	•	Line(s): 13
+	•	Section: Title / Abstract
+	•	Quote(s): “The clinical and molecular landscape of congenital myasthenic syndromes…”
+
+⸻
+
+[18] Diagnosis Method: Genetic confirmation (NGS or single gene testing); clinical features also evaluated
+	•	Line(s): 129, 144–146
+	•	Section: Methods / Results
+	•	Quote(s):
+	•	“…patients with genetically confirmed CMS…”
+	•	“Genetic analysis leading to molecular diagnosis…”
+
+⸻
+
+[19] Diagnosis Criteria Details: ACMG classification; pathogenic or likely pathogenic variants
+	•	Line(s): 133–134
+	•	Section: Data Collection
+	•	Quote(s): “…only pathogenic and likely pathogenic variants according to the standards of the American College of Medical Genetics and Genomics (ACMG)…”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 127, 159
+	•	Section: Methods / Results
+	•	Quote(s):
+	•	“…included all patients… who were treated in one of the Austrian pediatric or adult neuromuscular centers…”
+	•	“…prevalence in the pediatric population (< 19 years) was 10.5 per million…”
+
+⸻
+
+[22] Female % in Cohort: 64.3%
+	•	Line(s): 157
+	•	Section: Results – Demographic and Clinical Characteristics
+	•	Quote(s): “…females accounted for 64.3%.”
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

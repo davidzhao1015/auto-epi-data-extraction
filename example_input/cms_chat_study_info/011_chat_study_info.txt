@@ -1,0 +1,158 @@
+[1] Article Title: Neuromuscular disorders in childhood: a descriptive epidemiological study from western Sweden
+	•	Line(s): 4–5
+	•	Section: Title Page
+	•	Quote(s): “Neuromuscular disorders in childhood: a descriptive epidemiological study from western Sweden”
+
+⸻
+
+[2] Publication Year: 2000
+	•	Line(s): 13
+	•	Section: Title Page
+	•	Quote(s): “Neuromuscular Disorders 10 (2000) 1–9”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 6, 25
+	•	Section: Title Page, Introduction
+	•	Quote(s): “Department of Paediatrics, Sahlgrenska University Hospital–Östra… Sweden”; “Western Sweden has a homogeneous health care system…”
+
+⸻
+
+[4] Country: Sweden
+	•	Line(s): 6, 25
+	•	Section: Title Page, Introduction
+	•	Quote(s): “Sahlgrenska University Hospital… Sweden”; “Western Sweden has a homogeneous health care system…”
+
+⸻
+
+[5] Coverage Area: Regional
+	•	Line(s): 44–46
+	•	Section: Methods – Study population
+	•	Quote(s): “The geographical area studied was the western Swedish health care region, with the city of Göteborg and the Counties of Halland, Bohuslän, Skaraborg and Älvsborg…”
+
+⸻
+
+[6] Study Design: Retrospective
+	•	Line(s): 18–19
+	•	Section: Abstract
+	•	Quote(s): “A retrospective epidemiological study of neuromuscular disorders was carried out in children…”
+
+⸻
+
+[7] Study Population: Children born between 1979 and 1994 in western Sweden
+	•	Line(s): 19, 48
+	•	Section: Abstract, Methods – Patients
+	•	Quote(s): “…children born between 1979 and 1994 in western Sweden.”; “We intended to identify all individuals with neuromuscular disorders born between 1979 and 1994…”
+
+⸻
+
+[8] Population Characteristics: Children under 16, 20% of Swedish population; 343,941 births
+	•	Line(s): 47–51
+	•	Section: Methods – Study population
+	•	Quote(s): “Children (343,941) (176,787 boys) were born in the study area between 1979 and 1994.”
+
+⸻
+
+[9] Data Source Type: Clinical data, registries, and hospital records
+	•	Line(s): 52–63
+	•	Section: Methods – Sources used for identification
+	•	Quote(s): “Residential and outpatient registers… Muscle biopsy registers… Departments of neurophysiology and clinical genetics…”
+
+⸻
+
+[10] Data Source Details: 12 sources, including hospitals, biopsy labs, and national registry
+	•	Line(s): 52–63
+	•	Section: Methods – Sources used for identification
+	•	Quote(s): “Registers… at the departments of pathology… University of Linköping… National Swedish Board of Health and Welfare’s register of causes of death…”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 18–19
+	•	Section: Abstract
+	•	Quote(s): “A retrospective epidemiological study…”
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): 21, 52
+	•	Section: Abstract, Methods – Sources used for identification
+	•	Quote(s): “Cases were ascertained from 12 different sources…”; “Residential and outpatient registers… 12 different sources…”
+
+⸻
+
+[13] Study Start Year: 1979
+	•	Line(s): 19, 48
+	•	Section: Abstract, Methods – Patients
+	•	Quote(s): “…children born between 1979 and 1994…”
+
+⸻
+
+[14] Study End Year: 1994
+	•	Line(s): 19, 48
+	•	Section: Abstract, Methods – Patients
+	•	Quote(s): “…children born between 1979 and 1994…”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Neuromuscular disorders, including congenital myasthenic syndrome (CMS)
+	•	Line(s): 19–20, Table 1
+	•	Section: Abstract, Results – Table 1
+	•	Quote(s): “…to determine overall and specific prevalences, overall cumulative incidence and birth incidences of selected disorders…”; “Congenital myasthenic syndrome”
+
+⸻
+
+[18] Diagnosis Method: Clinical features, neurophysiology, biopsy, genetic testing
+	•	Line(s): 64–84
+	•	Section: Methods – Criteria for inclusion
+	•	Quote(s): “…supported by either neurophysiological examinations or an edrophonium test…”; “…clinical diagnosis was supported by electrophysiological or histopathological or molecular genetic investigations…”
+
+⸻
+
+[19] Diagnosis Criteria Details: ENMC criteria and published diagnostic standards
+	•	Line(s): 70–72, 84–86
+	•	Section: Methods – Criteria for inclusion
+	•	Quote(s): “…according to the European Neuromuscular Centre (ENMC) criteria…”; “…criteria described by Tulinius et al.”
+
+⸻
+
+[20] Disease Phase: Both (acute and chronic phases included across diseases)
+	•	Line(s): 64–90
+	•	Section: Methods – Criteria for inclusion
+	•	Quote(s): “…children with neuromuscular symptoms and/or signs on the prevalence day.”; Includes both acute AIDP and chronic CIDP.
+
+⸻
+
+[21] Cohort Age Group: Pediatric
+	•	Line(s): 19, 47
+	•	Section: Abstract, Methods – Study population
+	•	Quote(s): “…in children born between 1979 and 1994…”; “…population <16 years of age…”
+
+⸻
+
+[22] Female % in Cohort: 44%
+	•	Line(s): 180
+	•	Section: Results – Table 1 (Total cases)
+	•	Quote(s): “Total casesa 227 (127/100)” → 127 males, 100 females
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

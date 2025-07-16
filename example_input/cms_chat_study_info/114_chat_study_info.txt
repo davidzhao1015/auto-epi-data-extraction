@@ -1,0 +1,180 @@
+[1] Article Title: The prevalence of hereditary neuromuscular disorders in Northern Norway
+	•	Line(s): 2, 5
+	•	Section: Title page, Header
+	•	Quote(s):
+	•	“The prevalence of hereditary neuromuscular disorders in Northern Norway”
+
+⸻
+
+[2] Publication Year: 2021
+	•	Line(s): 2
+	•	Section: Header
+	•	Quote(s):
+	•	“Brain and Behavior. 2021;11:e01948.”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 6
+	•	Section: Affiliations
+	•	Quote(s):
+	•	“University Hospital of North Norway, Tromsø, Norway”
+
+⸻
+
+[4] Country: Norway
+	•	Line(s): 6
+	•	Section: Affiliations
+	•	Quote(s):
+	•	“University Hospital of North Norway, Tromsø, Norway”
+
+⸻
+
+[5] Coverage Area: Regional
+	•	Line(s): 37, 198
+	•	Section: Abstract, Discussion
+	•	Quote(s):
+	•	“…point prevalence of hereditary neuromuscular disorders on January 1, 2020 in Northern Norway.”
+
+⸻
+
+[6] Study Design: Retrospective
+	•	Line(s): 198
+	•	Section: Discussion
+	•	Quote(s):
+	•	“we identified 542 patients with HNMD, giving a total prevalence of 111.9/100,000.”
+
+⸻
+
+[7] Study Population: Patients with hereditary neuromuscular disorders in Northern Norway
+	•	Line(s): 63–72
+	•	Section: Methods
+	•	Quote(s):
+	•	“Patients included in this study are children and adults with: … all types of hereditary distal myopathies …”
+
+⸻
+
+[8] Population Characteristics:
+	•	Line(s): 134–135
+	•	Section: Results
+	•	Quote(s):
+	•	“…including 95,182 children <18 years old… The population consisted of 237,985 (49.1%) females and 246,561 (50.9%) males.”
+
+⸻
+
+[9] Data Source Type: Clinical records and registries
+	•	Line(s): 60–63
+	•	Section: Methods
+	•	Quote(s):
+	•	“We collected information from the electronic patient hospital records… the Norwegian registry of hereditary and congenital neuromuscular disorders… and medical genetics records.”
+
+⸻
+
+[10] Data Source Details: EPR (DIPS ASA), national registries, medical genetics databases
+	•	Line(s): 60–63
+	•	Section: Methods
+	•	Quote(s):
+	•	“…electronic patient hospital records (EPR) of Northern Norway (DIPS ASA, Bodø)… Norwegian registry… registry at the Medical genetics department at UNN.”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 38, 66
+	•	Section: Abstract, Methods
+	•	Quote(s):
+	•	“From January 1, 1999, until January 1, 2020, we screened medical and genetic hospital records…”
+
+⸻
+
+[12] Number of Sites: Multiple
+	•	Line(s): 62
+	•	Section: Methods
+	•	Quote(s):
+	•	“…UNN, Finnmark Hospital Trust, Nordland Hospital Trust and Helgeland Hospital Trust…”
+
+⸻
+
+[13] Study Start Year: January 1, 1999
+	•	Line(s): 38
+	•	Section: Abstract
+	•	Quote(s):
+	•	“From January 1, 1999…”
+
+⸻
+
+[14] Study End Year: January 1, 2020
+	•	Line(s): 38
+	•	Section: Abstract
+	•	Quote(s):
+	•	“…until January 1, 2020…”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):
+	•	NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):
+	•	NR
+
+⸻
+
+[17] Disease Studied: Hereditary neuromuscular disorders (HNMD), including specific subtypes
+	•	Line(s): 70–72
+	•	Section: Methods
+	•	Quote(s):
+	•	“Spinal muscular atrophy type I–IV… Duchenne… LGMD… CMT… MC… etc.”
+
+⸻
+
+[18] Diagnosis Method: Clinical examination, EMG, neurography, biopsy, genetic testing
+	•	Line(s): 75–78
+	•	Section: Methods
+	•	Quote(s):
+	•	“…neurologic examination. Except for two patients… all patients had abnormalities on either electromyography (EMG), neurography, muscle biopsy or genetic tests…”
+
+⸻
+
+[19] Diagnosis Criteria Details: Specialist confirmation + abnormal test findings
+	•	Line(s): 75–78
+	•	Section: Methods
+	•	Quote(s):
+	•	“…hereditary neuromuscular diagnosis by either a neurologist, a pediatrician or a geneticist… abnormalities on either electromyography (EMG), neurography, muscle biopsy or genetic tests…”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):
+	•	NR
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 136
+	•	Section: Results
+	•	Quote(s):
+	•	“…95,182 children <18 years old… and 389,364 adults (≥18 years old).”
+
+⸻
+
+[22] Female % in Cohort: 46.5%
+	•	Line(s): 138
+	•	Section: Results
+	•	Quote(s):
+	•	“…included 252 (46.5%) females and 290 (53.5%) males.”
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):

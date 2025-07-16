@@ -1,0 +1,160 @@
+[1] Article Title: Molecular characterization of congenital myasthenic syndromes in Spain
+	•	Line(s): Title section (first page)
+	•	Section: Title
+	•	Quote(s): “Molecular characterization of congenital myasthenic syndromes in Spain”
+
+⸻
+
+[2] Publication Year: 2017
+	•	Line(s): First page
+	•	Section: Citation
+	•	Quote(s): “Neuromuscular Disorders, Volume 27, Issue 12, December 2017”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): Throughout (e.g., Abstract, Methods)
+	•	Section: Abstract, Introduction
+	•	Quote(s): “…CMS patients from Spain.”
+
+⸻
+
+[4] Country: Spain
+	•	Line(s): Throughout (e.g., Abstract, Introduction, Methods)
+	•	Section: Abstract, Introduction
+	•	Quote(s): “…CMS patients from Spain.”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): Introduction
+	•	Section: Introduction
+	•	Quote(s): “…data on patient cohorts from different countries are useful…” and “…different CMS subtypes in a large Spanish population.”
+
+⸻
+
+[6] Study Design: Cross-sectional observational study
+	•	Line(s): Methods
+	•	Section: Patients and Methods
+	•	Quote(s): “All patients with genetically confirmed CMS followed-up…”
+(Cross-sectional design inferred based on single-point data collection on genetic and clinical findings without longitudinal follow-up.)
+
+⸻
+
+[7] Study Population: Genetically confirmed CMS patients in Spain
+	•	Line(s): Abstract, Methods
+	•	Section: Abstract, Patients and Methods
+	•	Quote(s): “…molecular genetic and clinical findings of sixty-four genetically confirmed CMS patients from Spain.”
+
+⸻
+
+[8] Population Characteristics: Age range 0.5 to 80 years; 24 males, 40 females; from 47 unrelated families
+	•	Line(s): Molecular genetic findings
+	•	Section: Results
+	•	Quote(s): “Sixty-four patients (24 males, 40 females)… The mean age at last follow-up was 27 years, ranging from 0.5 to 80 years.”
+
+⸻
+
+[9] Data Source Type: Clinical data and genetic testing
+	•	Line(s): Methods
+	•	Section: Patients and Methods
+	•	Quote(s): “All patients with genetically confirmed CMS…”
+
+⸻
+
+[10] Data Source Details: Eleven Spanish centres with pediatric and adult neurology clinics
+	•	Line(s): Patients and Methods
+	•	Section: Methods
+	•	Quote(s): “Eleven centres, including 4 of the 5 centres recognized as CSUR… participated.”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): Inferred from Methods
+	•	Section: Methods
+	•	Quote(s): “All patients with genetically confirmed CMS followed-up…”
+(Retrospective nature inferred as analysis was performed on already diagnosed and followed-up patients.)
+
+⸻
+
+[12] Number of Sites: Multiple
+	•	Line(s): Methods
+	•	Section: Patients and Methods
+	•	Quote(s): “Eleven centres… participated.”
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Congenital myasthenic syndromes (CMS)
+	•	Line(s): Abstract
+	•	Section: Abstract
+	•	Quote(s): “Congenital myasthenic syndromes (CMS) are a heterogeneous group of genetic disorders…”
+
+⸻
+
+[18] Diagnosis Method: Genetic testing
+	•	Line(s): Abstract, Methods
+	•	Section: Abstract, Methods
+	•	Quote(s): “…sixty-four genetically confirmed CMS patients…”
+
+⸻
+
+[19] Diagnosis Criteria Details: Genetic confirmation based on mutations in known CMS genes
+	•	Line(s): Abstract, Results
+	•	Section: Abstract, Results
+	•	Quote(s): “Thirty-six mutations in the CHRNE, RAPSN, COLQ, GFPT1, DOK7, CHRNG, GMPPB, CHAT, CHRNA1, and CHRNB1 genes were identified…”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): Results
+	•	Section: Molecular genetic findings
+	•	Quote(s): “…ranging from 0.5 to 80 years.”
+
+⸻
+
+[22] Female % in Cohort: 62.5%
+	•	Line(s): Results
+	•	Section: Molecular genetic findings
+	•	Quote(s): “Sixty-four patients (24 males, 40 females)…”
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

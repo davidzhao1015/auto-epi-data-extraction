@@ -1,0 +1,159 @@
+[1] Article Title: Prevalence, Incidence, and Mortality of Myasthenia Gravis and Myasthenic Syndromes: A Systematic Review
+	•	Line(s): 1
+	•	Section: Title Page
+	•	Quote(s): “Prevalence, Incidence, and Mortality of Myasthenia Gravis and Myasthenic Syndromes: A Systematic Review”
+
+⸻
+
+[2] Publication Year: 2024
+	•	Line(s): 9
+	•	Section: Title Page
+	•	Quote(s): “Published online: October 9, 2024”
+
+⸻
+
+[3] Region: Global (includes North America, Europe, Asia, Oceania, Africa)
+	•	Line(s): 142–150
+	•	Section: Results
+	•	Quote(s): “There was a wide geographical distribution, with representation of all continents… A total of 63 studies were performed in Europe… Only two studies were performed in Africa and Oceania.”
+
+⸻
+
+[4] Country: Multiple (including Italy, UK, Norway, USA, Japan, Netherlands, Greece, South Africa)
+	•	Line(s): 142–150
+	•	Section: Results
+	•	Quote(s): “A total of 63 studies were performed in Europe with particular contributions from Italy (13 studies), the UK (7 studies), and Norway (7 studies).”
+
+⸻
+
+[5] Coverage Area: International
+	•	Line(s): 14–20
+	•	Section: Abstract / Introduction
+	•	Quote(s): “This systematic review aimed to estimate the prevalence, incidence, and mortality of all MG types and myasthenic syndromes worldwide.”
+
+⸻
+
+[6] Study Design: Systematic Review
+	•	Line(s): 2, 14
+	•	Section: Title Page / Abstract
+	•	Quote(s): “Systematic Review” / “This systematic review aimed to…”
+
+⸻
+
+[7] Study Population: Patients with Myasthenia Gravis or Myasthenic Syndromes
+	•	Line(s): 91–94
+	•	Section: Methods
+	•	Quote(s): “studies enrolling subjects with a clinical diagnosis of MG or myasthenic syndromes or any other type of MG subgroup”
+
+⸻
+
+[8] Population Characteristics: Mixed age groups, both sexes; adult mean age 53.7 years; juvenile subgroup present
+	•	Line(s): 255–273
+	•	Section: Age and Sex Distribution
+	•	Quote(s): “The mean age of ALL MG cases was 53.7 years (range: 25–74.9)… females experienced an onset… earlier than males… juvenile MG… PR of 45.6 per million…”
+
+⸻
+
+[9] Data Source Type: Literature
+	•	Line(s): 158–160
+	•	Section: Quality Assessment
+	•	Quote(s): “employed national health registries/databases… subjects enrolled by clinical records”
+
+⸻
+
+[10] Data Source Details:
+	•	Line(s): 158–160
+	•	Section: Quality Assessment
+	•	Quote(s): “employed national health registries/databases… Hospital records rarely include patients with mild symptoms…”
+
+⸻
+
+[11] Study Timeline Type: NR
+	•	Line(s): 157–158
+	•	Section: Quality Assessment
+	•	Quote(s): “Most of the included studies (86.2%) were retrospective…”
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): 137–140
+	•	Section: Results
+	•	Quote(s): “Overall, 94 studies were included…”
+
+⸻
+
+[13] Study Start Year: 1952 (earliest literature)
+	•	Line(s): 135
+	•	Section: Abstract
+	•	Quote(s): “A total of 94 studies, performed between 1952 and 2022…”
+
+⸻
+
+[14] Study End Year: 2022 (latest literature)
+	•	Line(s): 135
+	•	Section: Abstract
+	•	Quote(s): “A total of 94 studies, performed between 1952 and 2022…”
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Myasthenia Gravis (MG) and Myasthenic Syndromes including LEMS
+	•	Line(s): 1, 14–15
+	•	Section: Title / Abstract
+	•	Quote(s): “Myasthenia Gravis and Myasthenic Syndromes… including… Lambert-Eaton Myasthenic Syndrome (LEMS)”
+
+⸻
+
+[18] Diagnosis Method: NA
+	•	Line(s): 91–94, 30–34
+	•	Section: Methods / Introduction
+	•	Quote(s): “studies enrolling subjects with a clinical diagnosis…” / “patients… classified… based on serological status…”
+
+⸻
+
+[19] Diagnosis Criteria Details: NA
+	•	Line(s): 30–34
+	•	Section: Introduction
+	•	Quote(s): “classified according to… age of onset… thymoma… phenotype…”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): 27–28
+	•	Section: Abstract / Introduction
+	•	Quote(s): “fluctuating course… characteristic fatigable weakness” → suggests both acute and chronic phases
+(Note: explicitly stating “NR” if user prefers strict definitions)
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 255–273
+	•	Section: Age and Sex Distribution
+	•	Quote(s): “mean age… 53.7… juvenile MG… peak between 25 and 39 years…”
+
+⸻
+
+[22] Female % in Cohort: NA
+	•	Line(s): 255
+	•	Section: Age and Sex Distribution
+	•	Quote(s): “a higher number of females was observed, with a ratio of F/M = 1.6/1”
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR

@@ -1,0 +1,177 @@
+[1] Article Title: Prevalence and Classification of Pediatric Neuromuscular Disorders in the Central Region of Portugal
+	•	Line(s): 2–3
+	•	Section: Title Page / Header
+	•	Quote(s):
+Prevalence and Classification of Pediatric Neuromuscular Disorders in the Central Region of Portugal
+
+⸻
+
+[2] Publication Year: 2024
+	•	Line(s): 64
+	•	Section: Abstract / Journal info
+	•	Quote(s):
+Journal of Child Neurology
+2024, Vol. 39(7-8) 233-240
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): 9
+	•	Section: Abstract
+	•	Quote(s):
+The purpose of this study was to determine the point prevalence of pediatric neuromuscular disorders … in the central region of Portugal.
+
+⸻
+
+[4] Country: Portugal
+	•	Line(s): 9
+	•	Section: Abstract
+	•	Quote(s):
+… in the central region of Portugal.
+
+⸻
+
+[5] Coverage Area: Regional
+	•	Line(s): 224
+	•	Section: Results
+	•	Quote(s):
+The central region of Portugal represents an area of 30.9% of Portugal, with 21.5% of the total population.
+
+⸻
+
+[6] Study Design: Retrospective
+	•	Line(s): 108
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+We performed retrospective case identification of children …
+
+⸻
+
+[7] Study Population: Pediatric patients with neuromuscular disorders
+	•	Line(s): 97
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+All pediatric patients (<18 years old) with an established diagnosis of neuromuscular disorder …
+
+⸻
+
+[8] Population Characteristics:
+	•	Line(s): 226–227
+	•	Section: Results
+	•	Quote(s):
+Two hundred eighty-two patients fulfilling the inclusion criteria were identified: 175 (62.1%) males and 107 (37.9%) females.
+
+⸻
+
+[9] Data Source Type: Clinical data, lab data, hospital records
+	•	Line(s): 110–112
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+…collected from the electronic patient hospital records (EPHR) and databases held by pediatric neurologists…
+
+⸻
+
+[10] Data Source Details: Electronic patient hospital records, pediatric neurologists’ databases, Portuguese Census
+	•	Line(s): 111–113
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+Demographic, clinical, electrophysiologic, histopathology, analytic, and molecular data were collected … Portugal Census provided information on the population size …
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): 108
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+We performed retrospective case identification …
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):
+NR
+
+⸻
+
+[13] Study Start Year: January 1, 1998
+	•	Line(s): 108
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+… between January 1, 1998, and December 31, 2020.
+
+⸻
+
+[14] Study End Year: December 31, 2020
+	•	Line(s): 108
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+… between January 1, 1998, and December 31, 2020.
+
+⸻
+
+[15] Main Ethnicity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):NR
+
+⸻
+
+[16] Ethnicity Details: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Neuromuscular disorders and subtypes (e.g., SMA, muscular dystrophies, myopathies)
+	•	Line(s): 97–98, 134–135
+	•	Section: Methods and Results
+	•	Quote(s):
+…with an established diagnosis of neuromuscular disorder…
+…muscular dystrophies, congenital myopathies, and spinal muscular atrophy…
+
+⸻
+
+[18] Diagnosis Method: Clinical, EMG, muscle biopsy, genetic testing
+	•	Line(s): 105–106
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+…clinical picture … and/or abnormalities on either electromyography (EMG), neurography, muscle biopsy (MB), or genetic tests …
+
+⸻
+
+[19] Diagnosis Criteria Details: Based on clinical picture and/or EMG, MB, or genetic results consistent with neuromuscular disorders
+	•	Line(s): 105–106
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):
+…and/or abnormalities on either EMG, neurography, muscle biopsy (MB), or genetic tests that were consistent with the diagnosis …
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s):
+
+⸻
+
+[21] Cohort Age Group: Pediatric
+	•	Line(s): 97
+	•	Section: Methods – Study Design and Participants
+	•	Quote(s):All pediatric patients (<18 years old)…
+
+⸻
+
+[22] Female % in Cohort: 37.9%
+	•	Line(s): 226
+	•	Section: Results
+	•	Quote(s):107 (37.9%) females
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): 308–311
+	•	Section: Discussion
+	•	Quote(s): Twelve of the 14 patients with limb-girdle muscular dystrophy R5 γ-sarcoglycan-related (85.7%) were homozygous for the c.848G>A mutation, a phenomenon explained by a high consanguinity rate among patients of romani ancestry.

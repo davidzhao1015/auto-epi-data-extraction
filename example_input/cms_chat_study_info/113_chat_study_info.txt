@@ -1,0 +1,175 @@
+[1] Article Title: Congenital Myasthenic Syndromes in Belgium: Genetic and Clinical Characterization of Pediatric and Adult Patients
+	•	Line(s): L2–L3
+	•	Section: Title Page
+	•	Quote(s): Congenital Myasthenic Syndromes in Belgium: Genetic and Clinical Characterization of Pediatric and Adult Patients
+
+⸻
+
+[2] Publication Year: 2024
+	•	Line(s): L5
+	•	Section: Title Page
+	•	Quote(s):
+Pediatric Neurology 158 (2024) 57e65
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): L2–L3
+	•	Section: Title Page
+	•	Quote(s):
+…patients with CMS followed in Belgium in 2022.
+
+⸻
+
+[4] Country: Belgium
+	•	Line(s): L3
+	•	Section: Title Page
+	•	Quote(s):
+…patients with CMS followed in Belgium in 2022.
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): L82
+	•	Section: Materials and Methods
+	•	Quote(s):
+We collected data from all seven Belgian Neuromuscular Reference Centers (NMRCs)…
+
+⸻
+
+[6] Study Design: Retrospective cohort study
+	•	Line(s): L82
+	•	Section: Materials and Methods
+	•	Quote(s):
+Physicians working at the NMRCs retrospectively gathered data from the medical charts…
+
+⸻
+
+[7] Study Population: Pediatric and adult patients with CMS
+	•	Line(s): L82–L83
+	•	Section: Materials and Methods
+	•	Quote(s):
+…on pediatric and adult patients with CMS followed in 2022.
+
+⸻
+
+[8] Population Characteristics:
+	•	Line(s): L102–L106
+	•	Section: Results – Demographic Data
+	•	Quote(s): At the time of inclusion, 23 patients were adults (age ranging between 21 and 73 years…
+
+⸻
+
+[9] Data Source Type: Clinical data
+	•	Line(s): L82–L83
+	•	Section: Materials and Methods
+	•	Quote(s): …retrospectively gathered data from the medical charts…
+
+⸻
+
+[10] Data Source Details: Medical charts from 7 Belgian Neuromuscular Reference Centers
+	•	Line(s): L82–L83
+	•	Section: Materials and Methods
+	•	Quote(s): Physicians… gathered data from the medical charts and completed a pseudonymized case report form…
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): L82
+	•	Section: Materials and Methods
+	•	Quote(s):
+…retrospectively gathered data from the medical charts…
+
+⸻
+
+[12] Number of Sites: Multiple
+	•	Line(s): L82
+	•	Section: Materials and Methods
+	•	Quote(s):
+We collected data from all seven Belgian Neuromuscular Reference Centers (NMRCs)…
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: 2022
+	•	Line(s): L83
+	•	Section: Materials and Methods
+	•	Quote(s):
+…patients with CMS followed in 2022.
+
+⸻
+
+[15] Main Ethnicity: Caucasian
+	•	Line(s): L106
+	•	Section: Results – Demographic Data
+	•	Quote(s): Most prevalent ethnic origin was Caucasian…
+
+⸻
+
+[16] Ethnicity Details: Caucasian: most prevalent, (North) African: second most frequent
+	•	Line(s): L106
+	•	Section: Results – Demographic Data
+	•	Quote(s):
+Most prevalent ethnic origin was Caucasian; (North)African origin was the second most frequent.
+
+⸻
+
+[17] Disease Studied: Congenital Myasthenic Syndromes (CMS)
+	•	Line(s): L4–L5
+	•	Section: Title, Abstract
+	•	Quote(s):
+Congenital myasthenic syndromes (CMS) are a group of genetic disorders…
+
+⸻
+
+[18] Diagnosis Method: Genetic testing and electrophysiology (RNS)
+	•	Line(s): L86, L124
+	•	Section: Methods and Results
+	•	Quote(s):
+…genetic confirmation…
+RNS with 3 Hz at rest was performed in 23 patients…
+
+⸻
+
+[19] Diagnosis Criteria Details: ACMG guidelines and clinical confirmation
+	•	Line(s): L86
+	•	Section: Materials and Methods
+	•	Quote(s):
+All identified genetic variants were evaluated according to the standards of the American College of Medical Genetics and Genomics (ACMG)…
+
+⸻
+
+[20] Disease Phase: Both
+	•	Line(s): L118–L119
+	•	Section: Results – Age at onset, Disease Course
+	•	Quote(s):
+Symptom onset was at adult age in seven patients…
+…ranged from 10 months to 55 years…
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): L102
+	•	Section: Results – Demographic Data
+	•	Quote(s):
+At the time of inclusion, 23 patients were adults… 13 were aged between one and 18 years… one patient had not yet reached age one year.
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[23] Consanguinity: 10 patients
+	•	Line(s): L106
+	•	Section: Results – Demographic Data
+	•	Quote(s):Consanguinity was reported in 10 patients.
