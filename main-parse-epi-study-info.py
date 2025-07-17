@@ -70,7 +70,7 @@ def main():
 
 
     #=== Convert certain columns to numeric types ===
-    numeric_columns = ["publication year", "number of sites"]
+    numeric_columns = ["publication year"]
     
     for col in numeric_columns:
         if col in chat_df_mapped.columns:
