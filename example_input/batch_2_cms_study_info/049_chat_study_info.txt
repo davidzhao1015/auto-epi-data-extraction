@@ -1,0 +1,158 @@
+[1] Article Title: Congenital myasthenic syndromes in adults: clinical features, diagnosis and long-term prognosis
+	•	Line(s): L1
+	•	Section: Title Page / Header
+	•	Quote(s): “Congenital myasthenic syndromes in adults: clinical features, diagnosis and long-term prognosis”
+
+⸻
+
+[2] Publication Year: 2024
+	•	Line(s): L51
+	•	Section: Title Page Footer
+	•	Quote(s): “© The Author(s) 2024. Published by Oxford University Press…”
+
+⸻
+
+[3] Region: Europe
+	•	Line(s): L50–L51
+	•	Section: Affiliations
+	•	Quote(s): “Centre de référence des Maladies Neuromusculaires… Paris, France”
+
+⸻
+
+[4] Country: France
+	•	Line(s): L50–L51
+	•	Section: Affiliations
+	•	Quote(s): “23 specialized neuromuscular centres… in France”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): L51
+	•	Section: Abstract
+	•	Quote(s): “a French nationwide cohort of 235 adult patients…”
+
+⸻
+
+[6] Study Design: Retrospective, observational, multicentre study
+	•	Line(s): L179
+	•	Section: Materials and Methods
+	•	Quote(s): “This retrospective, observational, multicentre study included…”
+
+⸻
+
+[7] Study Population: Adult patients with genetically confirmed CMS
+	•	Line(s): L179
+	•	Section: Materials and Methods
+	•	Quote(s): “all adult patients followed for genetically confirmed CMS…”
+
+⸻
+
+[8] Population Characteristics: Sex, ethnicity, family history, inheritance, age of onset
+	•	Line(s): L230–L231
+	•	Section: Results – Demographic
+	•	Quote(s): “123 were female (52.3%)… 177 patients were Caucasian… Consanguinity was found in 55 cases…”
+
+⸻
+
+[9] Data Source Type: Hospital records
+	•	Line(s): L180
+	•	Section: Materials and Methods
+	•	Quote(s): “clinical data… collected anonymously from the study units’ medical files”
+
+⸻
+
+[10] Data Source Details: 23 University Hospitals in France, part of the French neuromuscular network FILNEMUS
+	•	Line(s): L179
+	•	Section: Materials and Methods
+	•	Quote(s): “…neuromuscular centres of 23 University Hospitals in France… within the French neuromuscular network FILNEMUS.”
+
+⸻
+
+[11] Study Timeline Type: Retrospective
+	•	Line(s): L179
+	•	Section: Materials and Methods
+	•	Quote(s): “This retrospective… study included all adult patients…”
+
+⸻
+
+[12] Number of Sites: Multiple
+	•	Line(s): L179
+	•	Section: Materials and Methods
+	•	Quote(s): “…specialized neuromuscular centres of 23 University Hospitals…”
+
+⸻
+
+[13] Study Start Year: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[14] Study End Year: July 31, 2023
+	•	Line(s): L179
+	•	Section: Materials and Methods
+	•	Quote(s): “…CMS until July 2023…”
+
+⸻
+
+[15] Main Ethnicity: Caucasian
+	•	Line(s): L230
+	•	Section: Results
+	•	Quote(s): “177 patients were Caucasian (75.3%)”
+
+⸻
+
+[16] Ethnicity Details: Caucasian 75.3%, North Africa 13.6%, Middle East 4.2%, Sub-Saharan Africa 3.0%, Romani 2.1%, Others 1.7%
+	•	Line(s): L230
+	•	Section: Results
+	•	Quote(s): “177 patients were Caucasian (75.3%), 32 from North Africa (13.6%)…”
+
+⸻
+
+[17] Disease Studied: Congenital myasthenic syndromes (CMS)
+	•	Line(s): L51
+	•	Section: Abstract
+	•	Quote(s): “235 adult patients with genetically confirmed CMS…”
+
+⸻
+
+[18] Diagnosis Method: Genetic testing, clinical features, electrophysiology
+	•	Line(s): L204–L209
+	•	Section: Methods – Genetic analyses
+	•	Quote(s): “PCR, Sanger sequencing, NGS… ENMG, decrement on RNS…”
+
+⸻
+
+[19] Diagnosis Criteria Details: Genetic confirmation and neuromuscular transmission defect via RNS decrement
+	•	Line(s): L209
+	•	Section: Methods – Clinical and electrophysiological data
+	•	Quote(s): “ENMG… decrement superior to 10% on RNS…”
+
+⸻
+
+[20] Disease Phase: Chronic
+	•	Line(s): L51
+	•	Section: Abstract
+	•	Quote(s): “followed in 23 specialized neuromuscular centres”
+
+⸻
+
+[21] Cohort Age Group: Adult
+	•	Line(s): L51
+	•	Section: Abstract
+	•	Quote(s): “adult patients with genetically confirmed CMS”
+
+⸻
+
+[22] Female % in Cohort: 52.3%
+	•	Line(s): L230
+	•	Section: Results
+	•	Quote(s): “123 were female (52.3%)”
+
+⸻
+
+[23] Consanguinity: 55 cases
+	•	Line(s): L230
+	•	Section: Results
+	•	Quote(s): “Consanguinity was found in 55 cases (23.4%)”

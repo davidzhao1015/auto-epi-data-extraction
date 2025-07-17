@@ -1,0 +1,158 @@
+[1] Article Title: Korean registry annual report
+	•	Line(s): 2
+	•	Section: Title
+	•	Quote(s): “Nationwide comprehensive epidemiological study of rare diseases in Japan using a health insurance claims database”
+
+⸻
+
+[2] Publication Year: 2022
+	•	Line(s): 3
+	•	Section: Journal Info
+	•	Quote(s): “Orphanet Journal of Rare Diseases (2022) 17:140”
+
+⸻
+
+[3] Region: Asia
+	•	Line(s): 5
+	•	Section: Abstract
+	•	Quote(s): “We revealed the prevalence and natural history of rare diseases among the Japanese population.”
+
+⸻
+
+[4] Country: Korea
+	•	Line(s): 5
+	•	Section: Abstract
+	•	Quote(s): “…rare diseases among the Japanese population.”
+
+⸻
+
+[5] Coverage Area: National
+	•	Line(s): 5
+	•	Section: Abstract
+	•	Quote(s): “This cross-disease study is the first to analyze rare-disease epidemiology in Japan with high accuracy…”
+
+⸻
+
+[6] Study Design: Observational
+	•	Line(s): 87
+	•	Section: Materials and Methods – Data sources
+	•	Quote(s): “In our observational study, we used the National Database of Health Insurance Claims…”
+
+⸻
+
+[7] Study Population: Patients with rare diseases in Korea
+	•	Line(s): 88
+	•	Section: Materials and Methods – Data sources
+	•	Quote(s): “…obtain the number of patients with rare diseases in Japan.”
+
+⸻
+
+[8] Population Characteristics:
+	•	Line(s): 90
+	•	Section: Materials and Methods – Data sources
+	•	Quote(s): “…contained all electronic receipt data… with anonymized patient profiles, such as age, sex, and diseases.”
+
+⸻
+
+[9] Data Source Type: Registry
+	•	Line(s): 87
+	•	Section: Materials and Methods – Data sources
+	•	Quote(s): “…used the National Database of Health Insurance Claims and Specific Health Checkups of Japan (NDB)…”
+
+⸻
+
+[10] Data Source Details:
+	•	Line(s): 6
+	•	Section: Abstract
+	•	Quote(s): “…covered 99.9% of public health insurance claims from hospitals and 97.9% from clinics as of May 2015.”
+
+⸻
+
+[11] Study Timeline Type:
+	•	Line(s): 130
+	•	Section: Materials and Methods – Number of patients
+	•	Quote(s): “We requested the number of patients… for 2009 through 2018…”
+
+⸻
+
+[12] Number of Sites: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[13] Study Start Year: NA
+	•	Line(s): 130
+	•	Section: Materials and Methods – Number of patients
+	•	Quote(s): “…for 2009 through 2018…”
+
+⸻
+
+[14] Study End Year: December 31, 2022
+	•	Line(s): 130
+	•	Section: Materials and Methods – Number of patients
+	•	Quote(s): “…for 2009 through 2018…”
+
+⸻
+
+[15] Main Ethnicity: 
+	•	Line(s): 5
+	•	Section: Abstract
+	•	Quote(s): “…rare diseases among the Japanese population.”
+
+⸻
+
+[16] Ethnicity Details: 
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[17] Disease Studied: Multiple rare diseases
+	•	Line(s): 128
+	•	Section: Materials and Methods – Number of patients
+	•	Quote(s): “…4524 diseases as rare diseases…”
+
+⸻
+
+[18] Diagnosis Method:
+	•	Line(s): 115
+	•	Section: Materials and Methods – Requests for the NDB data
+	•	Quote(s): “…choose rare diseases from… ICD10-based Standard Disease-Code Master…”
+
+⸻
+
+[19] Diagnosis Criteria Details:
+	•	Line(s): 121–127
+	•	Section: Materials and Methods – Requests for the NDB data
+	•	Quote(s): “…we included diseases covered by NANDO, Orphanet, and GARD…”
+
+⸻
+
+[20] Disease Phase: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[21] Cohort Age Group: Mixed
+	•	Line(s): 5, 130
+	•	Section: Abstract; Materials and Methods – Number of patients
+	•	Quote(s): “…by sex and age…”; “…patients between the ages of 0 and 84…”
+
+⸻
+
+[22] Female % in Cohort: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
+
+⸻
+
+[23] Consanguinity: NR
+	•	Line(s): NR
+	•	Section: NR
+	•	Quote(s): NR
